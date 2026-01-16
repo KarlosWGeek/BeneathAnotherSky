@@ -1,0 +1,116 @@
+my_sea_zone = { topography = narrows climate = subtropical }
+
+testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat natural_harbor_suitability=1.00 }
+testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince3 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince4 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince5 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince6 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince7 = { topography = wetlands vegetation = haunted climate = tropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince8 = { topography = flatland vegetation = enchanted climate = tropical_monsoon religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince9 = { topography = rolling_flatland vegetation = jungle climate = tropical_savanna religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince10 = { topography = plateau vegetation = forest climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince11 = { topography = irregular_plateau vegetation = woods climate = oceanic religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince12 = { topography = high_plateau vegetation = farmland climate = mediterranean religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince13 = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince14 = { topography = mountains vegetation = sparse climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince15 = { topography = high_mountains vegetation = desert climate = arctic religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince16 = { topography = floating_islands vegetation = grasslands climate = polar religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince17 = { topography = wetlands vegetation = grasslands climate = hot_aerial religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince18 = { topography = wetlands vegetation = grasslands climate = aerial religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince19 = { topography = wetlands vegetation = grasslands climate = cold_aerial religion = catholic culture = danube_bavarian raw_material = wheat }
+
+norrvalen_1 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_2 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_3 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_4 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_5 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_6 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_7 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_8 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_9 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_10 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_11 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_12 = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_13 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_14 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_15 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_16 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_17 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_18 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_19 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_20 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_21 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_22 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_23 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_24 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_25 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_26 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_27 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_28 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_29 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_30 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_31 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_32 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_33 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_34 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_35 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_36 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_37 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_38 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_39 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_40 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_41 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_42 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_43 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_44 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_45 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_46 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_47 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_48 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_49 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_50 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_51 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_52 = { topography = flatland vegetation = forest climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_53 = { topography = hills vegetation = woods climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_54 = { topography = hills vegetation = woods climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_55 = { topography = hills vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_56 = { topography = hills vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_57 = { topography = hills vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_58 = { topography = hills vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_59 = { topography = hills vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_60 = { topography = rolling_flatland vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_61 = { topography = rolling_flatland vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_62 = { topography = rolling_flatland vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_63 = { topography = rolling_flatland vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_64 = { topography = rolling_flatland vegetation = forest climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_65 = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_66 = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_67 = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_68 = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_69 = { topography = flatland vegetation = sparse climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_70 = { topography = flatland vegetation = sparse climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_71 = { topography = flatland vegetation = sparse climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_72 = { topography = flatland vegetation = sparse climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_73 = { topography = flatland vegetation = sparse climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_74 = { topography = flatland vegetation = sparse climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_75 = { topography = flatland vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_76 = { topography = flatland vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_77 = { topography = flatland vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_78 = { topography = flatland vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_79 = { topography = flatland vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_80 = { topography = flatland vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_81 = { topography = flatland vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+norrvalen_82 = { topography = flatland vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+
+wasteland1 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland2 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland3 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland4 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland5 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland6 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland7 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland8 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland9 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland10 = { topography = flatland_wasteland vegetation = woods climate = arctic }
+wasteland_blocker = { topography = flatland_wasteland vegetation = woods climate = arctic }

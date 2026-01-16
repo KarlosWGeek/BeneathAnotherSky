@@ -1,0 +1,64 @@
+provinces = "locations.png"
+rivers = "rivers.png"
+topology = "heightmap.heightmap"
+adjacencies = "adjacencies.csv"
+setup = "definitions.txt"
+ports = "ports.csv"
+location_templates = "location_templates.txt"
+
+equator_y = 3340
+wrap_x = yes
+
+#############
+# VOLCANOES
+#############
+volcanoes = {
+}
+
+###################################
+# All possible earthquake zones
+###################################
+earthquakes = {
+}
+
+#############
+# SEA ZONES
+#############
+# European Seas
+sea_zones = { 
+	my_sea_zone
+} 
+
+###############
+# MAJOR RIVERS
+###############
+#river_provinces = { 628 630 }		#Thames
+
+########
+# LAKES
+########
+lakes = { 
+} 
+
+#####################
+# IMPASSABLE TERRAIN
+#####################
+# Can be colored by whoever owns the most of the province's neighbors.
+# Blocks unit movement.
+
+impassable_mountains = {
+	wasteland1
+	wasteland2
+	wasteland3
+	wasteland4
+	wasteland5
+	wasteland6
+	wasteland7
+	wasteland8
+	wasteland9
+	wasteland10
+	wasteland_blocker
+}
+
+non_ownable = {
+}
