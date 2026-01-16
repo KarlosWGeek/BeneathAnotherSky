@@ -66,6 +66,8 @@
  high_mountains_desc: "High Mountains are extremely elevated, imposing ranges with sharp ridges, towering summits, and severe climates, forming dramatic landscapes that dominate surrounding regions."
  floating_islands: "Floating Island"
  floating_islands_desc: "Floating Islands are mysterious airborne landmasses of varying sizes, suspended by enigmatic magical forces, affecting air and sea current above and beneath them."
+ floating_mountains: "Floating Mountains"
+ floating_mountains_desc: "Floating Mountains are rare, high elevation regions on Floating Islands large enough to support them, often holding some of the rarest and most exotic minerals in the world."
  
  # Maritime Topography
  salt_pans: "Salt Pan"
@@ -113,8 +115,8 @@
  mountain_wasteland: "Mountain Wasteland"
  mountain_wasteland_desc: "$mountains_desc$"
  
- floating_wastelands: "Floating Island Edges"
- floating_wastelands_desc: "Floating Island Edge is the dangerously fragile boundary of airborne landmasses, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
+ floating_wastelands: "Floating Edges"
+ floating_wastelands_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
  
  
  
@@ -123,8 +125,6 @@
  # Vegetation
  enchanted: "Enchanted"
  enchanted_desc: "Enchanted Mythical Forests of Manabloom Trees, their purple bark and pink leaves nourished by flowing planetary mana currents that create vibrant, otherworldly ecosystems."
- haunted: "Haunted"
- haunted_desc: "Haunted Mangrove Forests of Graveshade Trees, their gray foliage sustained by draining mana from soil and living creatures, resulting in eerie, lifeless, and hostile ecosystems."
  jungle: "Jungle"
  jungle_desc: "Jungles are dense, humid ecosystems filled with towering trees, intertwined vines, and abundant wildlife, creating layered canopies and thriving biodiversity in warm tropical climates."
  forest: "Forest"
@@ -139,6 +139,10 @@
  sparse_desc: "Sparse regions are lightly vegetated landscapes with scattered shrubs, hardy plants, and open ground, forming transitional zones shaped by limited water, nutrient-poor soils, or harsh climates."
  desert: "Desert"
  desert_desc: "Deserts are arid environments with minimal vegetation, extreme temperatures, and vast stretches of sand or rock, hosting resilient species adapted to intense dryness and heat."
+ haunted: "Haunted"
+ haunted_desc: "Haunted Mangrove Forests of Graveshade Trees, their gray foliage sustained by draining mana from soil and living creatures, resulting in eerie, lifeless, and hostile ecosystems."
+ urban: "Urban"
+ urban_desc: "Urban areas are densely built population centers and highly concentrated centers of trade and industry, boosting development and defenses while increasing risk of unrest and disease."
  
  
  

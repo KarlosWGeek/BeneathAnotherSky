@@ -3959,7 +3959,6 @@ colors = {
 	climate_cold_aerial = rgb { 200 192 240 } # Cold Aerial
 	
 	# Vegetation Colors
-	terrain_haunted = rgb { 192 192 192 } # Haunted
 	terrain_enchanted = rgb { 64 24 80 } # Enchanted
 	terrain_jungle = rgb { 24 56 16 } # Jungle
 	terrain_forest = rgb { 40 80 24 } # Forest
@@ -3968,6 +3967,8 @@ colors = {
 	terrain_grasslands = rgb { 96 160 48 } # Grasslands
 	terrain_steppe = rgb { 128 144 88 } # Sparse
 	terrain_desert = rgb { 160 152 104 } # Desert
+	terrain_haunted = rgb { 192 192 192 } # Haunted
+	terrain_urban = rgb { 192 0 0 } # Urban
 	
 	# Land Topography Colors
 	terrain_marsh = rgb { 16 80 40 } # Wetlands
@@ -3980,6 +3981,7 @@ colors = {
 	terrain_mountain = rgb { 176 168 136 } # Mountains
 	terrain_high_mountain = rgb { 208 208 208 } # High Mountains
 	terrain_floating_islands = rgb { 168 24 120 } # Floating Islands
+	terrain_floating_mountains = rgb { 72 24 168 } # Floating Mountains
 	
 	# Maritime Topography Colors
 	terrain_salt_pans = rgb { 112 96 64 } # Salt Pans
@@ -3997,6 +3999,9 @@ colors = {
 	terrain_oceanic_ridge = rgb { 0 32 48 } # Oceanic Ridge
 	terrain_deep_ocean = rgb { 0 16 32 } # Abyssal Plains
 	terrain_ocean_wasteland = rgb { 0 0 16 } # Abyssal Trench
+	
+	# Wasteland Topography Colors
+	terrain_floating_wasteland = rgb { 136 0 88 } # Floating Edges
 
 	# ranks
 

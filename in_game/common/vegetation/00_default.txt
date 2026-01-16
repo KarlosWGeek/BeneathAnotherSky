@@ -1,33 +1,4 @@
-﻿# Haunted
-haunted = {
-	color = terrain_haunted
-	movement_cost = 2
-	defender = 2
-	
-	location_modifier = { 
-		# Population
-		local_population_capacity = 5
-		local_monthly_food_modifier = -0.25
-		
-		# Economy
-		local_monthly_development_modifier = -0.25
-		local_road_building_time = 2.0
-		local_rgo_build_time = 0.5
-		
-		# Military
-		supply_limit = -2
-		local_frontage_allowed = -5
-		blocks_vision_from_land = yes
-		blocks_vision_from_sea = yes
-	}
-	
-	audio_tags = {
-		masDataVegetationDensity = 1.0
-	}
-	debug_color = rgb { 192 192 192 } # for vegetation_screenshot mapmode
-}
-
-# Enchanted
+﻿# Enchanted
 enchanted = {
 	color = terrain_enchanted
 	movement_cost = 2
@@ -52,7 +23,7 @@ enchanted = {
 	audio_tags = {
 		masDataVegetationDensity = 1.0
 	}
-	debug_color = rgb { 65 21 82 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 64 24 80 } # for vegetation_screenshot mapmode
 }
 
 # Jungle
@@ -80,7 +51,7 @@ jungle = {
 	audio_tags = {
 		masDataVegetationDensity = 1.0
 	}
-	debug_color = rgb { 23 55 13 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 24 56 16 } # for vegetation_screenshot mapmode
 }
 
 # Forest
@@ -107,7 +78,7 @@ forest = {
 	audio_tags = {
 		masDataVegetationDensity = 0.75
 	}
-	debug_color = rgb { 38 82 21 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 40 80 24 } # for vegetation_screenshot mapmode
 }
 
 # Woods
@@ -134,7 +105,7 @@ woods = {
 	audio_tags = {
 		masDataVegetationDensity = 0.5
 	}
-	debug_color = rgb { 65 128 38 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 64 128 40 } # for vegetation_screenshot mapmode
 }
 
 # Farmlands
@@ -159,7 +130,7 @@ farmland = {
 	audio_tags = {
 		masDataVegetationDensity = 0.3
 	}
-	debug_color = rgb { 6 165 4 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 80 168 40 } # for vegetation_screenshot mapmode
 }
 
 # Grasslands
@@ -179,7 +150,7 @@ grasslands = {
 	audio_tags = {
 		masDataVegetationDensity = 0.2
 	}
-	debug_color = rgb { 104 156 45 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 96 160 48 } # for vegetation_screenshot mapmode
 }
 
 # Sparse
@@ -224,5 +195,63 @@ desert = {
 	audio_tags = {
 		masDataVegetationDensity = 0.0
 	}
-	debug_color = rgb { 157 153 107 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 160 152 104 } # for vegetation_screenshot mapmode
+}
+
+# Haunted
+haunted = {
+	color = terrain_haunted
+	movement_cost = 2
+	defender = 2
+	
+	location_modifier = { 
+		# Population
+		local_population_capacity = 5
+		local_monthly_food_modifier = -0.25
+		
+		# Economy
+		local_monthly_development_modifier = -0.25
+		local_road_building_time = 2.0
+		local_rgo_build_time = 0.5
+		
+		# Military
+		supply_limit = -2
+		local_frontage_allowed = -5
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataVegetationDensity = 1.0
+	}
+	debug_color = rgb { 192 192 192 } # for vegetation_screenshot mapmode
+}
+
+# Urban
+urban = {
+	color = terrain_urban
+	movement_cost = 1.0
+	defender = 1
+	
+	location_modifier = { 
+		# Population
+		local_population_capacity = 250
+		local_monthly_food_modifier = -2.0
+		
+		# Economy
+		local_monthly_development_modifier = 0.25
+		local_road_building_time = 0.25
+		local_rgo_build_time = 0.25
+		local_max_rgo_size_modifier = 0.10
+		
+		# Military
+		local_frontage_allowed = -2
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataVegetationDensity = 0.0
+	}
+	debug_color = rgb { 192 0 0 } # for vegetation_screenshot mapmode
 }

@@ -307,6 +307,41 @@ floating_islands = {
 	debug_color = rgb { 168 24 120 } # for topology_screenshot mapmode
 }
 
+# Floating Mountains
+floating_mountains = {
+	color = terrain_floating_mountains
+	movement_cost = 1.5
+	defender = 2
+	vegetation_density = 0.4
+	blocked_in_winter = yes
+	
+	weather_front_strength_change_percent = 0
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = -0.25
+		local_monthly_food_modifier = -0.1
+		
+		# Economy
+		local_monthly_development_modifier = -0.5
+		local_road_building_time = 1.0
+		local_rgo_build_time = 0.5
+		
+		# Military
+		local_frontage_allowed = -3
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 1.0
+	}
+	
+	debug_color = rgb { 72 24 168 } # for topology_screenshot mapmode
+}
+
 
 
 ### MARITIME TOPOGRAPHY
@@ -504,8 +539,8 @@ ocean = {
 	weather_tornado_strength_change_percent = 0
 
 	location_modifier = {
-		local_navy_attrition = 1
-		max_attrition = 5
+		local_navy_attrition = 2
+		max_attrition = 10
 	}
 
 	audio_tags = {
@@ -531,8 +566,8 @@ oceanic_plateau = {
 	is_deep_ocean = yes
 
 	location_modifier = {
-		local_navy_attrition = 2
-		max_attrition = 10
+		local_navy_attrition = 10
+		max_attrition = 50
 	}
 
 	audio_tags = {
@@ -557,8 +592,8 @@ oceanic_ridge = {
 
 
 	location_modifier = {
-		local_navy_attrition = 5
-		max_attrition = 25
+		local_navy_attrition = 10
+		max_attrition = 50
 	}
 
 	audio_tags = {
@@ -603,8 +638,8 @@ ocean_wasteland = {
 	weather_tornado_strength_change_percent = 0
 
 	location_modifier = {
-		local_navy_attrition = 20
-		max_attrition = 100
+		local_navy_attrition = 10
+		max_attrition = 50
 	}
 	
 	audio_tags = {
@@ -618,7 +653,7 @@ ocean_wasteland = {
 
 
 
-### Wastelands
+### WASTELANDS
 
 flatland_wasteland = {
 	color = terrain_grasslands
@@ -753,4 +788,26 @@ mountain_wasteland = {
 
 	}
 	debug_color = rgb { 105 24 4 } # for topology_screenshot mapmode
+}
+
+# Floating Edges
+floating_wasteland = {
+	color = terrain_floating_wasteland
+	movement_cost = 2.0
+	weather_front_strength_change_percent = 0 #-4
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		# Military
+		local_frontage_allowed = -4
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 1.0
+
+	}
+	debug_color = rgb { 136 0 88 } # for topology_screenshot mapmode
 }
