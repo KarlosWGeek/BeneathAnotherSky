@@ -1,0 +1,36 @@
+﻿object={
+	name="jungle_generator_high_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="vegetation_diorama_jungle_tree_mesh"
+	transform_bin_file="gfx/map/map_objects/jungle_generator_high_0.bin"
+}
+object={
+	name="jungle_generator_high_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="vegetation_diorama_jungle_tree1_mesh"
+	transform_bin_file="gfx/map/map_objects/jungle_generator_high_1.bin"
+}
+object={
+	name="jungle_generator_high_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="vegetation_diorama_jungle_tree_mesh"
+	transform_bin_file="gfx/map/map_objects/jungle_generator_high_2.bin"
+}
+object={
+	name="jungle_generator_high_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="vegetation_diorama_jungle_tree1_mesh"
+	transform_bin_file="gfx/map/map_objects/jungle_generator_high_3.bin"
+}

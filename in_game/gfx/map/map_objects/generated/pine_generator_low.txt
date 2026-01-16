@@ -1,0 +1,36 @@
+﻿object={
+	name="pine_generator_low_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_low"
+	pdxmesh="vegetation_diorama_arctic_tree_mesh"
+	transform_bin_file="gfx/map/map_objects/pine_generator_low_0.bin"
+}
+object={
+	name="pine_generator_low_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_low"
+	pdxmesh="vegetation_diorama_arctic_tree2_mesh"
+	transform_bin_file="gfx/map/map_objects/pine_generator_low_1.bin"
+}
+object={
+	name="pine_generator_low_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_low"
+	pdxmesh="vegetation_diorama_arctic_tree3_mesh"
+	transform_bin_file="gfx/map/map_objects/pine_generator_low_2.bin"
+}
+object={
+	name="pine_generator_low_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_low"
+	pdxmesh="vegetation_diorama_arctic_tree4_mesh"
+	transform_bin_file="gfx/map/map_objects/pine_generator_low_3.bin"
+}

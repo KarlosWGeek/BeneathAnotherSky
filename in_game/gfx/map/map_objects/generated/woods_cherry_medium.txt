@@ -1,0 +1,36 @@
+﻿object={
+	name="woods_cherry_medium_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_medium"
+	pdxmesh="vegetation_diorama_cherrytree_a_mesh"
+	transform_bin_file="gfx/map/map_objects/woods_cherry_medium_0.bin"
+}
+object={
+	name="woods_cherry_medium_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_medium"
+	pdxmesh="vegetation_diorama_tree_single1_mesh"
+	transform_bin_file="gfx/map/map_objects/woods_cherry_medium_1.bin"
+}
+object={
+	name="woods_cherry_medium_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_medium"
+	pdxmesh="vegetation_diorama_cherrytree_a_mesh"
+	transform_bin_file="gfx/map/map_objects/woods_cherry_medium_2.bin"
+}
+object={
+	name="woods_cherry_medium_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_medium"
+	pdxmesh="vegetation_diorama_tree_single3_mesh"
+	transform_bin_file="gfx/map/map_objects/woods_cherry_medium_3.bin"
+}

@@ -1,0 +1,27 @@
+﻿object={
+	name="cherry_tree_generator_low_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_low"
+	pdxmesh="vegetation_diorama_cherrytree_a_mesh"
+	transform_bin_file="gfx/map/map_objects/cherry_tree_generator_low_0.bin"
+}
+object={
+	name="cherry_tree_generator_low_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_low"
+	pdxmesh="vegetation_diorama_tree_single1_mesh"
+	transform_bin_file="gfx/map/map_objects/cherry_tree_generator_low_1.bin"
+}
+object={
+	name="cherry_tree_generator_low_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_low"
+	pdxmesh="vegetation_diorama_cherrytree_a_mesh"
+	transform_bin_file="gfx/map/map_objects/cherry_tree_generator_low_2.bin"
+}

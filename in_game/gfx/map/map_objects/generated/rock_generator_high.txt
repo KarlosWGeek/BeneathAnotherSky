@@ -1,0 +1,45 @@
+﻿object={
+	name="rock_generator_high_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="decal_rock_cluster_01_a_mesh"
+	transform_bin_file="gfx/map/map_objects/rock_generator_high_0.bin"
+}
+object={
+	name="rock_generator_high_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="decal_rock_cluster_01_b_mesh"
+	transform_bin_file="gfx/map/map_objects/rock_generator_high_1.bin"
+}
+object={
+	name="rock_generator_high_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="decal_rock_cluster_01_c_mesh"
+	transform_bin_file="gfx/map/map_objects/rock_generator_high_2.bin"
+}
+object={
+	name="rock_generator_high_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="decal_rock_cluster_01_d_mesh"
+	transform_bin_file="gfx/map/map_objects/rock_generator_high_3.bin"
+}
+object={
+	name="rock_generator_high_4"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="decal_rock_cluster_01_e_mesh"
+	transform_bin_file="gfx/map/map_objects/rock_generator_high_4.bin"
+}

@@ -1,0 +1,18 @@
+﻿object={
+	name="reeds_generator_high_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="vegetation_reeds_a_mesh"
+	transform_bin_file="gfx/map/map_objects/reeds_generator_high_0.bin"
+}
+object={
+	name="reeds_generator_high_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_high"
+	pdxmesh="reeds_diorama_mesh"
+	transform_bin_file="gfx/map/map_objects/reeds_generator_high_1.bin"
+}

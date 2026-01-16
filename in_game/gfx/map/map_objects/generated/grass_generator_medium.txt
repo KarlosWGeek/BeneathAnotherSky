@@ -1,0 +1,27 @@
+﻿object={
+	name="grass_generator_medium_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_medium"
+	pdxmesh="vegetation_grass_test_mesh"
+	transform_bin_file="gfx/map/map_objects/grass_generator_medium_0.bin"
+}
+object={
+	name="grass_generator_medium_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_medium"
+	pdxmesh="vegetation_grass_1_mesh"
+	transform_bin_file="gfx/map/map_objects/grass_generator_medium_1.bin"
+}
+object={
+	name="grass_generator_medium_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="vegetation_medium"
+	pdxmesh="vegetation_grass_2_mesh"
+	transform_bin_file="gfx/map/map_objects/grass_generator_medium_2.bin"
+}
