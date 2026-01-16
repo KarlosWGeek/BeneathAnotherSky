@@ -1,0 +1,126 @@
+﻿layer={
+	name="Audio_layer"
+	fade_in=0
+	fade_out=8
+	disabled=10
+	category=""
+	masks="off|low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="bush_layer"
+	fade_in=0
+	fade_out=9
+	disabled=11
+	category=""
+	masks="medium|high"
+	visibility_tags=""
+}
+layer={
+	name="cities_layer"
+	fade_in=0
+	fade_out=9
+	disabled=11
+	category=""
+	masks="off|low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="forts_layer"
+	fade_in=0
+	fade_out=9
+	disabled=11
+	category=""
+	masks="off|low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="geographicalmonuments_layer"
+	fade_in=0
+	fade_out=8
+	disabled=11
+	category=""
+	masks="low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="lake_layer"
+	fade_in=0
+	fade_out=15
+	disabled=17
+	category=""
+	masks="off|low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="monument_layer"
+	fade_in=0
+	fade_out=8
+	disabled=11
+	category=""
+	masks="low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="ports_layer"
+	fade_in=0
+	fade_out=8
+	disabled=11
+	category=""
+	masks="off|low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="rock_layer"
+	fade_in=0
+	fade_out=9
+	disabled=11
+	category=""
+	masks="high"
+	visibility_tags=""
+}
+layer={
+	name="unit_layer"
+	fade_in=0
+	fade_out=8
+	disabled=11
+	category=""
+	masks="off|low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="vegetation_high"
+	fade_in=0
+	fade_out=12
+	disabled=15
+	category=""
+	masks="high"
+	visibility_tags=""
+}
+layer={
+	name="vegetation_low"
+	fade_in=0
+	fade_out=4
+	disabled=6
+	category=""
+	masks="low|medium|high"
+	visibility_tags=""
+}
+layer={
+	name="vegetation_medium"
+	fade_in=0
+	fade_out=6
+	disabled=9
+	category=""
+	masks="medium|high"
+	visibility_tags=""
+}
+layer={
+	name="vfx_layer"
+	fade_in=0
+	fade_out=8
+	disabled=10
+	category=""
+	masks="high"
+	visibility_tags=""
+}

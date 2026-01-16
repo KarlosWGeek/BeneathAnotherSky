@@ -1,0 +1,75 @@
+﻿object={
+	name="factory_smoke_medium"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	entity="factory_smoke_medium"
+}
+object={
+	name="fire"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	entity="fire"
+}
+object={
+	name="foam_splash"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	entity="p_foam_splash_01"
+}
+object={
+	name="p_sparkle"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	entity="p_sparkle"
+	transform_bin_file="gfx/map/map_objects/p_sparkle.bin"
+}
+object={
+	name="sandstorm_large"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	entity="sand_storm_01_large_entity"
+}
+object={
+	name="sandstorm_medium"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	entity="sand_storm_01_medium_entity"
+}
+object={
+	name="sandstorm_small"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	entity="sand_storm_01_small_entity"
+}
+object={
+	name="volcano"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	entity="volcano_eruption_entity"
+	transform_bin_file="gfx/map/map_objects/volcano.bin"
+}
+object={
+	name="waterfall"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	schematic_name="basic_particle"
+	transform_bin_file="gfx/map/map_objects/waterfall.bin"
+}

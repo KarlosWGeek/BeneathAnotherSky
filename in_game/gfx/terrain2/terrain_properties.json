@@ -1,0 +1,20 @@
+﻿{
+	"lod_properties":	{
+		"lod_switch_factor":	0.500000,
+		"distance_lod_factor":	4,
+		"leaf_level_fade_factor":	0.600000,
+		"screen_space_error_threshold":	20,
+		"use_lod_lerp":	true
+	},
+	"terrain_properties":	{
+		"normal_step_size":	1,
+		"global_curvature_strength":	0.200000,
+		"lod_camera_forward_offset":	1,
+		"num_persistent_mips":	4,
+		"resident_height_cache_lod_range":	[2, 2]
+	},
+	"material_properties":	{
+		"material_detail_tiling":	2048,
+		"load_static_decals":	false
+	}
+}

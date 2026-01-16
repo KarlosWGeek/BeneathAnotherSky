@@ -1,0 +1,24 @@
+﻿object={
+	name="color_reference_entity"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	pdxmesh="color_reference_mesh"
+}
+object={
+	name="new_mapobject_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="vfx_layer"
+	schematic_name="volcano_eruption_schematic"
+}
+object={
+	name="spheres_lighting"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="vfx_layer"
+	pdxmesh="spheres_lighting_mesh"
+}

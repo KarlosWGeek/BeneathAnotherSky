@@ -1,0 +1,20 @@
+﻿{
+	"name":	"Beneath Another Sky",
+	"id":	"onlykarlos.beneath_another_sky",
+	"version":	"0.1",
+	"supported_game_version":	"1.*",
+	"short_description":	"Beneath Another Sky is a total conversion mod for Europa Universalis V set in the fantasy world of Edenaura, where magic is a rare lost art that is slowly returning as the world recovers from cataclysm of centuries past.",
+	"tags":	["Advancements", "Alternative history", "Characters", "Events", "Flags", "Gameplay", "Government and Estates", "International Organizations", "Map", "Overhaul", "Religion", "Textures"],
+	"picture" : "thumbnail.png",
+	"relationships":	[],
+	"game_custom_data" : {
+		"multiplayer_synchronized" : true,
+		"replace_paths" : [
+			"common/advances",
+			"common/age",
+			"common/institution",
+			"common/holy_sites",
+			"setup/countries"
+		]
+	}
+}
