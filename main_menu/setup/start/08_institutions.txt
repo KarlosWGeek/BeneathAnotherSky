@@ -1,0 +1,34 @@
+ locations={
+
+	testprovince1 = {
+		lords_accords = yes
+		gunpowder_weaponry = yes
+		organized_guilds = yes
+	}
+	testprovince2 = {
+		lords_accords = yes
+		gunpowder_weaponry = yes
+		organized_guilds = yes
+	}
+	testprovince3 = {
+		lords_accords = yes
+		gunpowder_weaponry = yes
+		organized_guilds = yes
+	}
+	testprovince4 = {
+		lords_accords = yes
+		gunpowder_weaponry = yes
+		organized_guilds = yes
+	}
+	testprovince5 = {
+		lords_accords = yes
+		gunpowder_weaponry = yes
+		organized_guilds = yes
+	}
+	testprovince6 = {
+		lords_accords = yes
+		gunpowder_weaponry = yes
+		organized_guilds = yes
+	}
+
+}

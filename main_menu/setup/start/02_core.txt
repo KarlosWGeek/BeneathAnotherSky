@@ -1,0 +1,16 @@
+institution_manager = {
+	institutions = {
+		lords_accords = {
+			active = yes
+			birth_place = testprovince1
+		}
+		gunpowder_weaponry = {
+			active = yes
+			birth_place = testprovince2
+		}
+		organized_guilds = {
+			active = yes
+			birth_place = testprovince3
+		}
+	}
+}
