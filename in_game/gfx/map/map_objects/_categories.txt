@@ -1,0 +1,6 @@
+﻿categories={
+	tree
+	city
+	unit
+}
+
