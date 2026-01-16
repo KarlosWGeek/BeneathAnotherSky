@@ -1,0 +1,406 @@
+﻿# Hot Arid
+arid = {
+	winter = none
+	color = climate_arid
+	has_precipitation = no
+
+	location_modifier = {
+		# Population
+		local_life_expectancy = -10
+		
+		# Economy
+		local_wheat_output_modifier = -0.10
+		
+		# Military
+		local_supply_limit_modifier = -0.10
+		
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.65
+	}
+	debug_color = rgb { 224 216 160 } # for climate_screenshot mapmode
+}
+
+# Cold Arid
+cold_arid = {
+	winter = mild
+	color = climate_cold_arid
+	has_precipitation = no
+
+	location_modifier = {
+		# Population
+		local_life_expectancy = -5
+		
+		# Economy
+		local_wheat_output_modifier = -0.10
+		
+		# Military
+		local_supply_limit_modifier = -0.10
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.65
+	}
+	debug_color = rgb { 200 192 136 } # for climate_screenshot mapmode
+}
+
+# Hot Semi-Arid
+hot_semi_arid = {
+	winter = mild
+	color = climate_hot_semi_arid
+	has_precipitation = no
+
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 0.5
+		local_life_expectancy = -5
+		
+		# Economy
+		local_wheat_output_modifier = -0.05
+		
+		# Military
+		local_supply_limit_modifier = -0.05
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.65
+	}
+	debug_color = rgb { 232 184 120 } # for climate_screenshot mapmode
+}
+
+# Cold Semi-Arid
+cold_semi_arid = {
+	winter = normal
+	color = climate_cold_semi_arid
+	has_precipitation = no
+
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 0.25
+
+		# Economy
+		local_wheat_output_modifier = -0.05
+
+		# Military
+		local_supply_limit_modifier = -0.05
+		
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.65
+	}
+	debug_color = rgb { 208 160 96 } # for climate_screenshot mapmode
+}
+
+# Tropical Rainforest
+tropical = {
+	winter = none
+	color = climate_tropical
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 0.25
+		free_capacity_attracts_pops = yes
+		local_life_expectancy = -10
+		
+		# Economy
+		local_monthly_development_modifier = -0.25
+		
+		# Military
+		local_supply_limit_modifier = -0.10
+		
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 1.0
+	}
+	debug_color = rgb { 24 64 8 } # for climate_screenshot mapmode
+}
+
+# Tropical Monsoon
+tropical_monsoon = {
+	winter = none
+	color = climate_tropical_monsoon
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 0.50
+		free_capacity_attracts_pops = yes
+		local_life_expectancy = -5
+
+		# Economy
+		local_monthly_development_modifier = -0.10
+		
+		# Military
+		local_supply_limit_modifier = -0.05
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 1.0
+	}
+	debug_color = rgb { 40 80 24 } # for climate_screenshot mapmode
+}
+
+# Tropical Savanna
+tropical_savanna = {
+	winter = none
+	color = climate_tropical_savanna
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 0.75
+		free_capacity_attracts_pops = yes
+
+		# Economy
+		local_monthly_development_modifier = -0.05
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 1.0
+	}
+	debug_color = rgb { 56 112 40 } # for climate_screenshot mapmode
+}
+
+# Subtropical
+subtropical = {
+	winter = mild
+	color = climate_subtropical
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 1.5
+		free_capacity_attracts_pops = yes
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.8
+
+	}
+	debug_color = rgb { 72 128 48 } # for climate_screenshot mapmode
+}
+
+# Oceanic
+oceanic = {
+	winter = mild
+	color = climate_oceanic
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 1.00
+		free_capacity_attracts_pops = yes
+	}
+	unit_modifier = {
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.4
+	}
+	debug_color = rgb { 80 160 48 } # for climate_screenshot mapmode
+}
+
+# Mediterranean
+mediterranean = {
+	winter = none
+	color = climate_mediterranean
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 1.00
+		free_capacity_attracts_pops = yes
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.5
+	}
+	debug_color = rgb { 104 184 72 }  # for climate_screenshot mapmode
+}
+
+# Continental
+continental = {
+	winter = normal
+	color = climate_continental
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 0.75
+		free_capacity_attracts_pops = yes
+
+		# Military
+		local_supply_limit_modifier = -0.05
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.2
+	}
+	debug_color = rgb { 128 192 136 }  # for climate_screenshot mapmode
+}
+
+# Subarctic
+subarctic = {
+	winter = severe
+	color = climate_subarctic
+	always_winter = yes # also needs Topography to have always_winter. For making mountain impassables always appear snowy (visual only)
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = -0.25
+		local_life_expectancy = -5
+
+		# Economy
+		local_monthly_development_modifier = -0.25
+		local_wheat_output_modifier = -0.05
+
+		# Military
+		local_supply_limit_modifier = -0.10
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 176 192 176 }  # for climate_screenshot mapmode
+}
+
+# Arctic
+arctic = {
+	winter = severe
+	color = climate_arctic
+	always_winter = yes # also needs Topography to have always_winter. For making mountain impassables always appear snowy (visual only)
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = -0.50
+		local_life_expectancy = -10
+
+		# Economy
+		local_monthly_development_modifier = -0.50
+		local_wheat_output_modifier = -0.10
+
+		# Military
+		local_supply_limit_modifier = -0.25
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 208 208 208 }  # for climate_screenshot mapmode
+}
+
+# Polar
+polar = {
+	winter = severe
+	color = climate_polar
+	always_winter = yes # also needs Topography to have always_winter. For making mountain impassables always appear snowy (visual only)
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = -0.75
+		local_life_expectancy = -15
+
+		# Economy
+		local_monthly_development_modifier = -0.75
+		local_wheat_output_modifier = -0.15
+
+		# Military
+		local_supply_limit_modifier = -0.50
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 240 240 240 }  # for climate_screenshot mapmode
+}
+
+# Hot Aerial
+hot_aerial = {
+	winter = none
+	color = climate_hot_aerial
+	has_precipitation = no
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 0.75
+		free_capacity_attracts_pops = yes
+		local_life_expectancy = -10
+
+		# Economy
+		local_monthly_development_modifier = -0.10
+		local_wheat_output_modifier = -0.35
+
+		# Military
+		local_supply_limit_modifier = -0.15
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 232 128 80 }  # for climate_screenshot mapmode
+}
+
+# Aerial
+aerial = {
+	winter = none
+	color = climate_aerial
+	has_precipitation = no
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 1.00
+		free_capacity_attracts_pops = yes
+		local_life_expectancy = -5
+		
+		# Economy
+		local_monthly_development_modifier = -0.05
+		local_wheat_output_modifier = -0.25
+
+		# Military
+		local_supply_limit_modifier = -0.10
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 240 192 8 }  # for climate_screenshot mapmode
+}
+
+# Cold Aerial
+cold_aerial = {
+	winter = none
+	color = climate_cold_aerial
+	has_precipitation = no
+	
+	location_modifier = {
+		# Population
+		local_population_capacity_modifier = 0.50
+		free_capacity_attracts_pops = yes
+		local_life_expectancy = -10
+
+		# Economy
+		local_monthly_development_modifier = -0.15
+		local_wheat_output_modifier = -0.35
+
+		# Military
+		local_supply_limit_modifier = -0.15
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 200 192 240 }  # for climate_screenshot mapmode
+}

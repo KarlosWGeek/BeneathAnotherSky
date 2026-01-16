@@ -1,0 +1,3274 @@
+﻿################################################################
+#
+# ADVANCES FILE DIRECTORY
+#
+################################################################
+#
+# This file consolidates all advancements into a single file due to a bug that causes the game not to load advancements properly if they are in multiple files.
+# Only applies to new files with modded advancements for some reason. Let's all put our hands together and pray Paradox will fix it even if it only affects us modders.
+# Use this directory to quickly navigate between different age sectors, by using Ctrl + F with the terms listed below (also include the # in the search). 
+#
+# AGE 1 - SOVEREIGNS
+# AGE 2 - TIDES
+# AGE 3 - EMBERS
+# AGE 4 - DARKNESS
+# AGE 5 - UNBINDING
+# AGE 6 - TECHNOMANCY
+#
+################################################################
+#
+# AGE 1 - SOVEREIGNS
+#
+# Inspired by the European Late Middle Ages (roughly 13th-15th centuries) but with some fantasy elements, like magic and monsters.
+# Only some human nations have access or a positive opinion of magic, the other races are either indifferent to it (orcs, halflings) or make extensive use of it (elves, dwarves).
+# Tech tree should include major real-life innovations from the 1200-1400, alongside fantasy/speculative/hypothetical technology related to the magical-fantasy setting.
+#
+################################################################
+
+written_alphabet = {
+	age = age_1_sovereigns
+	icon = abacus_advance
+	depth = 0
+	research_cost = 2.0
+	
+	
+	global_max_literacy = 5
+	global_monthly_literacy = 0.01
+	
+	starting_technology_level = 2
+}
+
+cultural_traditions_law_advance = {
+	age = age_1_sovereigns
+	requires = written_alphabet
+	unlock_law = cultural_traditions_law
+	starting_technology_level = 2
+}
+
+cultural_acceptance_advance = {
+	age = age_1_sovereigns
+	icon = cultural_acceptance_advance
+	cultures_capacity = 1
+	starting_technology_level = 3
+	requires = cultural_traditions_law_advance
+}
+
+mapmaking = {
+	age = age_1_sovereigns
+	icon = maritime_advance_age_4
+	requires = written_alphabet
+	
+	research_cost = 1.0
+	may_explore = yes
+	unlock_law = immigration_law
+}
+
+colonies = {
+	age = age_1_sovereigns
+	icon = colonies
+	requires = mapmaking
+	
+	research_cost = 1.0
+	can_colonize = yes
+}
+
+codified_laws = {
+	age = age_1_sovereigns
+	icon = scholasticism
+	
+	requires = written_alphabet
+	
+	research_cost = 2.0
+	has_codified_laws = yes
+	allow_council_parliament = yes
+	
+	starting_technology_level = 2
+}
+
+distribution_of_power_advance = {
+	age = age_1_sovereigns
+	unlock_law = distribution_of_power_law
+
+	requires = codified_laws
+}
+
+subjects_advance = {
+	age = age_1_sovereigns
+	icon = diplomatic_influence
+	research_cost = 2.5
+	
+	allow_subjects = yes
+	unlock_subject_type = vassal
+	
+	requires = codified_laws
+}
+
+taxation_advance = {
+	age = age_1_sovereigns
+	icon = genoese_banking_traditions
+	research_cost = 2.5
+	enable_taxation = yes
+	has_stability_investment = yes
+	
+	
+	requires = codified_laws
+}
+
+state_administration_advance = {
+	age = age_1_sovereigns
+	research_cost = 2.5
+	unlock_law = administrative_system
+	
+	requires = taxation_advance
+
+	potential = {
+		has_tribal_government = no
+	}
+}
+
+################################
+# National Governments
+################################
+
+national_governments_a = {
+	age = age_1_sovereigns
+	icon = legalism_advance
+		
+	stability_cost = -0.1
+	
+	requires = codified_laws
+	
+	allow = { has_embraced_institution = institution:national_governments_i }
+}
+
+
+medieval_administration  = {
+	age = age_1_sovereigns
+	icon = scholasticism
+
+	requires = national_governments_a
+
+	government_reform_slots = 1
+}
+
+pest_house_advance = {
+	age = age_1_sovereigns
+	requires = medieval_administration
+	unlock_building = pest_house
+}
+
+banking_country_traditions = {
+	potential = {
+		has_reform =government_reform:banking_country
+	}
+
+	age = age_1_sovereigns
+	icon = banking_advance
+	
+	
+	unlock_country_interaction = take_over_loan
+	minting_income_factor = 0.10
+	total_loan_capacity_modifier = 0.5 
+		
+	requires = medieval_administration
+	
+}
+
+hospital_advance = {
+	age = age_1_sovereigns
+	requires = pest_house_advance
+	unlock_building = hospital
+}
+
+#Agriculture
+agriculture_advance = {
+	age = age_1_sovereigns
+	research_cost = 2.0
+	can_extract_wheat = yes
+	can_extract_maize = yes
+	can_extract_potato = yes
+	can_extract_rice = yes
+	can_extract_millet = yes
+	can_extract_legumes = yes
+
+	depth = 0
+
+	allow = {
+	}
+	
+	starting_technology_level = 1
+}
+
+windmills_advance = {
+	age = age_1_sovereigns
+	unlock_building = windmill
+	requires = agriculture_advance
+}
+
+alchemy_advance = {
+	age = age_1_sovereigns
+	icon = alchemy_advance
+	requires = windmills_advance
+
+	global_life_expectancy = 3
+	global_disease_resistance = 0.05
+	
+	starting_technology_level = 3
+}
+
+apothecary_advance = {
+	age = age_1_sovereigns
+	requires = alchemy_advance
+	
+	unlock_building = apothecary
+}
+
+city_building_advance = {
+	age = age_1_sovereigns
+	icon = city_building_advance
+	research_cost = 2.0
+	can_build_cities = yes
+
+	requires = agriculture_advance
+}
+
+
+
+ranching = {
+	age = age_1_sovereigns
+	icon = finest_of_horses
+	starting_technology_level = 1
+	requires = windmills_advance
+	
+	allow = { 
+		OR = {
+			has_embraced_institution = institution:gunpowder_i
+			capital ?= { continent = continent:europe }
+			capital ?= { continent = continent:asia }
+			capital ?= { sub_continent = sub_continent:north_africa }
+			capital ?= { sub_continent = sub_continent:west_africa }
+			
+			capital ?= {
+				market ?= { 
+					OR = {
+						is_produced_in_market = goods:horses 
+						is_traded_in_market = goods:horses 
+					}
+				} 
+			}
+		}
+	}
+	can_extract_horses = yes
+}
+
+horse_riding_advance = {
+	age = age_1_sovereigns
+	research_cost = 2.0
+	requires = ranching
+
+	unlock_levy = levy_noble_cavalry
+	unlock_levy = levy_tribal_cavalry
+
+	
+	starting_technology_level = 1
+}
+
+################################
+# Gunpowder
+################################
+
+gunpowder_a = {
+	age = age_1_sovereigns
+	icon = feudalism_advance
+
+	unlock_subject_type = fiefdom
+	unlock_government_reform = feudal_nobility
+	unlock_government_reform = margraviate
+	requires = horse_riding_advance
+	
+	global_nobles_max_literacy = 20
+	allow_estate_parliament = yes
+	military_tactics = 1.0
+	
+	allow = { has_embraced_institution = institution:gunpowder_i }
+}
+
+trade_caravans = {
+	age = age_1_sovereigns
+	icon = trade_caravans
+	research_cost = 2.0
+
+	requires = horse_riding_advance
+	
+	trade_land_movement_cost_modifier = -0.33
+
+	potential = {
+		capital ?= { sub_continent = sub_continent:central_asia }
+	}
+	
+	starting_technology_level = 1
+}
+
+#Mining
+mining_advance = {
+	age = age_1_sovereigns
+	icon = efficient_mining
+
+	starting_technology_level = 1
+	depth = 0
+	research_cost = 2.0
+	can_extract_stone = yes
+	can_extract_marble = yes
+}
+
+metallurgy  = {
+	age = age_1_sovereigns
+	
+	requires = mining_advance
+	research_cost = 2.0
+	
+	unlock_building = tools_guild
+
+}
+
+mining_law_advance = {
+	age = age_1_sovereigns
+	icon = laws
+	requires = mining_advance
+	starting_technology_level = 1
+
+	unlock_law = mining_law
+}
+
+bronze_working = {
+	age = age_1_sovereigns
+	icon = serbian_mining
+	requires = metallurgy
+	research_cost = 2.0
+	
+	can_extract_copper = yes
+	can_extract_tin = yes
+	can_extract_lead = yes
+
+}
+
+iron_working = {
+	icon = efficient_mining
+	age = age_1_sovereigns
+	requires = metallurgy
+	research_cost = 2.0
+	starting_technology_level = 1
+	
+	allow = { 
+		has_embraced_institution = institution:gunpowder_i
+	}
+	
+	can_extract_coal = yes
+	can_extract_iron = yes
+	unlock_building = bog_iron_smelter
+}
+
+local_smelters_advance = {
+	age = age_1_sovereigns
+	requires = iron_working
+	unlock_building = local_smelters
+}
+
+advanced_mining  = {
+	age = age_1_sovereigns
+	icon = serbian_mining
+	requires = iron_working
+	research_cost = 2.0
+	
+	can_extract_saltpeter = yes
+	can_extract_alum = yes
+
+}
+
+fine_metals_mining = {
+	age = age_1_sovereigns
+	requires = bronze_working
+	research_cost = 2.0
+	
+	can_extract_goods_gold = yes
+	can_extract_silver = yes
+	can_extract_mercury = yes
+}
+
+faster_levy_recruitment  = {
+	age = age_1_sovereigns
+	icon = offensive_army
+	requires = iron_working
+
+	global_levy_recruitment_speed_modifier = 0.2
+}
+
+#Shipbuilding
+ship_building_advance = {
+	age = age_1_sovereigns
+	icon = ship_building_advance
+	research_cost = 2.0
+	
+	ship_build_speed = 0.1
+	depth = 0
+	
+	starting_technology_level = 2
+}
+
+trade_advance_age_of_trad = {
+	age = age_1_sovereigns
+	icon = merchant_power_from_maritime_reformation_advance
+	
+	requires = ship_building_advance
+	
+	trade_efficiency = small_trade_efficiency_bonus
+	
+	starting_technology_level = 3
+}
+
+
+
+more_merchants_age_of_trad = {
+	age = age_1_sovereigns
+	icon = merchants_and_trade
+	
+	requires = trade_advance_age_of_trad
+	
+	global_merchant_capacity_modifier = 0.05
+	
+	starting_technology_level = 3
+}
+slave_raid_advance = {
+	age = age_1_sovereigns
+	icon = slavery_before_death
+
+	potential = { 
+		OR = {
+			has_or_had_tag = MOR
+			has_or_had_tag = TUN
+			has_or_had_tag = TLE
+			has_or_had_tag = TRP
+			
+			AND = {
+				num_locations > 0
+				capital = { region = region:maghreb_region }
+			}
+		}
+		
+	}
+	
+	allow_privateers_slave_raid = yes
+	can_hire_privateers = yes
+	
+	requires = trade_advance_age_of_trad
+}
+
+#Organized Religion
+organized_religion = {
+	age = age_1_sovereigns
+	
+	global_clergy_city_desired_pop = 0.05
+	global_clergy_max_literacy = 5
+
+	depth = 0
+	starting_technology_level = 4
+	
+}
+scholasticism = {
+	age = age_1_sovereigns
+	icon = scholasticism
+	requires = organized_religion
+	
+	global_institution_growth_modifier = 0.20
+
+	ai_weight = { add = 2 }
+}
+
+guilds = {
+	age = age_1_sovereigns
+	icon = guilds
+	requires = organized_religion
+
+	global_burghers_city_desired_pop = 0.1
+	global_burghers_max_literacy = 5
+}
+
+peasant_connections_advance = {
+	age = age_1_sovereigns
+	icon = road_building
+
+	requires = guilds
+
+	food_purchase_cost = -0.1
+}
+
+construction_speed_traditions = {
+	age = age_1_sovereigns
+	icon = legalism_advance
+
+	requires = peasant_connections_advance
+	global_construction_speed = 0.05
+}
+
+diplomatic_capacity_traditions = {
+	age = age_1_sovereigns
+	icon = diplomatic_influence
+
+	requires = guilds
+	diplomatic_capacity_modifier = 0.2
+}
+
+rural_rgo_traditions = {
+	age = age_1_sovereigns
+	icon = laws
+
+	requires = peasant_connections_advance
+	global_max_rgo_size_modifier_in_rural = 0.1
+}
+
+################################
+# Gilded Ledgers
+################################
+
+gilded_ledgers_a = {
+	age = age_1_sovereigns
+	icon = meritocracy
+		
+	country_cabinet_efficiency = 0.05
+	
+	depth = 0
+
+
+	allow = { has_embraced_institution = institution:gilded_ledgers_i }
+}
+
+educated_bureaucrats = {
+	age = age_1_sovereigns
+	icon = scholasticism
+	requires = gilded_ledgers_a
+
+	global_monthly_literacy = 0.01
+}
+
+efficient_bureaucracy = {
+	age = age_1_sovereigns
+	icon = scholasticism
+	requires = educated_bureaucrats
+
+	legislative_efficiency = 0.05
+}
+
+right_to_rule = {
+	age = age_1_sovereigns
+	icon = renaissance_advance
+	requires = efficient_bureaucracy
+
+	num_possible_artists = 1
+}
+
+smooth_administration = {
+	age = age_1_sovereigns
+	icon = smooth_administration
+	requires = right_to_rule
+
+	stability_cost = -0.05
+}
+
+efficient_logistics = {
+	age = age_1_sovereigns
+	icon = road_building
+	requires = efficient_bureaucracy
+
+	build_gravel_road_cost_modifier = -0.05
+}
+
+province_governors = {
+	age = age_1_sovereigns
+	icon = glorious_arms
+	requires = efficient_logistics
+
+	global_integration_speed_modifier = 0.02
+}
+
+appointed_chain_of_command = {
+	age = age_1_sovereigns
+	icon = glorious_arms
+	requires = efficient_logistics
+	potential = {
+		capital ?= { sub_continent = sub_continent:east_asia }
+	}
+	
+	levy_combat_efficiency_modifier = 0.1
+}
+
+temporary_appointments = {
+	age = age_1_sovereigns
+	icon = genoese_banking_traditions
+	requires = efficient_bureaucracy
+	
+	set_cabinet_member_cost_modifier = -0.1
+	replace_cabinet_member_cost_modifier = -0.1
+}
+
+non_inheritable_offices = {
+	age = age_1_sovereigns
+	icon = improve_relation_impact_renaissance
+	requires = temporary_appointments
+
+	estate_power_from_cabinet = -0.1
+}
+
+abacus_advance = {
+	age = age_1_sovereigns
+	icon = abacus_advance
+	requires = gilded_ledgers_a
+
+	tax_income_efficiency = small_tax_income_efficiency_bonus
+}
+
+power_projection_advance_1 = {
+	age = age_1_sovereigns
+	icon = crown_power_advance_renaissance
+	requires = abacus_advance
+	power_projection = 10
+}
+
+
+ledgers_double_checking = {
+	age = age_1_sovereigns
+	icon = court_accounting
+	requires = abacus_advance
+
+	estate_enrichment = -0.05
+}
+
+talented_traders = {
+	age = age_1_sovereigns
+	icon = merchants_and_trade
+	requires = abacus_advance
+
+	trade_efficiency = small_trade_efficiency_bonus
+}
+
+government_sanctioned_celebrations = {
+	age = age_1_sovereigns
+	icon = grand_banquets
+	requires = educated_bureaucrats
+
+	cultural_tradition_modifier = 0.1
+}
+
+################################
+# Nature Magic
+################################
+
+nature_magic_a = {
+	age = age_1_sovereigns
+	icon = meritocracy
+		
+	country_cabinet_efficiency = 0.05
+	
+	depth = 0
+
+
+	allow = { has_embraced_institution = institution:nature_magic_i }
+}
+
+################################################################
+#
+# AGE 2 - TIDES
+#
+# Inspired by the Early Modern Period and the European Age of Discovery (roughly 15th-17th centuries) but the 'New World' is inhabited by fantasy races such as elves, dwarves, orcs, halflings, etc.
+# Previously isolated parts of the world now become connected through trade, causing technological and magical interchange to happen, and laying the groundwork for globalization.
+# Tech tree should include major real-life innovations from the 1400-1500, alongside fantasy/speculative/hypothetical technology related to the magical-fantasy setting.
+#
+################################################################
+
+renaissance_development = {
+	age = age_2_tides
+	icon = offensive_army
+	
+	embrace_institution_cost_modifier = -0.10
+	revoke_privilege_cost_modifier = -0.05
+
+	depth = 0
+}
+
+
+improve_relation_impact_renaissance = {
+	age = age_2_tides
+	icon = court_accounting
+
+	requires = renaissance_development
+	
+	improve_relation_impact = 0.10
+
+	ai_weight = {
+		if = {
+			limit = {
+				root = {
+					subjects_relative_power > 0.25
+				}
+			}
+			add = 1
+		}
+	}
+}
+
+late_feudal_relations = {
+	age = age_2_tides
+	icon = late_feudal_relations
+
+	requires = improve_relation_impact_renaissance
+	
+	subject_loyalty = 5
+
+	ai_weight = {
+		if = {
+			limit = {
+				root = {
+					subjects_relative_power > 0.25
+				}
+			}
+			add = 1
+		}
+	}
+}
+
+medieval_military = {
+	age = age_2_tides
+	land_morale = 0.25
+	
+	requires = late_feudal_relations
+}
+
+naval_morale_advance_1 = {
+	age = age_2_tides
+	
+	naval_morale = 0.25
+
+	requires = late_feudal_relations
+}
+	
+	
+renaissance_subject_opinions_advance = {	
+	age = age_2_tides
+
+	requires = late_feudal_relations
+
+	subject_opinions = 10
+
+	ai_weight = {
+		if = {
+			limit = {
+				root = {
+					subjects_relative_power > 0.25
+				}
+			}
+			add = 1
+		}
+	}
+}
+
+grant_privilege_cost_modifier_renaissance_advance = {
+	age = age_2_tides
+	requires = renaissance_development
+
+	grant_privilege_cost_modifier = -0.1
+}
+
+rgo_size_advance_renaissance = {
+	age = age_2_tides
+
+	requires = grant_privilege_cost_modifier_renaissance_advance
+	
+	global_max_rgo_size_modifier = 0.10
+}
+
+food_advance_renaissance = {
+	age = age_2_tides
+	icon = expanded_supply_trains
+
+	requires = rgo_size_advance_renaissance
+	
+	global_monthly_food_modifier = 0.10
+}
+
+war_no_cb_cost_modifier_renaissance_advance = {
+	age = age_2_tides
+	icon = expansionism
+	requires = grant_privilege_cost_modifier_renaissance_advance
+
+	war_no_cb_cost_modifier = -0.1
+}
+
+
+
+global_nobles_max_literacy_advance = {
+	age = age_2_tides
+	requires = renaissance_subject_opinions_advance
+
+	global_nobles_max_literacy = 10
+}
+
+global_burghers_max_literacy_advance = {
+	age = age_2_tides
+	requires = food_advance_renaissance
+
+	global_burghers_max_literacy = 10
+}
+
+
+global_clergy_max_literacy_advance = {
+	age = age_2_tides
+	requires = food_advance_renaissance
+
+	global_clergy_max_literacy = 10
+}
+
+
+land_morale_recovery_renaissance_advance = {
+	icon = offensive_army
+	age = age_2_tides
+	
+	land_morale_recovery = 0.01
+	
+	requires = medieval_military
+}
+
+
+merchant_power_from_maritime_renaissance_advance = {
+	age = age_2_tides
+	icon = global_trade_routes_advance
+	
+	merchant_power_from_maritime = 0.025
+	
+	requires = global_burghers_max_literacy_advance
+}
+
+
+
+renaissance_urbanisation = {
+	age = age_2_tides
+	requires = food_advance_renaissance
+
+
+	global_max_rgo_size_modifier_in_non_rural = 0.1
+}
+
+
+renaissance_city_rights = {
+	icon = religious_toleration
+	age = age_2_tides
+	requires = renaissance_urbanisation
+	
+	city_upgrade_cost_modifier = -0.1
+	town_upgrade_cost_modifier = -0.1
+}
+
+
+blockade_tactics = {
+	age = age_2_tides
+	requires = naval_morale_advance_1
+	
+	blockade_efficiency = 0.1
+}
+
+recovery_efforts = {
+	icon = offensive_army
+	age = age_2_tides
+	
+	requires = blockade_tactics
+
+
+	global_devastation_recovery = 0.005
+}
+
+
+
+naval_initiative_ren = {
+	age = age_2_tides
+	icon = ship_building_advance
+	
+	requires = blockade_tactics
+	
+	navy_initiative = 0.2
+}
+
+
+army_initiative_ren = {
+	icon = professional_armies_advance
+	age = age_2_tides
+	
+	requires = land_morale_recovery_renaissance_advance
+	
+	army_initiative = 0.2
+}
+
+
+law_making_renaissance = {
+	age = age_2_tides
+	
+	requires = recovery_efforts
+	
+	change_policy_cost_modifier = -0.05
+}
+
+subject_integration = {
+	icon = glorious_arms
+	age = age_2_tides
+	
+	requires = renaissance_subject_opinions_advance
+	
+	diplomatic_annexation_cost = -0.1
+}
+
+rgo_construction_ren = {
+	age = age_2_tides
+	icon = efficient_mining
+	
+	requires = law_making_renaissance
+	
+	global_rgo_build_time = -0.1
+}
+
+naval_repair_ren = {
+	icon = rudimentary_coastal_ship_repair
+	age = age_2_tides
+	
+	requires = naval_initiative_ren
+	
+	navy_repair_cost = -0.05
+}
+
+construction_speed_renaissance = {
+	icon = efficient_mining
+	age = age_2_tides
+	global_construction_speed = 0.1
+	requires = rgo_construction_ren
+}
+	
+
+################################
+# Seafaring Cartography
+################################
+
+seafaring_cartography_a = {
+	age = age_2_tides
+	icon = renaissance_advance
+	
+	cultural_influence_modifier = 0.05
+
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:seafaring_cartography_i }
+
+}
+
+patron_of_art  = {
+	age = age_2_tides
+
+	requires = seafaring_cartography_a
+
+	has_cultural_maintenance = yes
+	num_possible_artists = 1
+}
+
+renaissance_sculptures  = {
+	icon = renaissance_advance
+	age = age_2_tides
+
+	requires = patron_of_art
+
+	global_stone_output_modifier = 0.1
+}
+
+renaissance_thought  = {
+	age = age_2_tides
+	
+	government_reform_slots = 1
+	requires = seafaring_cartography_a
+}
+
+government_size_renaissance  = {
+	age = age_2_tides
+	
+	government_size = 1
+	
+	requires = renaissance_thought
+	ai_weight = { add = 2 }
+}
+
+chancery_records = {
+	age = age_2_tides
+	icon = smooth_administration
+	chancery_cap_level = 1
+	requires = government_size_renaissance
+	allow_children = no
+}
+
+crown_power_advance_renaissance = {
+	age = age_2_tides
+	icon = crown_power_advance_renaissance
+
+	global_crown_estate_power = 0.10
+	ai_weight = { add = 2 }
+	requires = government_size_renaissance
+}
+
+renaissance_court = {
+	age = age_2_tides
+	icon = scholasticism
+
+	cultural_influence_modifier = 0.10
+	cultural_tradition_modifier = 0.10
+
+	requires = crown_power_advance_renaissance
+}
+
+power_projection_advance_2 = {
+	age = age_2_tides
+
+	requires = renaissance_court
+
+	power_projection = 5
+}
+
+
+anatomy_advance = {
+	age = age_2_tides
+	global_life_expectancy = 3
+	global_disease_resistance = 0.05
+
+	requires = power_projection_advance_2
+}
+
+vibrant_court_advance = {
+	age = age_2_tides
+	icon = cultural_acceptance_advance
+	cultures_capacity = 1
+	requires = renaissance_court
+	ai_weight = { add = 2 }
+}
+
+################################
+# Monster Taming
+################################
+
+monster_taming_a = {
+	age = age_2_tides
+	icon = banking_advance
+		
+	bank_interest = -0.02
+	
+	total_loan_capacity_modifier = 0.5
+
+	depth = 0
+
+	allow = { has_embraced_institution = institution:monster_taming_i }
+}
+
+merchants_and_trade = {
+	age = age_2_tides
+	icon = global_trade_routes_advance
+	
+	requires = monster_taming_a
+	
+	naval_range = 250
+	trade_range = 250
+	colonial_range = 250
+	
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+standardized_coins = {
+	age = age_2_tides
+	icon = standardized_coins
+	
+	minting_inflation_threshold = 0.01
+	
+	ai_weight = { add = 1 }
+	
+	requires = monster_taming_a
+}
+
+pop_promotion_speed_age_2 = {
+	age = age_2_tides
+	icon = improved_foraging
+
+	requires = standardized_coins
+	
+	global_pop_promotion_speed_modifier = 0.1
+}
+
+trade_range_advance_age_2 = {
+	age = age_2_tides
+	icon = zmw_merchant_taxes
+
+	requires = standardized_coins
+	
+	trade_range	= 250
+}
+
+rudimentary_coastal_ship_repair = {
+	age = age_2_tides
+	icon = rudimentary_coastal_ship_repair
+
+	requires = merchants_and_trade
+
+	ship_repair_at_sea = 0.05
+	ship_repair_at_sea_to_max_strength = 0.3
+}
+
+maritime_advance_age_2 = {
+	age = age_2_tides
+	icon = maritime_advance_age_2
+	
+	requires = trade_range_advance_age_2
+	
+	global_maritime_presence_modifier = 0.1
+}
+
+diplomatic_range_age_1 = {
+	age = age_2_tides
+	icon = diplomatic_range_age_1
+	
+	requires = merchants_and_trade
+	
+	diplomatic_range_modifier = 0.33
+}
+
+spy_construction_renaissance = {
+	age = age_2_tides
+
+	requires = pop_promotion_speed_age_2
+
+	spy_network_construction = 0.1
+}
+
+rebellion_support = {
+	icon = zakah
+	age = age_2_tides
+	requires = spy_construction_renaissance
+	
+	unlock_diplomacy = { supportrebels }
+}
+
+route_to_the_indies_advance = {
+	age = age_2_tides
+	
+	requires = merchants_and_trade
+
+	exploration_preparation_time_modifier = -0.1
+
+	potential = {
+		capital ?= { sub_continent = sub_continent:western_europe }
+	}
+}
+
+pound_lock_canals_advance = {
+	age = age_2_tides
+	
+	requires = maritime_advance_age_2
+
+	starting_technology_level = 3
+	unlock_building = pound_lock_canal_infrastructure
+}
+
+################################
+# Word Printer
+################################
+
+word_printer_a = {
+	age = age_2_tides
+	icon = professional_armies_advance
+			
+	army_maintenance_cost = -0.10
+
+	depth = 0
+
+	allow = { has_embraced_institution = institution:word_printer_i }
+}
+
+gunpowder_advance = {
+	age = age_2_tides
+	icon = gunpowder_advance
+			
+	military_tactics = 0.25
+		
+	requires = word_printer_a
+}
+
+recruitment_improvements_renaissance = {
+	age = age_2_tides
+	icon = recruitment_improvements_renaissance
+
+	requires = word_printer_a	
+
+	regiment_recruit_speed = 0.2
+}
+
+drill_army_advance = {
+	age = age_2_tides
+	icon = drill_army_advance
+	
+	unlock_ability = drill_army
+	
+	requires = recruitment_improvements_renaissance
+}
+
+regiment_reinforcement_speed_renaissance = {
+	age = age_2_tides
+	icon = regiment_reinforcement_speed_renaissance
+
+	requires = recruitment_improvements_renaissance
+
+	regiment_reinforcement_speed = 0.1
+}
+
+
+supply_depot_advance_age_2_tides = {
+	age = age_2_tides
+			
+	supply_depot_capacity = 25
+		
+	requires = regiment_reinforcement_speed_renaissance
+}
+
+correct_box_advance_renaissance = {
+	age = age_2_tides
+			
+	correct_box_chance = 0.1
+		
+	requires = gunpowder_advance
+}
+
+################################
+# Planetary Magic
+################################
+
+planetary_magic_a = {
+	age = age_2_tides
+	icon = meritocracy
+		
+	country_cabinet_efficiency = 0.05
+	
+	depth = 0
+
+
+	allow = { has_embraced_institution = institution:planetary_magic_i }
+}
+
+################################################################
+#
+# AGE 3 - EMBERS
+#
+# Inspired by the Early Modern Period and the Age of Reformation (roughly 16th to 17th century), but with far more fantasy elements to it, as now magic is much more widespread and a greater understanding of the world is developing.
+# Interdimensional portals to a dimension similar to Hell are open, and in this dimension there are many unique/exotic resources that will further expand the possibilities of magic and technology.
+# Tech tree should include major real-life innovations from the 1500-1600, alongside fantasy/speculative/hypothetical technology related to the magical-fantasy setting.
+#
+################################################################
+
+################################
+# Infernal Gatecraft
+################################
+
+infernal_gatecraft_a = {
+	age = age_3_embers
+	
+
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:infernal_gatecraft_i }
+
+	exploration_preparation_time_modifier = -0.05
+	colonial_range = 600
+	diplomatic_range_modifier = 0.10
+
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+explorer_commisions_advance = {
+	age = age_3_embers
+	icon = safe_exploration_techniques_advance
+	requires = infernal_gatecraft_a
+	can_recruit_explorer = yes
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+
+open_sea_exploration = {
+	age = age_3_embers
+	icon = maritime_advance_age_4
+	requires = explorer_commisions_advance
+	allow_open_sea_exploration = yes
+	colonial_range = 1500
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+repair_at_sea_aod = {
+	age = age_3_embers
+	icon = rudimentary_coastal_ship_repair
+
+	requires = explorer_commisions_advance
+
+	ship_repair_at_sea_to_max_strength = 0.1
+}
+
+merchant_power_from_maritime_discovery_advance = {
+	age = age_3_embers
+	icon = merchant_power_from_maritime_reformation_advance
+	
+	merchant_power_from_maritime = 0.025
+	
+	requires = open_sea_exploration
+
+}
+maritime_decay_advance_disc = {
+	icon = letters_of_marque
+	age = age_3_embers
+	
+	requires = merchant_power_from_maritime_discovery_advance
+	global_maritime_presence_decay = -0.001
+}
+
+
+
+rgo_logistics_discovery = {
+	icon = efficient_mining
+	age = age_3_embers
+	
+	requires = repair_at_sea_aod
+
+	raw_material_in_province_impact = 0.025
+}
+
+
+
+colonial_charters = {
+	age = age_3_embers
+	icon = colonies
+
+	requires = infernal_gatecraft_a
+	colonial_migration_size_modifier = 0.5
+	create_colonial_charter_cost_modifier = -0.2
+	colonial_maintenance_cost = -0.2
+
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+
+colonial_policy_advance = {
+	age = age_3_embers
+	requires = colonial_charters
+	
+	unlock_law = colonial_policy
+}
+
+
+maritime_advance_age_3 = {
+	age = age_3_embers
+	icon = maritime_advance_age_4
+	
+	requires = colonial_charters
+	
+	global_maritime_presence_modifier = 0.1
+}
+
+trade_range_advance_age_3 = {
+	age = age_3_embers
+	icon = ship_building_advance
+	requires = maritime_advance_age_3
+	
+	trade_range	= 250
+}
+
+
+coastal_trade_routes_advance = {
+	age = age_3_embers
+	icon = safe_exploration_techniques_advance
+	
+	requires = maritime_advance_age_3
+	
+	sea_cost_on_distance_from_capital_when_maritime = -0.5
+}
+
+
+
+
+ship_building_techniques_discovery = {
+	age = age_3_embers
+	icon = rudimentary_coastal_ship_repair
+	
+	requires = merchant_power_from_maritime_discovery_advance
+
+	ship_build_speed = 0.2
+
+}
+
+port_cost_distance_from_capital_advance = {
+	icon = global_trade_routes_advance
+	age = age_3_embers
+	requires = ship_building_techniques_discovery
+	
+	port_cost_distance_from_capital = -5
+}
+
+
+
+exploration_maintenance_advance = {
+	age = age_3_embers
+	icon = maritime_advance_age_4
+	
+	requires = maritime_advance_age_3
+	exploration_maintenance_cost = -0.1
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+
+
+native_policy_advance = {
+	age = age_3_embers
+	requires = open_sea_exploration
+
+	unlock_law = native_policy
+}
+
+beat_to_windward_advance = {
+	age = age_3_embers
+	icon = new_world_advance
+	
+	requires = infernal_gatecraft_a
+
+	exploration_mission_speed = 0.1
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+green_vitriol = {
+	age = age_3_embers
+	icon = new_world_advance
+	
+	requires = rgo_logistics_discovery
+
+	global_alum_output_modifier = 0.1
+}
+
+
+
+plantation_buildings_advance = {
+	age = age_3_embers
+
+	requires = colonial_charters
+	unlock_building = sugar_plantation
+	unlock_building = tobacco_plantation
+	unlock_building = cotton_plantation
+
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+
+naval_ambitions = {
+	age = age_3_embers
+	icon = safe_exploration_techniques_advance
+	
+	requires = colonial_charters
+	naval_range = 250
+
+	ai_preference_tags = {
+		exploration
+	}
+}
+
+
+diplomatic_range_age_2 = {
+	age = age_3_embers
+	icon = diplomatic_range_age_1
+	requires = naval_ambitions
+	diplomatic_range_modifier = 0.33
+}
+
+
+new_world_crops = {
+	age = age_3_embers
+	icon = expanded_supply_trains
+	
+	requires = colonial_charters
+	global_monthly_food_modifier = 0.10
+}
+
+pop_promotion_speed_age_3 = {
+	age = age_3_embers
+	icon = cultural_acceptance_advance
+
+	requires = plantation_buildings_advance
+	
+	global_pop_promotion_speed_modifier = 0.1
+}
+
+blast_furnace = {
+	age = age_3_embers
+	icon = serbian_mining
+	
+	requires = pop_promotion_speed_age_3
+	
+	global_iron_output_modifier = 0.75
+}
+
+saiger_process_discovery = {
+	age = age_3_embers
+	icon = serbian_mining
+	
+	global_silver_output_modifier = 0.2
+	global_lead_output_modifier = 0.2
+
+	requires = blast_furnace
+}
+
+new_currency_demands = {
+	icon = debt_and_loans
+	age = age_3_embers
+	
+	global_copper_output_modifier = 0.25
+	global_tin_output_modifier = 0.1
+
+	requires = blast_furnace
+}
+
+rgo_size_advance_discovery = {
+	age = age_3_embers
+	icon = efficient_mining
+	
+	global_max_rgo_size_modifier = 0.10
+
+	requires = trade_range_advance_age_3
+}
+
+surgery_advance = {
+	age = age_3_embers
+	icon = alchemy_advance
+
+	global_life_expectancy = 3
+	global_disease_resistance = 0.05
+
+	requires = rgo_size_advance_discovery
+}
+
+patio_process_advance = {
+	age = age_3_embers
+
+	unlock_building = mercury_patio
+	
+	requires = surgery_advance
+}
+
+construction_speed_discovery = {
+	icon = rudimentary_coastal_ship_repair
+	age = age_3_embers
+	global_construction_speed = 0.1
+
+	requires = rgo_size_advance_discovery
+}
+
+
+################################
+# Interdimensional Outposts
+################################
+
+interdimensional_outposts_a = {
+	age = age_3_embers
+	icon = printing_press_advance
+		
+	global_max_literacy = 10
+
+	depth = 0
+	allow = { has_embraced_institution = institution:interdimensional_outposts_i }
+}
+
+spy_construction_discovery = {
+	age = age_3_embers
+	icon = efficient_spies
+	requires = interdimensional_outposts_a
+
+	spy_network_construction = 0.1
+}
+
+diplomatic_training = {
+	age = age_3_embers
+	icon = scholasticism
+	
+	monthly_diplomats = 0.1
+	
+	requires = spy_construction_discovery
+}
+
+formalized_relations = {
+	age = age_3_embers
+	icon = diplomatic_range_age_1
+	
+	diplomatic_capacity = 1
+	
+	requires = interdimensional_outposts_a
+}
+
+faceting = {
+	age = age_3_embers
+	icon = improve_relation_impact_renaissance
+	
+	global_jewelry_output_modifier = 0.1
+	
+	requires = formalized_relations
+}
+
+
+print_culture = {
+	icon = printing_press_advance
+	age = age_3_embers
+	
+	requires =  formalized_relations
+	
+	global_institution_growth_modifier = 0.20
+}
+
+
+artists_advance_discovery = {
+	age = age_3_embers
+	icon = renaissance_advance
+	requires = faceting
+	skill_of_new_artists = 0.1
+}
+
+improved_book_binding = {
+	age = age_3_embers
+	icon = scholasticism
+	requires = print_culture
+	global_books_output_modifier = 0.25
+}
+
+lumber_improvements_discovery = {
+	icon = lumber_improvements_absolutism
+	age = age_3_embers
+	requires = improved_book_binding
+	global_lumber_output_modifier = 0.25
+}
+
+
+regulate_court_procedures = {
+	age = age_3_embers
+	icon = genoese_banking_traditions
+	court_spending_cost = -0.01
+	
+	requires = artists_advance_discovery
+}
+
+crown_power_advance_discovery = {
+	age = age_3_embers
+	icon = crown_power_advance_renaissance
+	global_crown_estate_power = 0.10
+	
+	requires = regulate_court_procedures
+}
+
+government_size_discovery  = {
+	icon = government_size
+	age = age_3_embers
+	
+	government_size = 1
+
+	requires = crown_power_advance_discovery
+}
+
+trade_through_owned_disc_advance = {
+	icon = colonies
+	age = age_3_embers
+	global_trade_through_owned_territory_cost_modifier = -0.1
+}
+
+lazaretto_advance = {
+	age = age_3_embers
+	unlock_building = lazaretto
+
+	requires = trade_through_owned_disc_advance
+
+}
+
+naval_morale_advance_2 = {
+	age = age_3_embers
+	icon = global_trade_routes_advance
+
+	requires = lazaretto_advance
+	
+	naval_morale = 0.25
+}
+
+basic_financial_instruments = {
+	age = age_3_embers
+	icon = smooth_administration
+	global_merchant_power = 0.2
+
+	requires = lazaretto_advance
+}
+
+hire_artist_cost_modifier_advance_disc = {
+	icon = cultural_ties_culture
+	age = age_3_embers
+	hire_artist_cost_modifier = -0.05
+
+	requires = basic_financial_instruments
+}
+
+gov_reform_discovery_a  = {
+	icon = government_size
+	age = age_3_embers
+	government_reform_slots = 1
+
+	requires = hire_artist_cost_modifier_advance_disc
+}
+
+
+rural_rgo_disc_advance = {
+	icon = efficient_mining
+	age = age_3_embers
+	global_max_rgo_size_modifier_in_rural = 0.2
+
+	requires = basic_financial_instruments
+}
+
+
+power_projection_advance_4 = {
+	age = age_3_embers
+	icon = crown_power_advance_renaissance
+	power_projection = 5
+
+	requires = government_size_discovery
+}
+
+################################
+# Dreadhull
+################################
+
+dreadhull_a = {
+	age = age_3_embers
+	icon = pike_and_shot_advance
+		
+	land_morale = 0.25
+	depth = 0
+
+	allow = { has_embraced_institution = institution:dreadhull_i }
+}
+
+matchlock_gun = {
+	icon = supply_depot_advance_age_3_embers
+	age = age_3_embers
+	requires = dreadhull_a
+	
+	global_fur_output_modifier = 0.1
+	global_wild_game_output_modifier = 0.1
+}
+
+
+
+supply_depot_advance_age_3_embers = {
+	age = age_3_embers
+	icon = global_supply_limit_modifier_advance_5
+			
+	supply_depot_capacity = 25
+		
+	requires = dreadhull_a
+}
+
+regiment_reinforcement_speed_discovery = {
+	age = age_3_embers
+	icon = glorious_arms
+
+	requires = supply_depot_advance_age_3_embers
+	regiment_reinforcement_speed = 0.1
+}
+
+
+correct_box_advance_discovery = {
+	age = age_3_embers
+	icon = expansionism
+			
+	correct_box_chance = 0.1
+		
+	requires = matchlock_gun
+}
+
+pike_square = {
+	age = age_3_embers
+	icon = drill_army_advance
+	
+	requires = matchlock_gun
+	
+	military_tactics = 0.25
+}
+
+
+
+supply_lines = {
+	icon = maritime_advance_age_2
+	age = age_3_embers
+	
+	requires = pike_square
+	army_logistics_distance = 25
+}
+
+
+land_morale_attrition_cost_advance = {
+	icon = defensive_army_attrition
+	age = age_3_embers
+	requires = supply_lines
+	
+	land_morale_attrition_cost = -0.002
+}
+
+
+linked_armies_advance = {
+	age = age_3_embers
+	icon = expansionism
+	
+	requires = land_morale_attrition_cost_advance
+	
+	movement_speed_when_attached_to_another_unit = -0.1
+}
+
+
+land_morale_movement_cost_advance_disc = {
+	icon = expansionism
+	age = age_3_embers
+	
+	
+	requires = linked_armies_advance
+	
+	land_morale_movement_cost = -0.0001
+}
+
+################################
+# Vulkarite Metallurgy
+################################
+
+vulkarite_metallurgy_a = {
+	age = age_3_embers
+	icon = meritocracy
+		
+	country_cabinet_efficiency = 0.05
+	
+	depth = 0
+
+
+	allow = { has_embraced_institution = institution:vulkarite_metallurgy_i }
+}
+
+################################################################
+#
+# AGE 4 - DARKNESS
+#
+# Inspired by the Early Modern Period and the Age of Absolutism (roughly 17th to 18th century), but with far more fantasy elements to it, as now magic is much more widespread and a greater understanding of the world is developing.
+# The entire world seems to be covered in a 'magical veil of darkness' that makes it permanently night-time and greatly slows down the growth of farming crops and other natural resources. Tech and magic development will be focused on dealing with the negative effects while looking for a solution.
+# Tech tree should include major real-life innovations from 1600-1700, alongside fantasy/speculative/hypothetical technology related to the magical-fantasy setting.
+#
+################################################################
+
+################################
+# Binding Charter
+################################
+
+binding_charter_a = {
+	icon = pop_promotion_speed_age_4
+	age = age_4_darkness
+		
+	global_pop_conversion_speed = 0.01
+
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:binding_charter_i }
+}
+
+power_projection_advance_3 = {
+	age = age_4_darkness
+	icon = glorious_arms
+	power_projection = 5
+
+	requires = binding_charter_a
+}
+
+gov_reform_reformation_a  = {
+	icon = government_size
+	age = age_4_darkness
+	
+	government_reform_slots = 1
+
+	requires = power_projection_advance_3
+}
+
+crown_power_advance_reformation = {
+	age = age_4_darkness
+	icon = crown_power_advance_renaissance
+	global_crown_estate_power = 0.10
+	
+	requires = gov_reform_reformation_a
+}
+confessional_court = {
+	age = age_4_darkness
+	icon = court_accounting
+	court_spending_cost = -0.005
+	global_pop_conversion_speed_modifier = 0.1
+	
+	requires = power_projection_advance_3
+}
+
+artists_advance_reformations = {
+	age = age_4_darkness
+	icon = renaissance_advance
+	requires = confessional_court
+	skill_of_new_artists = 0.1
+}
+
+
+war_score_reformations_advance = {
+	age = age_4_darkness
+	icon = diplomatic_influence
+	requires = confessional_court
+
+	global_war_score_cost = -0.05
+}
+
+
+reformation_subject_opinions_advance = {
+	
+	age = age_4_darkness
+	icon = diplomatic_range_age_1
+	requires = artists_advance_reformations
+	subject_opinions = 10
+}
+
+early_modern_administation  = {
+	age = age_4_darkness
+	
+	government_size = 1
+
+	requires = reformation_subject_opinions_advance
+}
+
+pharmacology_advance = {
+	age = age_4_darkness
+
+	global_life_expectancy = 3
+	global_disease_resistance = 0.05
+
+	requires = war_score_reformations_advance
+}
+
+pan_amalgamation_advance = {
+	age = age_4_darkness
+	
+	mercury_patio_max_level = 1
+	global_mercury_output_modifier = 0.1
+
+	requires = pharmacology_advance
+}
+
+naval_morale_advance_3 = {
+	age = age_4_darkness
+	icon = global_trade_routes_advance
+	
+	naval_morale = 0.25
+
+	requires = pharmacology_advance
+}
+
+road_advance_1 = {
+	age = age_4_darkness
+	requires = naval_morale_advance_3
+
+	global_road_building_time = -0.2
+	build_gravel_road_cost_modifier = -0.1
+	build_paved_road_cost_modifier = -0.1
+}
+
+construction_speed_reformation = {
+	icon = rudimentary_coastal_ship_repair
+	age = age_4_darkness
+	global_construction_speed = 0.1
+
+	requires = road_advance_1
+}
+
+lumber_improvements_reformation = {
+	icon = rudimentary_coastal_ship_repair
+	age = age_4_darkness
+	requires = construction_speed_reformation
+	global_lumber_output_modifier = 0.25
+}
+
+################################
+# Worthbound
+################################
+
+worthbound_a = {
+	age = age_4_darkness
+		
+	merchant_maintenance_cost = -0.10
+	depth = 0
+	allow = { has_embraced_institution = institution:worthbound_i }
+}
+
+merchant_power_from_maritime_reformation_advance = {
+	age = age_4_darkness
+	
+	merchant_power_from_maritime = 0.025
+	
+	requires = worthbound_a
+
+}
+
+bole_smelting = {
+	age = age_4_darkness
+	
+	requires = worthbound_a
+	
+	global_lead_output_modifier = 1.0
+}
+
+slitting_mills = {
+	age = age_4_darkness
+	
+	requires = bole_smelting
+	
+	global_iron_output_modifier = 0.66
+}
+
+maritime_advance_age_4 = {
+	age = age_4_darkness
+	icon = safe_exploration_techniques_advance
+	
+	requires = merchant_power_from_maritime_reformation_advance
+	
+	global_maritime_presence_modifier = 0.1
+}
+
+global_trade_routes_advance = {
+	age = age_4_darkness
+	
+	requires = maritime_advance_age_4
+	
+	sea_cost_on_distance_from_capital = -10
+}
+
+pop_promotion_speed_age_4 = {
+	age = age_4_darkness
+
+	requires = slitting_mills
+	
+	global_pop_promotion_speed_modifier = 0.1
+}
+
+leader_recruit_cost_advance = {
+	age = age_4_darkness
+
+	requires = pop_promotion_speed_age_4
+	
+	train_general_cost_modifier = -0.1
+	train_admiral_cost_modifier = -0.1
+}
+
+letters_of_marque = {
+	age = age_4_darkness
+	requires = global_trade_routes_advance
+	
+	can_hire_privateers = yes
+	hire_privateer_cost_modifier = -0.1
+}
+
+sturdy_privateers = {
+	age = age_4_darkness
+	icon = letters_of_marque
+	requires = letters_of_marque
+	privateer_durability = 0.20
+}
+
+safe_exploration_techniques_advance = {
+	age = age_4_darkness
+	icon = maritime_advance_age_4
+	requires = sturdy_privateers
+	
+	exploration_preparation_time_modifier = -0.05
+	exploration_mission_speed = 0.05
+}
+
+imperial_ambitions = {
+	age = age_4_darkness
+	requires = leader_recruit_cost_advance
+	
+	rank_empire_upgrade_cost_modifier = -0.25
+}
+
+spy_construction_reformation = {
+	age = age_4_darkness
+	icon = efficient_spies
+	requires = imperial_ambitions
+
+	spy_network_construction = 0.1
+}
+
+trade_companies_advance = {
+	age = age_4_darkness
+	icon = expanded_supply_trains
+	unlock_subject_type = trade_company
+	unlock_building = trade_company_headquarters
+	unlock_building = trade_company_governance
+	unlock_building = trade_company_garrison
+	unlock_building = trade_company_harbor
+	unlock_building = trade_company_local_venture
+	unlock_building = trade_company_foreign_influence
+
+	requires = safe_exploration_techniques_advance
+}
+
+chartered_companies = {
+	age = age_4_darkness
+	icon = merchant_power_from_maritime_reformation_advance
+	
+	requires = safe_exploration_techniques_advance
+	
+	trade_range = 200
+	colonial_range = 1000
+
+	unlock_casus_belli = cb_exploration
+}
+
+development_of_maritime_law = {
+	age = age_4_darkness
+	
+	requires = chartered_companies
+	
+	merchant_maintenance_cost = -0.1
+}
+
+diplomatic_range_age_3 = {
+	icon = diplomatic_range_age_1
+	age = age_4_darkness
+	
+	requires = development_of_maritime_law
+	
+	diplomatic_range_modifier = 0.25
+}
+
+trade_envoys = {
+	age = age_4_darkness
+	icon = diplomatic_range_age_1
+	
+	requires = development_of_maritime_law
+	
+	trade_range_modifier = 0.25
+}
+
+shared_products_procedures = {
+	age = age_4_darkness
+	icon = zmw_merchant_taxes
+	
+	global_alum_output_modifier = 0.1
+
+	requires = slitting_mills
+}
+
+riches_of_foreign_coasts = {
+	age = age_4_darkness
+	icon = zmw_merchant_taxes
+	
+	global_pearls_output_modifier = 0.2
+
+	requires = shared_products_procedures
+}
+
+foreign_mining_techniques = {
+	age = age_4_darkness
+	icon = efficient_mining
+	
+	global_gems_output_modifier = 0.2
+
+	requires = slitting_mills
+}
+
+subject_income_reformation_advance = {
+	age = age_4_darkness
+	subject_income_modifier = 0.05
+
+	requires = foreign_mining_techniques
+}
+
+rgo_size_advance_reformation = {
+	age = age_4_darkness
+	icon = efficient_mining
+	
+	global_max_rgo_size_modifier = 0.10
+
+	requires = subject_income_reformation_advance
+}
+
+food_advance_reformation = {
+	age = age_4_darkness
+	icon = expanded_supply_trains
+	
+	global_monthly_food_modifier = 0.10
+
+	requires = subject_income_reformation_advance
+}
+
+scientific_experimentation = {
+	age = age_4_darkness
+	icon = alchemy_advance
+	
+	global_institution_growth_modifier = 0.20
+
+	requires = rgo_size_advance_reformation
+}
+
+military_administration  = {
+	icon = expanded_supply_trains
+	age = age_4_darkness
+	
+	food_consumption_modifier = -0.1
+
+	requires = food_advance_reformation
+}
+
+spanish_square = {
+	age = age_4_darkness
+	
+	military_tactics = 0.25
+
+	requires = scientific_experimentation
+}
+
+################################
+# Darktide
+################################
+
+darktide_a = {
+	age = age_4_darkness
+		
+	artillery_bonus_vs_fort = 1
+	depth = 0
+
+	allow = { has_embraced_institution = institution:darktide_i }
+}
+
+flintlock_gun = {
+	age = age_4_darkness
+	requires = darktide_a
+	
+	global_fur_output_modifier = 0.2
+	global_wild_game_output_modifier = 0.2
+}
+
+correct_box_advance_reformation = {
+	age = age_4_darkness
+	icon = expansionism
+			
+	correct_box_chance = 0.1
+		
+	requires = flintlock_gun
+}
+
+
+assault_ability_reformation = {
+	age = age_4_darkness
+	icon = artillery_institution_advance
+	requires = darktide_a
+	assault_ability = 0.1
+}
+
+
+regiment_reinforcement_speed_reformation = {
+	age = age_4_darkness
+	icon = regiment_reinforcement_speed_renaissance
+
+	requires = assault_ability_reformation
+	regiment_reinforcement_speed = 0.1
+}
+
+
+recruitment_improvements_reformation = {
+	age = age_4_darkness
+	icon = recruitment_improvements_renaissance
+	requires = regiment_reinforcement_speed_reformation
+
+	regiment_recruit_speed = 0.2
+}
+
+
+supply_depot_advance_age_4_darkness = {
+	age = age_4_darkness
+	icon = zmw_merchant_taxes
+			
+	supply_depot_capacity = 25
+		
+	requires = correct_box_advance_reformation
+}
+
+mercenaries_reformation_advance = {
+	age = age_4_darkness
+	icon = regimental_system
+	
+	global_mercenaries_modifier = 0.20
+	requires = supply_depot_advance_age_4_darkness
+}
+
+maurician_infantry = {
+	age = age_4_darkness
+	icon = offensive_army
+	
+	land_morale = 0.25
+
+	requires = assault_ability_reformation
+}
+
+################################
+# Great Unveiling
+################################
+
+great_unveiling_a = {
+	age = age_4_darkness
+	icon = meritocracy
+		
+	country_cabinet_efficiency = 0.05
+	
+	depth = 0
+
+
+	allow = { has_embraced_institution = institution:great_unveiling_i }
+}
+
+################################################################
+#
+# AGE 5 - UNBINDING
+#
+# Inspired by the Early Modern Period and the Age of Revolutions (roughly 18th to 19th century), but with far more fantasy elements to it, as now magic is much more widespread and a greater understanding of the world is developing.
+# Similar to the Age of Embers, portals to a dimension similar to heaven open, with even more powerful resources and magic. But it's way more dangerous, with common animals having god-like levels of magical power.
+# Tech tree should include major real-life innovations from 1700-1800, alongside fantasy/speculative/hypothetical technology related to the magical-fantasy setting.
+#
+################################################################
+
+##########################
+# Heavenly Gatecraft
+##########################
+
+heavenly_gatecraft_a = {
+	age = age_5_unbinding
+		
+	global_max_rgo_size_modifier = 0.10
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:heavenly_gatecraft_i }
+}
+
+lead_ore_dressing = {
+	age = age_5_unbinding
+	icon = serbian_mining
+	
+	requires = heavenly_gatecraft_a
+	
+	global_lead_output_modifier = 1.0
+}
+
+powerful_statues = {
+	age = age_5_unbinding
+	icon = zmw_merchant_taxes
+	
+	requires = heavenly_gatecraft_a
+	
+	global_copper_output_modifier = 0.25
+	global_tin_output_modifier = 0.1
+	global_stone_output_modifier = 0.1
+}
+
+ostentatious_clothing = {
+	icon = fla_cloth
+	age = age_5_unbinding
+	
+	requires = lead_ore_dressing
+	
+	global_alum_output_modifier = 0.1
+	global_dyes_output_modifier = 0.1
+}
+
+artists_advance_absolutism = {
+	age = age_5_unbinding
+	icon = renaissance_advance
+	requires = ostentatious_clothing
+	skill_of_new_artists = 0.1
+}
+
+absolutist_court = {
+	age = age_5_unbinding
+	icon = court_accounting
+	
+	global_crown_estate_power = 0.05
+	estate_power_from_cabinet = -0.5
+	
+	requires = ostentatious_clothing
+}
+
+absolute_rulership = {
+	age = age_5_unbinding
+	global_crown_estate_power = 0.50
+
+	requires = powerful_statues
+}
+
+government_size_absolutism  = {
+	age = age_5_unbinding
+	
+	government_size = 1
+
+	requires = absolute_rulership
+}
+
+cork_stoppers = {
+	age = age_5_unbinding
+	global_wine_output_modifier = 0.2
+	requires = ostentatious_clothing
+}
+
+sanitation_advance = {
+	age = age_5_unbinding
+
+	requires = government_size_absolutism
+
+	global_life_expectancy = 3
+	global_disease_resistance = 0.05
+}
+
+construction_speed_absolutism = {
+	icon = rudimentary_coastal_ship_repair
+	age = age_5_unbinding
+	requires = sanitation_advance
+	global_construction_speed = 0.1
+}
+
+pop_promotion_speed_age_5= {
+	age = age_5_unbinding
+
+	requires = sanitation_advance
+	
+	global_pop_promotion_speed_modifier = 0.1
+}
+
+rgo_size_advance_absolutism = {
+	age = age_5_unbinding
+	icon = efficient_mining
+
+	requires = pop_promotion_speed_age_5
+	
+	global_max_rgo_size_modifier = 0.10
+}
+
+lumber_improvements_absolutism = {
+	icon = rudimentary_coastal_ship_repair
+	age = age_5_unbinding
+	requires = rgo_size_advance_absolutism
+	global_lumber_output_modifier = 0.25
+}
+
+coal_improvements_absolutism = {
+	age = age_5_unbinding
+	requires = rgo_size_advance_absolutism
+	global_coal_output_modifier = 0.33
+	unlock_building = improved_charcoal_maker
+}
+
+food_advance_absolutism = {
+	age = age_5_unbinding
+	icon = expanded_supply_trains
+
+	requires = rgo_size_advance_absolutism
+	
+	global_monthly_food_modifier = 0.10
+}
+
+################################
+# Awakening
+################################
+
+awakening_a = {
+	age = age_5_unbinding
+		
+	global_max_literacy = 10
+	depth = 0
+	allow = { has_embraced_institution = institution:awakening_i }
+}
+
+newspapers_advance = {
+	age = age_5_unbinding
+	requires = awakening_a
+	unlock_law = press_law
+}
+
+scientific_mapping_advance = {
+	age = age_5_unbinding
+	icon = safe_exploration_techniques_advance
+	requires = awakening_a
+	exploration_mission_speed = 0.2
+}
+
+
+coke_blast_furnace = {
+	age = age_5_unbinding
+	icon = serbian_mining
+	
+	requires = newspapers_advance
+	
+	global_iron_output_modifier = 1.0
+}
+
+merchant_power_from_maritime_absolutism_advance = {
+	age = age_5_unbinding
+	icon = merchant_power_from_maritime_reformation_advance
+	
+	merchant_power_from_maritime = 0.025
+	trade_company_headquarters_level = 1
+	
+	requires = scientific_mapping_advance
+
+}
+
+hollander_beater = {
+	age = age_5_unbinding
+	
+	global_paper_output_modifier = 0.1
+	
+	requires = coke_blast_furnace
+}
+
+maritime_advance_age_5 = {
+	age = age_5_unbinding
+	icon = merchant_power_from_maritime_reformation_advance
+	
+	requires = merchant_power_from_maritime_absolutism_advance
+	
+	global_maritime_presence_modifier = 0.1
+}
+
+the_constitution = {
+	age = age_5_unbinding
+	
+	government_reform_slots = 1
+
+	requires = newspapers_advance
+
+	allow_autocratic_parliament = yes
+	allow_constitutional_parliament = yes
+}
+
+ship_building_techniques_absolutism = {
+	age = age_5_unbinding
+	icon = rudimentary_coastal_ship_repair
+	
+	requires = maritime_advance_age_5
+
+	ship_build_speed = 0.2
+}
+
+power_projection_advance_5 = {
+	age = age_5_unbinding
+	icon = diplomatic_influence
+	requires = the_constitution
+	power_projection = 5
+}
+
+national_sovereignty = {
+	age = age_5_unbinding
+	icon = scholasticism
+	requires = power_projection_advance_5
+	
+	global_integration_speed_modifier = 0.20
+}
+
+naval_professionalism = {
+	age = age_5_unbinding
+	icon = safe_exploration_techniques_advance
+	requires = ship_building_techniques_absolutism
+	naval_range = 500
+}
+
+measuring_the_world = {
+	age = age_5_unbinding
+	icon = global_trade_advance
+	requires = ship_building_techniques_absolutism
+	
+	global_distance_from_capital_cost_modifier = -0.10
+}
+
+diplomatic_range_age_5 = {
+	age = age_5_unbinding
+	icon = diplomatic_range_age_1
+	requires = measuring_the_world
+	diplomatic_range_modifier = 0.25
+}
+
+spy_construction_absolutism = {
+	age = age_5_unbinding
+	icon = efficient_spies
+
+	requires = power_projection_advance_5
+
+	spy_network_construction = 0.1
+}
+
+subject_loyalty_absolutism = {
+	age = age_5_unbinding
+	icon = diplomatic_range_age_1
+	requires = spy_construction_absolutism
+	
+	subject_loyalty = 5
+}
+
+improve_relation_impact_absolutism = {
+	age = age_5_unbinding
+	icon = cultural_acceptance_advance
+
+	requires = subject_loyalty_absolutism
+	
+	improve_relation_impact = 0.10
+}
+
+relations_absolutism_advance = {
+	age = age_5_unbinding
+	icon = diplomatic_range_age_1
+	
+	diplomatic_capacity = 1
+	
+	requires = improve_relation_impact_absolutism
+}
+
+naval_doctrines_advance = {
+	age = age_5_unbinding
+	unlock_law = naval_doctrine_law
+
+	requires = improve_relation_impact_absolutism
+}
+
+################################
+# Storm Engine
+################################
+
+storm_engine_a = {
+	age = age_5_unbinding
+		
+	possible_frontage_modifier = 0.10
+	depth = 0
+
+	allow = { has_embraced_institution = institution:storm_engine_i }
+}
+
+improved_supply_lines = {
+	age = age_5_unbinding
+	icon = maritime_advance_age_2
+	
+	requires = storm_engine_a
+	army_logistics_distance = 25
+}
+
+increase_control_area_advance = {
+	age = age_5_unbinding
+
+	
+	requires = storm_engine_a
+
+	unlock_cabinet_action = increase_control_area
+}
+
+artillery_vs_fort_age_5_unbinding = {
+	age = age_5_unbinding
+	icon = artillery_institution_advance
+			
+	artillery_bonus_vs_fort = 1
+		
+	requires = improved_supply_lines
+}
+
+army_movement_speed_absolutism = {
+	age = age_5_unbinding
+	icon = expansionism
+	requires = increase_control_area_advance
+
+	army_movement_speed = 0.1
+}
+
+regiment_reinforcement_speed_absolutism = {
+	age = age_5_unbinding
+	icon = regiment_reinforcement_speed_renaissance
+
+	requires = army_movement_speed_absolutism
+	regiment_reinforcement_speed = 0.1
+}
+
+war_score_absolutism_advance = {
+	age = age_5_unbinding
+	icon = diplomatic_influence
+	requires = artillery_vs_fort_age_5_unbinding
+
+	global_war_score_cost = -0.1
+}
+
+correct_box_advance_absolutism = {
+	age = age_5_unbinding
+	icon = expansionism
+			
+	correct_box_chance = 0.1
+		
+	requires = war_score_absolutism_advance
+}
+
+anti_piracy_warfare = {
+	age = age_5_unbinding
+	icon = letters_of_marque
+
+	requires = regiment_reinforcement_speed_absolutism
+	
+	global_pirate_spawn_chance = -0.25
+	anti_piracy_warfare_modifier = 0.25
+}
+
+absolutism_agressive_advance = {
+	age = age_5_unbinding
+	icon = diplomatic_influence
+
+	antagonism_received_modifier = -0.1
+	requires = anti_piracy_warfare
+}
+
+supply_depot_advance_age_5_unbinding = {
+	age = age_5_unbinding
+	icon = merchants_and_trade
+			
+	supply_depot_capacity = 25
+	trade_company_headquarters_level = 1
+		
+	requires = absolutism_agressive_advance
+}
+
+line_infantry = {
+	age = age_5_unbinding
+	icon = military_revolution_advance
+	military_tactics = 0.25
+	requires = correct_box_advance_absolutism
+}
+
+naval_morale_advance_5 = {
+	age = age_5_unbinding
+	icon = global_trade_routes_advance
+	requires = anti_piracy_warfare
+	naval_morale = 0.25
+}
+
+gustavian_infantry = {
+	age = age_5_unbinding
+	icon = offensive_army
+	requires = supply_depot_advance_age_5_unbinding
+	land_morale = 0.25
+}
+
+country_unification_advance = {
+	age = age_5_unbinding
+	icon = diplomatic_range_age_1
+
+	requires = absolutism_agressive_advance
+	diplomatic_annexation_cost = -0.2
+}
+
+################################
+# Divine Magic
+################################
+
+divine_magic_a = {
+	age = age_5_unbinding
+	icon = meritocracy
+		
+	country_cabinet_efficiency = 0.05
+	
+	depth = 0
+
+
+	allow = { has_embraced_institution = institution:divine_magic_i }
+}
+
+################################################################
+#
+# AGE 6 - TECHNOMANCY
+#
+# Inspired by the Early Modern Period and the Age of Revolutions (roughly 18th to 19th century), but with far more fantasy elements to it, as now magic is much more widespread and a greater understanding of the world is developing.
+# The ultimate culmination of technological and magical development, using resources from all three dimensional planes: technomancy. Machines and tools capable of using magic, either with assistance or remotely. Heavy arcanepunk, steampunk and magitech vibes, although it's still in its 19th century stage.
+# Tech tree should include major real-life innovations from 1800-1900, alongside fantasy/speculative/hypothetical technology related to the magical-fantasy setting.
+#
+################################################################
+
+################################
+# Technomancy
+################################
+
+technomancy_a = {
+	age = age_6_technomancy
+	icon = enlightenment_advance
+		
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:technomancy_i }
+}
+
+artists_advance_revolutions = {
+	age = age_6_technomancy
+	icon = renaissance_advance
+	requires = technomancy_a
+	skill_of_new_artists = 0.1
+}
+
+war_score_revolutions_advance = {
+	age = age_6_technomancy
+	icon = enlightenment_advance
+	requires = artists_advance_revolutions
+
+	global_war_score_cost = -0.1
+}
+
+spy_construction_revolutions = {
+	age = age_6_technomancy
+	icon = efficient_spies
+	requires = artists_advance_revolutions
+
+	spy_network_construction = 0.1
+}
+
+slave_trade_act_advance = {
+	age = age_6_technomancy
+	requires = technomancy_a
+	unlock_law = slavery_laws
+}
+
+separation_of_powers  = {
+	age = age_6_technomancy
+	
+	government_reform_slots = 1
+
+	requires = slave_trade_act_advance
+}
+
+power_projection_advance_6 = {
+	age = age_6_technomancy
+	icon = diplomatic_influence
+	power_projection = 5
+
+	requires = separation_of_powers
+}
+
+enlightened_court = {
+	age = age_6_technomancy
+	icon = court_accounting
+	global_max_literacy = 5
+	cultural_influence_modifier = 0.25
+	
+	requires = separation_of_powers
+}
+
+crown_power_advance_revolutions = {
+	age = age_6_technomancy
+	icon = crown_power_advance_renaissance
+	global_crown_estate_power = 0.50
+	
+	requires = enlightened_court
+}
+
+rights_of_man  = {
+	age = age_6_technomancy
+	
+	country_cabinet_efficiency = 0.20
+
+	requires = separation_of_powers
+}
+
+government_size_revolutions  = {
+	age = age_6_technomancy
+	
+	government_size = 1
+
+	requires = rights_of_man
+}
+
+rgo_size_advance_revolutions = {
+	age = age_6_technomancy
+	icon = efficient_mining
+	
+	global_max_rgo_size_modifier = 0.10
+
+	requires = spy_construction_revolutions
+}
+
+rotherham_plough = {
+	age = age_6_technomancy
+	icon = expanded_supply_trains
+	
+	global_monthly_food_modifier = 0.10
+
+	requires = rgo_size_advance_revolutions
+}
+
+diplomatic_range_age_6 = {
+	age = age_6_technomancy
+	icon = diplomatic_range_age_1
+	diplomatic_range_modifier = 0.25
+
+	requires = separation_of_powers
+}
+
+modern_bureaucracy = {
+	age = age_6_technomancy
+	icon = scholasticism
+	
+	global_integration_speed_modifier = 0.20
+
+	requires = diplomatic_range_age_6
+}
+
+vaccination_advance = {
+	age = age_6_technomancy
+	icon = scientific_revolution_advance
+
+	global_life_expectancy = 3
+	global_disease_resistance = 0.05
+
+	requires = modern_bureaucracy
+}
+
+construction_speed_revolutions = {
+	age = age_6_technomancy
+	global_construction_speed = 0.1
+
+	requires = modern_bureaucracy
+}
+
+coal_improvements_revolutions = {
+	age = age_6_technomancy
+	requires = construction_speed_revolutions
+	global_coal_output_modifier = 0.5
+}
+
+################################
+# Aetherium
+################################
+
+aetherium_a = {
+	age = age_6_technomancy
+	icon = industrialization_advance
+		
+	global_production_efficiency = large_production_efficiency_bonus
+	depth = 0
+	allow = { has_embraced_institution = institution:aetherium_i }
+}
+
+hot_blast_furnace = {
+	age = age_6_technomancy
+	icon = serbian_mining
+	
+	requires = aetherium_a
+	
+	global_iron_output_modifier = 0.5
+}
+
+repair_at_sea_aorev = {
+	age = age_6_technomancy
+	icon = rudimentary_coastal_ship_repair
+
+	requires = aetherium_a
+
+	ship_repair_at_sea = 0.01
+	ship_repair_at_sea_to_max_strength = 0.1
+}
+
+merchant_power_from_maritime_revolutions_advance = {
+	age = age_6_technomancy
+	icon = merchant_power_from_maritime_reformation_advance
+	
+	merchant_power_from_maritime = 0.025
+	trade_company_headquarters_level = 1
+	
+	requires = repair_at_sea_aorev
+}
+
+cupola_smelting = {
+	age = age_6_technomancy
+	icon = serbian_mining
+	
+	requires = hot_blast_furnace
+	
+	global_lead_output_modifier = 1.0
+}
+
+pop_promotion_speed_age_6 = {
+	age = age_6_technomancy
+	icon = cultural_acceptance_advance
+
+	requires = cupola_smelting
+	
+	global_pop_promotion_speed_modifier = 0.2
+}
+
+maritime_advance_age_6 = {
+	age = age_6_technomancy
+	icon = safe_exploration_techniques_advance
+	
+	requires = merchant_power_from_maritime_revolutions_advance
+	
+	global_maritime_presence_modifier = 0.1
+}
+
+revolutions_subject_opinions_advance = {
+	
+	age = age_6_technomancy
+	icon = diplomatic_range_age_1
+	requires = maritime_advance_age_6
+	subject_opinions = 10
+}
+
+revolutions_agressive_advance = {
+	age = age_6_technomancy
+	icon = diplomatic_influence
+
+	antagonism_received_modifier = -0.1
+	requires = revolutions_subject_opinions_advance
+}
+
+subject_income_revolutions_advance = {
+	age = age_6_technomancy
+	icon = genoese_banking_traditions
+	requires = revolutions_subject_opinions_advance
+	subject_income_modifier = 0.05
+}
+
+urbanization = {
+	age = age_6_technomancy
+		
+	non_rural_migration_attraction = 1.0
+	requires = subject_income_revolutions_advance
+}
+
+joint_stock_companies = {
+	age = age_6_technomancy
+	icon = merchant_power_from_maritime_reformation_advance
+	global_merchant_power = 0.2
+	trade_company_headquarters_level = 1
+	trade_range	= 200 
+	requires = subject_income_revolutions_advance
+}
+
+insurance_companies = {
+	age = age_6_technomancy
+	icon = genoese_banking_traditions
+	tax_income_efficiency = medium_tax_income_efficiency_bonus
+	requires = joint_stock_companies
+}
+
+the_gold_standard = {
+	age = age_6_technomancy
+	icon = banking_advance
+	monthly_inflation = -0.001
+	requires = insurance_companies
+}
+
+superior_ship_design = {
+	age = age_6_technomancy
+	icon = safe_exploration_techniques_advance
+	naval_range = 500
+	colonial_range = 1000
+	requires = maritime_advance_age_6
+}
+
+road_advance_2 = {
+	age = age_6_technomancy
+	icon = road_building
+
+	global_road_building_time = -0.2
+	build_gravel_road_cost_modifier = -0.2
+	build_paved_road_cost_modifier = -0.2
+	build_modern_road_cost_modifier = -0.2
+	requires = the_gold_standard
+}
+
+################################
+# Airship
+################################
+
+airship_a = {
+	age = age_6_technomancy
+	icon = levee_en_masse_advance
+		
+	global_manpower_modifier = 0.5
+	depth = 0
+
+	allow = { has_embraced_institution = institution:airship_i }
+}
+
+long_rifle = {
+	age = age_6_technomancy
+	requires = airship_a
+	
+	global_fur_output_modifier = 0.3
+	global_wild_game_output_modifier = 0.3
+}
+
+military_tactics_advance_6 = {
+	age = age_6_technomancy
+	
+	requires = airship_a
+	military_tactics = 0.25
+}
+
+napoleonic_warfare = {
+	age = age_6_technomancy
+	icon = expansionism
+	
+	requires = military_tactics_advance_6
+
+	ignore_zone_of_control = yes
+}
+
+corps_organisation = {
+	age = age_6_technomancy
+	icon = levee_en_masse_advance
+	
+	requires = military_tactics_advance_6
+	
+	movement_speed_when_attached_to_another_unit = -0.1
+	combat_speed_modifier = 0.10
+}
+
+march_to_the_sound_of_the_guns_advance = {
+	age = age_6_technomancy
+	icon = offensive_army
+	
+	requires = corps_organisation
+
+	unlock_ability = march_to_sound_of_guns
+}
+
+recruitment_improvements_revolutions = {
+	age = age_6_technomancy
+	icon = recruitment_improvements_renaissance
+	requires = corps_organisation
+
+	regiment_recruit_speed = 0.2
+}
+
+regiment_reinforcement_speed_revolutions = {
+	age = age_6_technomancy
+	icon = regiment_reinforcement_speed_renaissance
+	requires = recruitment_improvements_revolutions
+	regiment_reinforcement_speed = 0.1
+}
+
+army_movement_speed_revolutions = {
+	age = age_6_technomancy
+	icon = expansionism
+	requires = regiment_reinforcement_speed_revolutions
+
+	army_movement_speed = 0.1
+}
+
+siege_ability_revolutions = {
+	age = age_6_technomancy
+	requires = army_movement_speed_revolutions
+	siege_ability = 0.2
+}
+
+assault_ability_revolutions = {
+	age = age_6_technomancy
+	icon = offensive_army
+	requires = siege_ability_revolutions
+	assault_ability = 0.2
+}
+
+artillery_vs_fort_age_6_technomancy = {
+	age = age_6_technomancy
+	icon = artillery_institution_advance
+			
+	artillery_bonus_vs_fort = 2
+		
+	requires = march_to_the_sound_of_the_guns_advance
+}
+
+supply_depot_advance_age_6_technomancy = {
+	age = age_6_technomancy
+	icon = zmw_merchant_taxes
+			
+	supply_depot_capacity = 25
+		
+	requires = artillery_vs_fort_age_6_technomancy
+}
+
+correct_box_advance_revolutions = {
+	age = age_6_technomancy
+	icon = glorious_arms
+			
+	correct_box_chance = 0.1
+		
+	requires = supply_depot_advance_age_6_technomancy
+}
+
+advanced_anti_piracy_warfare = {
+	age = age_6_technomancy
+	icon = letters_of_marque
+
+
+	requires = correct_box_advance_revolutions
+	
+	global_pirate_spawn_chance = -0.5
+	anti_piracy_warfare_modifier = 0.5
+}
+
+public_punishments = {
+	age = age_6_technomancy
+	icon = global_trade_routes_advance
+	naval_morale = 0.25
+	requires = correct_box_advance_revolutions
+}
+
+impulse_warfare = {
+	age = age_6_technomancy
+	icon = offensive_army
+	land_morale = 0.25
+	requires = correct_box_advance_revolutions
+}
+
+################################
+# Lightning Current
+################################
+
+lightning_current_a = {
+	age = age_6_technomancy
+	icon = meritocracy
+		
+	country_cabinet_efficiency = 0.05
+	
+	depth = 0
+
+
+	allow = { has_embraced_institution = institution:lightning_current_i }
+}

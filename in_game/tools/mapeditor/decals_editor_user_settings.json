@@ -1,0 +1,9 @@
+﻿{
+	"lazy_update":	false,
+	"lazy_update_freq":	0.500000,
+	"bake_on_save":	false,
+	"free_transform_collision_radius_min":	0.001000,
+	"free_transform_collision_radius_max":	0.010000,
+	"output_to_user_dir":	true,
+	"is_baked_view":	false
+}
