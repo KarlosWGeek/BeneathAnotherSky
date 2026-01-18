@@ -1,0 +1,41 @@
+# avoid naming the same as Cultures and Languages
+
+#Species
+elven_species = {
+}
+
+#Sub-Species
+#Elves are a monolithic species, they do not have subspecies.
+
+#Divided by Continent
+#Alveris
+alverisian_elves = {
+}
+
+#Materterra
+materterran_elves = {
+}
+
+#Heyveil
+heyveilian_elves = {
+}
+
+##Valian
+valian_group = {
+}
+
+##Albusian
+albusian_group = {
+}
+
+##Celestial
+celestial_group = {
+}
+
+##Midnightian
+midnightian_group = {
+}
+
+##Crescentian
+cresentian_group = {
+}

@@ -1,0 +1,31 @@
+solacian = {
+    language = heyveilian_dialect
+
+    color = map_solacian
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        calderan = kindred
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves valian_group
+    }
+}
+
+calderan = {
+    language = heyveilian_dialect
+
+    color = map_calderan
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        solacian = kindred
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves valian_group
+    }
+}

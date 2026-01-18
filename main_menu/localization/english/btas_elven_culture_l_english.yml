@@ -1,0 +1,37 @@
+﻿l_english:
+ # Elves
+ # Species
+ elven_species: "Species: Elves"
+ elven_species_desc: "Elves are the longest lived and most magicallly potent sentient humanoid species of Elysium. They are capable of learning and using powerful magic with ease even before adulthood, magic that other humaniod races struggle with. Elves are very asocial compared to other races, living in secluded villages or in small single-family homes amidst the wilderness. This was not always been the case, and is likely a result of their declining numbers and very slow recovery following the devastating Ancient Elven Wars, a period of global magical warfare that ended 10,000 years ago."
+
+ #Language
+ elven_language_family: "Elven"
+ elven_language: "Elven"
+ heyveilian_dialect: "Heyveilian"
+ alverisian_dialect: "Alverisian"
+ materterran_dialect: "Materterran"
+
+ #Continental Culture
+ alverisian_elves: "Alverisian"
+ alverisian_elves_desc: "Elves of the northern continent of Alveris. They have black, dark gray and light gray skin tones, and green to blue hair and eye colors (often matching hair color). They have a unique gene that makes the scleras of their eyes black, but never passes down to their mixed race offspring."
+ materterran_elves: "Materterran"
+ materterran_elves_desc: "Elves of the great continent of Materterra, left there after the Great Elven Wars. Their skin tones, hair and eye colors are similar to humans due to frequent interbreeding with the Human population. Alverisian and Heyveilian elves do not regard them as 'Pure Elves' due to the dilution of elves' blood over the centuries of interbreeding."
+ heyveilian_elves: "Heyveilian"
+ heyveilian_elves_desc: "Elves of the southern continent of Heyveil. They have white to azureish white skin tones, silver to white hair, and blue, purple and red eye colors."
+
+ #Culture Groups
+ valian_group: "Valian"
+ valian_group_desc: "Elves of the White Vale, Blackstone Caldera and the Blackstone Region."
+ albusian_group: "Albusian"
+ albusian_group_desc: "Elves of the Albus Mons mountain chain."
+ celestial_group: "Celestial"
+ celestial_group_desc: "Elves of the Celestial Plateau."
+ midnightian_group: "Midnightian"
+ midnightian_group_desc: "Elves of the Midnight Coast."
+ cresentian_group: "Crescentian"
+ cresentian_group_desc: "Elves of the Lunar Crescent."
+
+ #Cultures
+ solacian: "Solacian"
+ solactian_desc: "Elves of the Blackstone Caldera, mostly living in the Ancient Elven City of Hei An Zuban."
+ calderan: "Calderan"
