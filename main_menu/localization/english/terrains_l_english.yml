@@ -115,8 +115,8 @@
  mountain_wasteland: "Mountain Wasteland"
  mountain_wasteland_desc: "$mountains_desc$"
  
- floating_wastelands: "Floating Edges"
- floating_wastelands_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
+ floating_wasteland: "Floating Edges"
+ floating_wasteland_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
  
  
  

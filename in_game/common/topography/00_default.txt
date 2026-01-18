@@ -1,4 +1,4 @@
-﻿### Land Topography
+### Land Topography
 
 # Wetlands
 wetlands = {
@@ -29,7 +29,7 @@ wetlands = {
 		masDataTopologyElevation = 0.1
 	}
 	
-	debug_color = rgb { 13 189 130 } # for topology_screenshot mapmode
+	debug_color = rgb { 8 72 32 } # for topology_screenshot mapmode
 }
 
 # Flatlands
@@ -46,7 +46,7 @@ flatland = {
 		masDataTopologyElevation = 0.1
 	}
 	
-	debug_color = rgb { 90 235 27 } # for topology_screenshot mapmode
+	debug_color = rgb { 16 112 16 } # for topology_screenshot mapmode
 }
 
 # Rolling Flatlands
@@ -76,7 +76,7 @@ rolling_flatland = {
 		masDataTopologyElevation = 0.1
 	}
 	
-	debug_color = rgb { 32 176 32 } # for topology_screenshot mapmode
+	debug_color = rgb { 8 160 8 } # for topology_screenshot mapmode
 }
 
 # Plateau
@@ -105,7 +105,7 @@ plateau = {
 		masDataTopologyElevation = 0.7
 	}
 	
-	debug_color = rgb { 128 208 48 } # for topology_screenshot mapmode
+	debug_color = rgb { 48 176 24 } # for topology_screenshot mapmode
 }
 
 # Irregular Plateau
@@ -138,7 +138,7 @@ irregular_plateau = {
 		masDataTopologyElevation = 0.7
 	}
 	
-	debug_color = rgb { 152 184 24 } # for topology_screenshot mapmode
+	debug_color = rgb { 136 176 0 } # for topology_screenshot mapmode
 }
 
 # High Plateau
@@ -171,7 +171,7 @@ high_plateau = {
 		masDataTopologyElevation = 0.7
 	}
 	
-	debug_color = rgb { 136 112 16 } # for topology_screenshot mapmode
+	debug_color = rgb { 192 176 64 } # for topology_screenshot mapmode
 }
 
 # Hills
@@ -205,7 +205,7 @@ hills = {
 		masDataTopologyElevation = 0.4
 	}
 	
-	debug_color = rgb { 113 176 151 } # for topology_screenshot mapmode
+	debug_color = rgb { 208 192 152 } # for topology_screenshot mapmode
 }
 
 # Mountains
@@ -240,7 +240,7 @@ mountains = {
 		masDataTopologyElevation = 1.0
 	}
 	
-	debug_color = rgb { 176 168 136 } # for topology_screenshot mapmode
+	debug_color = rgb { 232 216 176 } # for topology_screenshot mapmode
 }
 
 # High Mountains
@@ -304,7 +304,7 @@ floating_islands = {
 		masDataTopologyElevation = 1.0
 	}
 	
-	debug_color = rgb { 168 24 120 } # for topology_screenshot mapmode
+	debug_color = rgb { 168 16 112 } # for topology_screenshot mapmode
 }
 
 # Floating Mountains
@@ -339,7 +339,7 @@ floating_mountains = {
 		masDataTopologyElevation = 1.0
 	}
 	
-	debug_color = rgb { 72 24 168 } # for topology_screenshot mapmode
+	debug_color = rgb { 136 56 200 } # for topology_screenshot mapmode
 }
 
 
@@ -809,5 +809,5 @@ floating_wasteland = {
 		masDataTopologyElevation = 1.0
 
 	}
-	debug_color = rgb { 136 0 88 } # for topology_screenshot mapmode
+	debug_color = rgb { 136 0 64 } # for topology_screenshot mapmode
 }

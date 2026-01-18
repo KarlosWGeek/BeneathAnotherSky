@@ -1,4 +1,4 @@
-﻿# Enchanted
+# Enchanted
 enchanted = {
 	color = terrain_enchanted
 	movement_cost = 2
@@ -23,7 +23,7 @@ enchanted = {
 	audio_tags = {
 		masDataVegetationDensity = 1.0
 	}
-	debug_color = rgb { 64 24 80 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 128 0 208 } # for vegetation_screenshot mapmode
 }
 
 # Jungle
@@ -51,7 +51,7 @@ jungle = {
 	audio_tags = {
 		masDataVegetationDensity = 1.0
 	}
-	debug_color = rgb { 24 56 16 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 0 32 0 } # for vegetation_screenshot mapmode
 }
 
 # Forest
@@ -78,7 +78,7 @@ forest = {
 	audio_tags = {
 		masDataVegetationDensity = 0.75
 	}
-	debug_color = rgb { 40 80 24 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 0 64 0 } # for vegetation_screenshot mapmode
 }
 
 # Woods
@@ -105,7 +105,7 @@ woods = {
 	audio_tags = {
 		masDataVegetationDensity = 0.5
 	}
-	debug_color = rgb { 64 128 40 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 0 136 0 } # for vegetation_screenshot mapmode
 }
 
 # Farmlands
@@ -130,7 +130,7 @@ farmland = {
 	audio_tags = {
 		masDataVegetationDensity = 0.3
 	}
-	debug_color = rgb { 80 168 40 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 24 255 24 } # for vegetation_screenshot mapmode
 }
 
 # Grasslands
@@ -150,7 +150,7 @@ grasslands = {
 	audio_tags = {
 		masDataVegetationDensity = 0.2
 	}
-	debug_color = rgb { 96 160 48 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 0 208 0 } # for vegetation_screenshot mapmode
 }
 
 # Sparse
@@ -169,7 +169,7 @@ sparse = {
 	audio_tags = {
 		masDataVegetationDensity = 0.1
 	}
-	debug_color = rgb { 128 144 88 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 152 240 120 } # for vegetation_screenshot mapmode
 }
 
 # Desert
@@ -195,7 +195,7 @@ desert = {
 	audio_tags = {
 		masDataVegetationDensity = 0.0
 	}
-	debug_color = rgb { 160 152 104 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 255 240 184 } # for vegetation_screenshot mapmode
 }
 
 # Haunted
@@ -224,7 +224,7 @@ haunted = {
 	audio_tags = {
 		masDataVegetationDensity = 1.0
 	}
-	debug_color = rgb { 192 192 192 } # for vegetation_screenshot mapmode
+	debug_color = rgb { 240 240 240 } # for vegetation_screenshot mapmode
 }
 
 # Urban
