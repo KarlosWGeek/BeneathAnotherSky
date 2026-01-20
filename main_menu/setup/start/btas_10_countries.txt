@@ -14,7 +14,9 @@ current_age = age_1_sovereigns
 
 countries = {
     countries = {
-        HAB = {	#Austria
+        
+		# Austria
+		HAB = {
             own_control_core = {
                 testprovince1
                 testprovince2

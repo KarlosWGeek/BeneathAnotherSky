@@ -1,5 +1,4 @@
 dynasty_manager = {
-
 	habsburg_dynasty = {
 		name = { name = habsburg_dynasty }
 		home = testprovince1

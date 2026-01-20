@@ -1,4 +1,3 @@
-locations = {
-}
-building_manager = {
-}
+locations = { }
+
+building_manager = { }
