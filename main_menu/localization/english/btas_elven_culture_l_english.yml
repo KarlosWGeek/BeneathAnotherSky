@@ -1,0 +1,40 @@
+﻿l_english:
+ # Elves
+ # Species
+ elven_species: "Species: Elves"
+ elven_species_desc: "Elves are the longest lived sentient species of Elysium, possessing immense innate magical talent and mastery even early in life. They are very reclusive and live in harmony with nature, often using magic as an art form or to facilitate life. Their small dwindling numbers are a result of the Ancient Elven Wars, very slow reproductive cycles and recurring internal conflicts, leaving only a few well-governed nations and scattered city-states amongst the wilderness."
+
+ #Language
+ elven_language_family: "Elven"
+ elven_language: "Elven"
+ heyveilian_dialect: "Heyveilian"
+ volkenian_dialect: "Volkenian"
+ alverisian_dialect: "Alverisian"
+ materterran_dialect: "Materterran"
+
+ #Continental Culture
+ alverisian_elves: "Alverisian"
+ alverisian_elves_desc: "The Elves of the northern continent of Alveris have lived in harmony with nature for thousands of generations, protecting the continent’s fragile magical habitat from ecological collapse. They are known for their powerful space magic and ancient spiritualist traditions. Visually, they have black and dark gray skin tones and freckles that match their hair and eye color, which vary between shades of blue, white, yellow, orange and red. They also possess a unique gene that makes the scleras of their eyes black, although it never passes down to their mixed race offspring."
+ volkenian_elves: "Volkenian"
+ volkenian_elves_desc: "The Elves of the continent of Volkeneo have been isolated from their brethren and forced to live in hidden tribes and villages, fighting an endless war against the hostile fauna and powerful monsters of the continent. They’re known to be great hunters and trackers, navigating thick vegetation as if it’s always been their home. It’s believed that they once attempted to integrate with the Dwarves and their societies, but failed due to ideological differences, leading to tense coexistence instead. Visually, they have dark to light brown skin tones, black to light brown hair and brown, green, blue and yellow eye colors. "
+ materterran_elves: "Materterran"
+ materterran_elves_desc: "The Elves of the great continent of Materterra have peacefully integrated into human societies, now acting as gifted teachers of magic and keepers of tradition and knowledge. Their skin tones, hair and eye colors are now very similar to Humans, and their lifespan shortened to 750 years, but they still possess the distinct long ears and innate magical aptitude. But scattered ruins that predate all of human history can be found all across the continent, proving that they have never left their ancestral lands despite the rise of humanity."
+ heyveilian_elves: "Heyveilian"
+ heyveilian_elves_desc: "The Elves of the southern continent of Heyveil have adapted to the extreme cold, sparse vegetation and long polar nights by coming together during the winter months and rationing shared resources. Due to the harsh climate they’ve always been very isolated from other races and distant foreign conflicts, which have kept their population relatively high compared to other elven cultures. Visually, they have snow white to azureish white skin tones, gray, silver and white hair, and light blue, blue, purple and red eye colors."
+
+ #Culture Groups
+ valian_group: "Valian"
+ valian_group_desc: "The Elves of the White Vale and the Blackstone Caldera are the most numerous of Heyveil, having spent hundreds of thousands of years of relative food security under the dominion of a unified and prosperous Empire of Solace, despite the desert vegetation and lack of wild fauna. During the winter and heavy snowstorms they ration their food to last until new shipments come in trading caravans that more resemble land boats sailing through the snow."
+ albusian_group: "Albusian"
+ albusian_group_desc: "Elves of the Albus Mons mountain chain."
+ celestial_group: "Celestial"
+ celestial_group_desc: "Elves of the Celestial Plateau."
+ midnightian_group: "Midnightian"
+ midnightian_group_desc: "Elves of the Midnight Coast."
+ cresentian_group: "Crescentian"
+ cresentian_group_desc: "Elves of the Lunar Crescent."
+
+ #Cultures
+ solacian: "Solacian"
+ solactian_desc: "The Elves of the Blackstone Caldera, mostly living in the ancient elven city of Hei An Zuban, one the last still intact since the Ancient Elven Wars. Due to the warmth of the caldera and the nutrients of the soil, vast fields of White Aelther grew to sustain a population large enough to fill this ancient metropolis and dominate the continent through sheer numbers."
+ calderan: "Calderan"

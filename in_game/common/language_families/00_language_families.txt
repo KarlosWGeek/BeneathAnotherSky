@@ -1,0 +1,8 @@
+﻿germanic_language_family = {
+
+	color = map_germanic_language_family
+}
+
+romance_language_family = {
+	color = map_romance_language_family
+}

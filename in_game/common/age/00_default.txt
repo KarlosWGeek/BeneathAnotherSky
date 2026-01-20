@@ -1,4 +1,4 @@
-﻿age_1_sovereigns = {
+﻿age_1_sovereigns = { #age_1_traditions
 	year = 1200
 	price_stability = 0.1
 	max_price = 3
@@ -35,7 +35,7 @@
 	}
 }
 
-age_2_tides = {
+age_2_tides = { #age_2_renaissance
 	year = 1400
 	price_stability = 0.1
 	max_price = 3
@@ -80,7 +80,7 @@ age_2_tides = {
 	}
 }
 
-age_3_embers = {
+age_3_embers = { #age_3_discovery
 	year = 1500
 	price_stability = 0.08
 	max_price = 4
@@ -129,7 +129,7 @@ age_3_embers = {
 	}
 }
 
-age_4_darkness = {
+age_4_darkness = { #age_4_reformation
 	year = 1600
 	price_stability = 0.06
 	max_price = 5
@@ -177,7 +177,7 @@ age_4_darkness = {
 	}
 }
 
-age_5_unbinding = {
+age_5_unbinding = { #age_5_absolutism
 	year = 1700
 	price_stability = 0.04
 	max_price = 5
@@ -235,7 +235,7 @@ age_5_unbinding = {
 	}
 }
 
-age_6_technomancy = {
+age_6_technomancy = { #age_6_revolutions
 	year = 1800
 	price_stability = 0.02
 	max_price = 5

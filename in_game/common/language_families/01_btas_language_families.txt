@@ -1,0 +1,4 @@
+elven_language_family = {
+
+    color = map_elven_language_family
+}
