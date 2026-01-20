@@ -12,7 +12,6 @@ colors = {
 	map_germanic_language_family = hsv360 { 17 75 77 }
 	map_german = hsv360 { 180 10 50 }
 
-	map_germanic_language_family = hsv360 { 17 75 77 }
 	map_romance_language_family = hsv360 { 5 80 80 }
 
 	#Christians
@@ -75,8 +74,6 @@ colors = {
 	terrain_hills = rgb { 208 192 152 } # Hills
 	terrain_mountain = rgb { 232 216 176 } # Mountains
 	terrain_high_mountain = rgb { 208 208 208 } # High Mountains
-	terrain_floating_islands = rgb { 168 24 120 } # Floating Islands
-	terrain_floating_mountains = rgb { 72 24 168 } # Floating Mountains
 	terrain_floating_islands = rgb { 168 16 112 } # Floating Islands
 	terrain_floating_mountains = rgb { 136 56 200 } # Floating Mountains
 
@@ -233,66 +230,5 @@ colors = {
 	map_paved_road = hsv360 { 218 50 90 }
 	map_modern_road = hsv360 { 40 78 75 }
 	map_railroad = hsv360 { 259 86 85 }
-
-	#Situation Colors
-	delhi_ally_color = rgb { 200 164 42 }
-	delhi_subject_loyal_color = rgb { 42 78 200 }
-	delhi_subject_disloyal_color = rgb { 200 85 42 }
-	delhi_enemy_or_rival_color = rgb { 164 42 200 }
-	delhi_claimant_color = rgb { 220 20 60 }
-	delhi_provincial_sultanate_color = rgb { 255 165 0 }
-	map_bahmanis = rgb { 174 16 15 }
-	map_malwa = rgb { 238 238 238 }
-	map_gujarat = rgb { 231 224 107 }
-	map_jaunpur = rgb { 100 94 125 }
-	gag_undecided_color = rgb { 0 155 156 }
-	cot_conciliatory_color = rgb { 45 75 203 }
-	cot_belligerent_color = rgb { 203 75 43 }
-
-	#Red Turban Rebellions
-	rtr_emperor_color = rgb { 254 206 27 }
-	rtr_strongest_rebel_color = rgb { 237 0 4 }
-	rtr_loyalist_color = rgb { 70 200 12 }
-	rtr_rebel_color = rgb { 237 122 46 }
-	rtr_neutral_color = rgb { 100 100 100 }
-
-	#Italian Wars
-	map_french_league_leader = rgb { 37 75 229 }
-	map_iberian_league_leader = rgb { 243 177 9 }
-	map_hre_league_leader = rgb { 243 142 85 }
-	map_italian_league_1_leader = rgb { 119 32 16 }
-	map_italian_league_2_leader = rgb { 27 92 18 }
-	map_italian_league_3_leader = rgb { 214 120 211 }
-	#Guelphs and Ghibellines
-	gag_guelphs_color = rgb { 140 143 113 }
-	gag_guelphs_leader_color = rgb { 190 190 150 }
-	gag_ghibellines_color = rgb { 166 130 45 }
-	gag_ghibellines_leader_color = rgb { 214 193 57 }
-	#War of Religions
-	war_of_religions_protestant_union_color = rgb { 0 76 153 }    			# Deep Blue
-	war_of_religions_protestant_union_leader_color = rgb { 30 144 255 }    	# Dodger Blue
-	war_of_religions_protestant_union_ally_color = rgb { 102 51 204 }   	# Violet Blue
-	war_of_religions_catholic_league_color = rgb { 218 165 32 }   	 		# Goldenrod
-	war_of_religions_catholic_league_leader_color = rgb { 184 134 11 }    	# Dark Goldenrod
-	war_of_religions_catholic_league_ally_color = rgb { 189 183 107 }    	# Dark Khaki
-	#Venice - The Golden Republic
-	map_venice_orange = rgb { 253 140 28 } #Venetian Flag Color
-	map_venice_purple = rgb { 128 0 32 } #EU4 La Serenissima Color
-	#Reformation
-	reformation_reformer = rgb { 27 201 104 }
-	reformation_jesuits_state = rgb { 201 6 10 }
-	#Columbian Exchange
-	color_ow_country = rgb { 181 45 16 }
-	color_nw_country = rgb { 26 181 16 }
-
-	#formables
-	map_BEL = hsv360 { 42 77 81 }
-	map_FKN = rgb { 52 186 235 }
-	map_HAN = rgb { 191 23 23 }
-	map_DAL = rgb { 184 173 18 }
-	map_KRS = rgb { 18 104 184 }
-	map_SOI = rgb { 52 186 235 }
-	map_NUB = rgb { 156 82 14 }
-	map_NUS = rgb { 91 24 128 }
 }
 

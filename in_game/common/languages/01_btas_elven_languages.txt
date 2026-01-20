@@ -46,7 +46,55 @@ elven_language = {
             }
         }
 
+        volkenian_dialect = {
+            male_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            female_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            dynasty_names = {
+                dyn_Solen
+            }
+
+            lowborn = {
+                name_erios
+            }
+        }
+
         materterran_dialect = {
+            male_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            female_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            dynasty_names = {
+                dyn_Solen
+            }
+
+            lowborn = {
+                name_erios
+            }
+        }
+
+        alverisian_dialect = {
             male_names = {
                 #From Language
                 name_asta

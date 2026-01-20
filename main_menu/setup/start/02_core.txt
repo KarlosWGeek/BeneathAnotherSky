@@ -1,14 +1,14 @@
 institution_manager = {
 	institutions = {
-		lords_accords = {
+		national_governments_i = {
 			active = yes
 			birth_place = testprovince1
 		}
-		gunpowder_weaponry = {
+		gunpowder_i = {
 			active = yes
 			birth_place = testprovince2
 		}
-		organized_guilds = {
+		gilded_ledgers_i = {
 			active = yes
 			birth_place = testprovince3
 		}
