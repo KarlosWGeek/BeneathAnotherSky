@@ -1,0 +1,121 @@
+elven_language = {
+    color = map_elven_language_family
+    family = elven_language_family
+
+    male_names = {
+        name_asta
+    }
+
+    female_names = {
+        name_asta
+    }
+
+    dynasty_names = {
+        dyn_Sol dyn_Solen
+    }
+
+    lowborn = {
+        name_erios
+    }
+
+    dialects = {
+        heyveilian_dialect = {
+            male_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_elwyn
+                name_astra
+            }
+
+            female_names = {
+                #From Language
+                name_asta
+
+                #From Dialect
+                name_elwyn
+                name_astra
+            }
+
+            dynasty_names = {
+                dyn_Sol
+            }
+
+            lowborn = {
+                name_erios
+            }
+        }
+
+        volkenian_dialect = {
+            male_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            female_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            dynasty_names = {
+                dyn_Solen
+            }
+
+            lowborn = {
+                name_erios
+            }
+        }
+
+        materterran_dialect = {
+            male_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            female_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            dynasty_names = {
+                dyn_Solen
+            }
+
+            lowborn = {
+                name_erios
+            }
+        }
+
+        alverisian_dialect = {
+            male_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            female_names = {
+                #From Language
+                name_asta
+                #From Dialect
+                name_asta
+            }
+
+            dynasty_names = {
+                dyn_Solen
+            }
+
+            lowborn = {
+                name_erios
+            }
+        }
+    }
+}

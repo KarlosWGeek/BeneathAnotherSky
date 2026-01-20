@@ -1,0 +1,3 @@
+﻿# avoid naming the same as Cultures and Languages
+german_group = {
+}

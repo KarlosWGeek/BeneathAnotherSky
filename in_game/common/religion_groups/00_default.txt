@@ -1,0 +1,6 @@
+﻿christian = {
+	color = religion_catholic
+	allow_slaves_of_same_group = no
+	convert_slaves_at_start = no
+
+}
