@@ -1,0 +1,95 @@
+p_building_age_1_sovereigns_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_building_age_2_tides_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_building_age_3_embers_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_building_age_4_darkness_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_building_age_5_unbinding_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_building_age_6_technomancy_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_expensive_building_age_1_sovereigns_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_expensive_building_age_2_tides_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_expensive_building_age_3_embers_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_expensive_building_age_4_darkness_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_expensive_building_age_5_unbinding_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
+p_expensive_building_age_6_technomancy_cost_modifier={
+    color=bad
+    percent=yes
+    game_data={
+        category=country
+    }
+}

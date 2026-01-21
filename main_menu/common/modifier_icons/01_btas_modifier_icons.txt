@@ -1,0 +1,37 @@
+p_building_age_1_sovereigns_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/small_foreign_building_cost_modifier.dds"
+}
+p_building_age_2_tides_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/small_foreign_building_cost_modifier.dds"
+}
+p_building_age_3_embers_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/small_foreign_building_cost_modifier.dds"
+}
+p_building_age_4_darkness_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/small_foreign_building_cost_modifier.dds"
+}
+p_building_age_5_unbinding_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/small_foreign_building_cost_modifier.dds"
+}
+p_building_age_6_technomancy_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/small_foreign_building_cost_modifier.dds"
+}
+
+p_expensive_building_age_1_sovereigns_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/capital_building_cost_modifier.dds"
+}
+p_expensive_building_age_2_tides_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/capital_building_cost_modifier.dds"
+}
+p_expensive_building_age_3_embers_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/capital_building_cost_modifier.dds"
+}
+p_expensive_building_age_4_darkness_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/capital_building_cost_modifier.dds"
+}
+p_expensive_building_age_5_unbinding_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/capital_building_cost_modifier.dds"
+}
+p_expensive_building_age_6_technomancy_cost_modifier = {
+    positive = "gfx/interface/icons/modifier_types/capital_building_cost_modifier.dds"
+}
