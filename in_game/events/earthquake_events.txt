@@ -1,0 +1,321 @@
+﻿namespace = earthquake_events
+
+# template for earthquake events
+scripted_effect minor_earthquake_payment = {
+	add_gold = {
+		value = -25
+		add = {
+			value = scope:target_location.location_tax_base
+			multiply = -7
+		}
+	}
+}
+
+scripted_effect major_earthquake_payment = {
+	add_gold = {
+		value = -50
+		add = {
+			value = scope:target_location.location_tax_base
+			multiply = -15
+		}
+	}
+}
+
+
+scripted_effect catastrophic_earthquake_payment = {
+	add_gold = {
+		value = -100
+		add = {
+			value = scope:target_location.location_tax_base
+			multiply = -20
+		}
+	}
+}
+
+scripted_effect minor_earthquake_damage = {
+	change_prosperity = prosperity_severe_penalty
+	every_pop = {
+		add_pop_size = {
+			value = pop_size
+			multiply = -0.05
+		}
+	}
+	ordered_buildings_in_location = {
+		order_by = building_level
+		max = {
+			value = 1
+			add = {
+				value = num_buildings
+				divide = 15
+				ceiling = yes
+			}
+		}
+		location = { minor_destroy_building_levels_in_location = yes }
+	}
+	every_unit_in_location = {
+		damage_unit_percent = { 0.33 1 }
+		damage_unit_morale_percent = { 0.5 1 }
+	}
+	every_neighbor_location = { 
+		change_prosperity = prosperity_weak_penalty
+		every_pop = {
+			add_pop_size = {
+				value = pop_size
+				multiply = -0.05
+			}
+		}
+		ordered_buildings_in_location = {
+			order_by = building_level
+			max = {
+				value = 1
+				add = {
+					value = num_buildings
+					divide = 20
+				}
+			}
+			location = { minor_destroy_building_levels_in_location = yes }
+		}
+		every_unit_in_location = {
+			damage_unit_percent = { 0 0.33 }
+			damage_unit_morale_percent = { 0.2 0.5 }
+		}
+	}
+}
+
+scripted_effect major_earthquake_damage = {
+	change_prosperity = prosperity_ultimate_penalty
+	every_pop = {
+		add_pop_size = {
+			value = pop_size
+			multiply = -0.1
+		}
+	}
+	ordered_buildings_in_location = {
+		order_by = building_level
+		max = {
+			value = 1
+	
+			add = {
+				value = num_buildings
+				divide = 10
+				ceiling = yes
+			}
+		}
+		location = { major_destroy_building_levels_in_location = yes }
+	}
+	every_unit_in_location = {
+		damage_unit_percent = { 0.5 1 }
+		damage_unit_morale_percent = { 0.75 1 }
+	}
+	every_neighbor_location = {
+		change_prosperity = prosperity_severe_penalty
+		every_pop = {
+			add_pop_size = {
+				value = pop_size
+				multiply = -0.05
+			}
+		}
+		ordered_buildings_in_location = {
+			order_by = building_level
+			max = {
+				value = 1
+				add = {
+					value = num_buildings
+					divide = 15
+				}
+			}
+			location = { major_destroy_building_levels_in_location = yes }
+		}
+		every_unit_in_location = {
+			damage_unit_percent = { 0.33 1 }
+			damage_unit_morale_percent = { 0.5 1 }
+		}
+	}
+}
+
+scripted_effect catastrophic_earthquake_damage = {
+	change_prosperity = prosperity_radical_penalty
+	every_pop = {
+		add_pop_size = {
+			value = pop_size
+			multiply = -0.2
+		}
+	}
+	ordered_buildings_in_location = {
+		order_by = building_level
+		max = {
+			value = 1
+			add = {
+				value = num_buildings
+				divide = 8
+				ceiling = yes
+			}
+		}
+		location = { catastrophic_destroy_building_levels_in_location = yes }
+	}
+	every_unit_in_location = {
+		destroy_unit = yes
+	}
+	every_neighbor_location = {
+		change_prosperity = prosperity_extreme_penalty
+		every_pop = {
+			add_pop_size = {
+				value = pop_size
+				multiply = -0.1
+			}
+		}
+		ordered_buildings_in_location = {
+			order_by = building_level
+			max = {
+				value = 1
+				add = {
+					value = num_buildings
+					divide = 10
+				}
+			}
+			location = { major_destroy_building_levels_in_location = yes }
+		}
+		every_unit_in_location = {
+			damage_unit_percent = { 0.5 1 }
+			damage_unit_morale_percent = { 0.75 1 }
+		}
+	}
+}
+
+earthquake_events.90 = { #generic minor earthquake
+	type = location_event
+	title = earthquake_events.title
+	desc = earthquake_events_minor.desc
+
+	trigger = {
+		has_owner = yes
+	}
+
+
+	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
+	
+	
+	immediate = {
+		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
+		save_scope_as = target_location
+	}
+		
+	option = {
+		name = earthquake_events_minor.a
+
+		custom_tooltip = earthquake_events_minor.a.tt
+		hidden_effect = {
+			minor_earthquake_damage = yes
+		}
+	}
+	
+	option = {
+		name = earthquake_events_minor.b
+
+		owner = {
+			minor_earthquake_payment = yes
+		}
+		custom_tooltip = earthquake_events_minor.b.tt
+		hidden_effect = {
+			minor_earthquake_damage = yes
+			add_location_modifier = {
+				modifier = minor_recovery_effort
+				years = 10
+				mode = add_and_extend
+			}
+		}
+	}
+}
+
+earthquake_events.91 = { #generic major earthquake
+	type = location_event
+	title = earthquake_events.title
+	desc = earthquake_events_major.desc
+
+	trigger = {
+		has_owner = yes
+	}
+	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
+	
+	
+	immediate = {
+		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
+		save_scope_as = target_location
+	}
+		
+	option = {
+		name = earthquake_events_major.a
+
+		custom_tooltip = earthquake_events_major.a.tt
+		hidden_effect = {
+			major_earthquake_damage = yes
+		}
+	}
+	
+	option = {
+		name = earthquake_events_major.b
+
+		owner = {
+			major_earthquake_payment = yes
+		}
+		custom_tooltip = earthquake_events_major.b.tt
+		hidden_effect = {
+			major_earthquake_damage = yes
+			add_location_modifier = {
+				modifier = major_recovery_effort
+				years = 10
+				mode = add_and_extend
+			}
+		}
+	}
+}
+
+earthquake_events.92 = { #generic catastrophic earthquake
+	type = location_event
+	title = earthquake_events.title
+	desc = earthquake_events_catastrophic.desc
+
+
+	trigger = {
+		has_owner = yes
+	}
+	
+	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
+	
+	immediate = {
+		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
+		save_scope_as = target_location
+	}
+		
+	option = {
+		name = earthquake_events_catastrophic.a
+
+		custom_tooltip = earthquake_events_catastrophic.a.tt
+		hidden_effect = {
+			catastrophic_earthquake_damage = yes
+			if = {
+				limit = {
+					location_rank = location_rank:city
+				}
+				change_location_rank = location_rank:town
+			}
+		}
+	}
+	
+	option = {
+		name = earthquake_events_catastrophy.b
+
+		owner = {
+			catastrophic_earthquake_payment = yes
+		}
+		custom_tooltip = earthquake_events_catastrophy.b.tt
+		hidden_effect = {
+			catastrophic_earthquake_damage = yes
+			add_location_modifier = {
+				modifier = major_recovery_effort
+				years = 10
+				mode = add_and_extend
+			}
+		}
+	}
+}

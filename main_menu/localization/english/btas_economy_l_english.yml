@@ -1,0 +1,13 @@
+﻿l_english:
+ p_building_age_1_sovereigns: "[ShowAgeNameWithNoTooltip('age_1_sovereigns')] Buildings"
+ p_building_age_2_tides: "[ShowAgeNameWithNoTooltip('age_2_tides')] Buildings"
+ p_building_age_3_embers: "[ShowAgeNameWithNoTooltip('age_3_embers')] Buildings"
+ p_building_age_4_darkness: "[ShowAgeNameWithNoTooltip('age_4_darkness')] Buildings"
+ p_building_age_5_unbinding: "[ShowAgeNameWithNoTooltip('age_5_unbinding')] Buildings"
+ p_building_age_6_technomancy: "[ShowAgeNameWithNoTooltip('age_6_technomancy')] Buildings"
+ p_expensive_building_age_1_sovereigns: "Expensive [ShowAgeNameWithNoTooltip('age_1_sovereigns')] Buildings"
+ p_expensive_building_age_2_tides: "Expensive [ShowAgeNameWithNoTooltip('age_2_tides')] Buildings"
+ p_expensive_building_age_3_embers: "Expensive [ShowAgeNameWithNoTooltip('age_3_embers')] Buildings"
+ p_expensive_building_age_4_darkness: "Expensive [ShowAgeNameWithNoTooltip('age_4_darkness')] Buildings"
+ p_expensive_building_age_5_unbinding: "Expensive [ShowAgeNameWithNoTooltip('age_5_unbinding')] Buildings"
+ p_expensive_building_age_6_technomancy: "Expensive [ShowAgeNameWithNoTooltip('age_6_technomancy')] Buildings"
