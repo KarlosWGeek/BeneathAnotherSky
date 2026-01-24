@@ -1,0 +1,1 @@
+﻿namespace = patriarch_events

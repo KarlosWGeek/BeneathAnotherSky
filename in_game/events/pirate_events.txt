@@ -1,4 +1,4 @@
-﻿# namespace = pirate_events
+﻿namespace = pirate_events
 #
 #
 # pirate_events.1 = {

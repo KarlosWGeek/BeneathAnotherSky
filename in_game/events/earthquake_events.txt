@@ -182,140 +182,140 @@ scripted_effect catastrophic_earthquake_damage = {
 	}
 }
 
-earthquake_events.90 = { #generic minor earthquake
-	type = location_event
-	title = earthquake_events.title
-	desc = earthquake_events_minor.desc
-
-	trigger = {
-		has_owner = yes
-	}
-
-
-	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
-	
-	
-	immediate = {
-		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
-		save_scope_as = target_location
-	}
-		
-	option = {
-		name = earthquake_events_minor.a
-
-		custom_tooltip = earthquake_events_minor.a.tt
-		hidden_effect = {
-			minor_earthquake_damage = yes
-		}
-	}
-	
-	option = {
-		name = earthquake_events_minor.b
-
-		owner = {
-			minor_earthquake_payment = yes
-		}
-		custom_tooltip = earthquake_events_minor.b.tt
-		hidden_effect = {
-			minor_earthquake_damage = yes
-			add_location_modifier = {
-				modifier = minor_recovery_effort
-				years = 10
-				mode = add_and_extend
-			}
-		}
-	}
-}
-
-earthquake_events.91 = { #generic major earthquake
-	type = location_event
-	title = earthquake_events.title
-	desc = earthquake_events_major.desc
-
-	trigger = {
-		has_owner = yes
-	}
-	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
-	
-	
-	immediate = {
-		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
-		save_scope_as = target_location
-	}
-		
-	option = {
-		name = earthquake_events_major.a
-
-		custom_tooltip = earthquake_events_major.a.tt
-		hidden_effect = {
-			major_earthquake_damage = yes
-		}
-	}
-	
-	option = {
-		name = earthquake_events_major.b
-
-		owner = {
-			major_earthquake_payment = yes
-		}
-		custom_tooltip = earthquake_events_major.b.tt
-		hidden_effect = {
-			major_earthquake_damage = yes
-			add_location_modifier = {
-				modifier = major_recovery_effort
-				years = 10
-				mode = add_and_extend
-			}
-		}
-	}
-}
-
-earthquake_events.92 = { #generic catastrophic earthquake
-	type = location_event
-	title = earthquake_events.title
-	desc = earthquake_events_catastrophic.desc
-
-
-	trigger = {
-		has_owner = yes
-	}
-	
-	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
-	
-	immediate = {
-		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
-		save_scope_as = target_location
-	}
-		
-	option = {
-		name = earthquake_events_catastrophic.a
-
-		custom_tooltip = earthquake_events_catastrophic.a.tt
-		hidden_effect = {
-			catastrophic_earthquake_damage = yes
-			if = {
-				limit = {
-					location_rank = location_rank:city
-				}
-				change_location_rank = location_rank:town
-			}
-		}
-	}
-	
-	option = {
-		name = earthquake_events_catastrophy.b
-
-		owner = {
-			catastrophic_earthquake_payment = yes
-		}
-		custom_tooltip = earthquake_events_catastrophy.b.tt
-		hidden_effect = {
-			catastrophic_earthquake_damage = yes
-			add_location_modifier = {
-				modifier = major_recovery_effort
-				years = 10
-				mode = add_and_extend
-			}
-		}
-	}
-}
+# earthquake_events.90 = { #generic minor earthquake
+# 	type = location_event
+# 	title = earthquake_events.title
+# 	desc = earthquake_events_minor.desc
+#
+# 	trigger = {
+# 		has_owner = yes
+# 	}
+#
+#
+# 	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
+#
+#
+# 	immediate = {
+# 		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
+# 		save_scope_as = target_location
+# 	}
+#
+# 	option = {
+# 		name = earthquake_events_minor.a
+#
+# 		custom_tooltip = earthquake_events_minor.a.tt
+# 		hidden_effect = {
+# 			minor_earthquake_damage = yes
+# 		}
+# 	}
+#
+# 	option = {
+# 		name = earthquake_events_minor.b
+#
+# 		owner = {
+# 			minor_earthquake_payment = yes
+# 		}
+# 		custom_tooltip = earthquake_events_minor.b.tt
+# 		hidden_effect = {
+# 			minor_earthquake_damage = yes
+# 			add_location_modifier = {
+# 				modifier = minor_recovery_effort
+# 				years = 10
+# 				mode = add_and_extend
+# 			}
+# 		}
+# 	}
+# }
+#
+# earthquake_events.91 = { #generic major earthquake
+# 	type = location_event
+# 	title = earthquake_events.title
+# 	desc = earthquake_events_major.desc
+#
+# 	trigger = {
+# 		has_owner = yes
+# 	}
+# 	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
+#
+#
+# 	immediate = {
+# 		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
+# 		save_scope_as = target_location
+# 	}
+#
+# 	option = {
+# 		name = earthquake_events_major.a
+#
+# 		custom_tooltip = earthquake_events_major.a.tt
+# 		hidden_effect = {
+# 			major_earthquake_damage = yes
+# 		}
+# 	}
+#
+# 	option = {
+# 		name = earthquake_events_major.b
+#
+# 		owner = {
+# 			major_earthquake_payment = yes
+# 		}
+# 		custom_tooltip = earthquake_events_major.b.tt
+# 		hidden_effect = {
+# 			major_earthquake_damage = yes
+# 			add_location_modifier = {
+# 				modifier = major_recovery_effort
+# 				years = 10
+# 				mode = add_and_extend
+# 			}
+# 		}
+# 	}
+# }
+#
+# earthquake_events.92 = { #generic catastrophic earthquake
+# 	type = location_event
+# 	title = earthquake_events.title
+# 	desc = earthquake_events_catastrophic.desc
+#
+#
+# 	trigger = {
+# 		has_owner = yes
+# 	}
+#
+# 	image = "gfx/interface/illustrations/event/backgrounds/special/earthquake.dds"
+#
+# 	immediate = {
+# 		owner ?= { event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate } }
+# 		save_scope_as = target_location
+# 	}
+#
+# 	option = {
+# 		name = earthquake_events_catastrophic.a
+#
+# 		custom_tooltip = earthquake_events_catastrophic.a.tt
+# 		hidden_effect = {
+# 			catastrophic_earthquake_damage = yes
+# 			if = {
+# 				limit = {
+# 					location_rank = location_rank:city
+# 				}
+# 				change_location_rank = location_rank:town
+# 			}
+# 		}
+# 	}
+#
+# 	option = {
+# 		name = earthquake_events_catastrophy.b
+#
+# 		owner = {
+# 			catastrophic_earthquake_payment = yes
+# 		}
+# 		custom_tooltip = earthquake_events_catastrophy.b.tt
+# 		hidden_effect = {
+# 			catastrophic_earthquake_damage = yes
+# 			add_location_modifier = {
+# 				modifier = major_recovery_effort
+# 				years = 10
+# 				mode = add_and_extend
+# 			}
+# 		}
+# 	}
+# }

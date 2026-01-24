@@ -1,0 +1,1 @@
+﻿namespace = autocephalous_patriarcates

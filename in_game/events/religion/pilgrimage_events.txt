@@ -1,0 +1,1 @@
+﻿namespace = pilgrimage_events
