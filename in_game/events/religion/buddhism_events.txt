@@ -1,0 +1,1 @@
+﻿namespace = buddhism_events
