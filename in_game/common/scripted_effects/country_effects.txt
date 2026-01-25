@@ -1085,8 +1085,8 @@ nudge_towards_isolationism = {
     if = {
         limit = {
             NOR = {
-                current_age = age_1_traditions
-                current_age = age_2_renaissance
+                current_age = age_1_sovereigns
+                current_age = age_2_tides
             }
         }
         change_societal_value = {
@@ -1109,8 +1109,8 @@ nudge_towards_openness = {
     if = {
         limit = {
             NOR = {
-                current_age = age_1_traditions
-                current_age = age_2_renaissance
+                current_age = age_1_sovereigns
+                current_age = age_2_tides
             }
         }
         change_societal_value = {

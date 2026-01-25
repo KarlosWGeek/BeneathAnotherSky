@@ -3,7 +3,10 @@
 	text = {
 		localization_key = country_name_construction_ancient_rank_name
 		trigger = {
-			tag = HAB
+			OR = {
+				tag = HAB
+				tag = SOL
+			}
 		}
 	}
 	# text = {
