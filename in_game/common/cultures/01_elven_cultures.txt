@@ -1,12 +1,14 @@
-solacian = {
+weiji = {
     language = heyveilian_dialect
 
-    color = map_solacian
+    color = map_weiji
 
     tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 
     opinions = {
-        calderan = kindred
+        houshan = kindred
+		nanji = kindred
+		miansha = kindred
     }
 
     culture_groups = {
@@ -14,15 +16,53 @@ solacian = {
     }
 }
 
-calderan = {
+houshan = {
     language = heyveilian_dialect
 
-    color = map_calderan
+    color = map_houshan
 
     tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 
     opinions = {
-        solacian = kindred
+        weiji = kindred
+		nanji = kindred
+		miansha = kindred
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves valian_group
+    }
+}
+
+nanji = {
+    language = heyveilian_dialect
+
+    color = map_nanji
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        weiji = kindred
+		houshan = kindred
+		miansha = kindred
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves valian_group
+    }
+}
+
+miansha = {
+    language = heyveilian_dialect
+
+    color = map_miansha
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        weiji = kindred
+		houshan = kindred
+		nanji = kindred
     }
 
     culture_groups = {

@@ -1,15 +1,78 @@
 ﻿l_english:
 
-#Elves
+ ### Elves
 
-#Dynasties
-#Dynasties - Heyveil
- dyn_Sol: "Sol"
- dyn_Solen: "Solen"
+ ## Dynasties
+ 
+ # Heyveil
+ sol_dynasty: "Sol"
 
-#Names
-#Names - Heyveil
- name_asta: "Asta"
- name_astra: "Astra"
- name_elwyn: "Elwyn"
- name_erios: "Erios"
+ ## Names
+ 
+ # Heyveil Male Special/Unique
+ name_astraelion: "Astraelion"
+ name_caelithor: "Caelithor"
+ name_celesthael: "Celesthael"
+ name_eltharion: "Eltharion"
+ name_lunovar: "Lunovar"
+ name_mythraelor: "Mythraelor"
+ name_noctyriel: "Noctyriel"
+ name_orionthir: "Orionthir"
+ name_vaeloris: "Vaeloris"
+ name_zerethyn: "Zerethyn"
+ 
+ # Heyveil Male Generic
+ name_aelthryon: "Aelthryon"
+ name_astronomys: "Astronomys"
+ name_caelithorn: "Caelithorn"
+ name_cryndoril: "Cryndoril"
+ name_eirvashan: "Eirvashan"
+ name_frostrellion: "Frostrellion"
+ name_glaciovar: "Glaciovar"
+ name_hailthirion: "Hailthirion"
+ name_iskandrel: "Iskandrel"
+ name_ithryndel: "Ithryndel"
+ name_kaldryss: "Kaldryss"
+ name_lunethir: "Lunethir"
+ name_noctyren: "Noctyren"
+ name_nyxarion: "Nyxarion"
+ name_skeltharys: "Skeltharys"
+ name_sylvarnox: "Sylvarnox"
+ name_thalorwyn: "Thalorwyn"
+ name_umbraevin: "Umbraevin"
+ name_vaelithar: "Vaelithar"
+ name_vorthalan: "Vorthalan"
+ 
+ # Heyveil Female Special/Unique
+ name_astraelune: "Astraelune"
+ name_auroryn: "Auroryn"
+ name_caelithrae: "Caelithrae"
+ name_elthariel: "Elthariel"
+ name_lunethrae: "Lunethrae"
+ name_mythraelle: "Mythraelle"
+ name_noctyriel: "Noctyriel"
+ name_selentha: "Selentha"
+ name_vaeloria: "Vaeloria"
+ name_zerethia: "Zerethia"
+ 
+ # Heyveil Female Generic
+ name_aelirae: "Aelirae"
+ name_astraella: "Astraella"
+ name_caelithrae: "Caelithrae"
+ name_cryselwyn: "Cryselwyn"
+ name_eirvessa: "Eirvessa"
+ name_frostellia: "Frostellia"
+ name_glaciara: "Glaciara"
+ name_hailthire: "Hailthire"
+ name_iskaelune: "Iskaelune"
+ name_ithryndra: "Ithryndra"
+ name_kaldrya: "Kaldrya"
+ name_lunarianna: "Lunarianna"
+ name_noctyra: "Noctyra"
+ name_nyxethiel: "Nyxethiel"
+ name_skelthyria: "Skelthyria"
+ name_sylvaenox: "Sylvaenox"
+ name_thaloryne: "Thaloryne"
+ name_umbraelle: "Umbraelle"
+ name_vaelithra: "Vaelithra"
+ name_vorthalya: "Vorthalya"

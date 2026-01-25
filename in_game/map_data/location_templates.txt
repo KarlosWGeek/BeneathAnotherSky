@@ -1,9 +1,9 @@
 ﻿my_sea_zone = { topography = narrows climate = subtropical }
 
-testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian natural_harbor_suitability = 1.00 raw_material = wheat }
-testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince3 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince4 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = weiji natural_harbor_suitability = 1.00 raw_material = wheat }
+testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = houshan raw_material = wheat }
+testprovince3 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = nanji raw_material = wheat }
+testprovince4 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = miansha raw_material = wheat }
 testprovince5 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
 testprovince6 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
 testprovince7 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
