@@ -1,0 +1,5 @@
+﻿l_english:
+ country_name_construction_ancient_rank_name: "Ancient $RANK$ of $NAME$"
+ country_name_construction_ancient_rank_name_map: "Ancient $RANK$ of $NAME$"
+ country_name_construction_anceint: "$country_name_construction_ancient_rank_name$"
+ country_name_construction_ancient_map: "$country_name_construction_ancient_rank_name_map$"
