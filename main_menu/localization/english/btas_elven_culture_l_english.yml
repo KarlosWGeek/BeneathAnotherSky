@@ -1,10 +1,9 @@
 ﻿l_english:
- # Elves
  # Species
  elven_species: "Species: Elves"
  elven_species_desc: "Elves are the longest lived sentient species of Elysium, possessing immense innate magical talent and mastery even early in life. They are very reclusive and live in harmony with nature, often using magic as an art form or to facilitate life. Their small dwindling numbers are a result of the Ancient Elven Wars, very slow reproductive cycles and recurring internal conflicts, leaving only a few well-governed nations and scattered city-states amongst the wilderness."
 
- #Language
+ # Languages
  elven_language_family: "Elven"
  elven_language: "Elven"
  heyveilian_dialect: "Heyveilian"
@@ -12,7 +11,7 @@
  alverisian_dialect: "Alverisian"
  materterran_dialect: "Materterran"
 
- #Continental Culture
+ # Continental Cultures
  alverisian_elves: "Alverisian"
  alverisian_elves_desc: "The Elves of the northern continent of Alveris have lived in harmony with nature for thousands of generations, protecting the continent’s fragile magical habitat from ecological collapse. They are known for their powerful space magic and ancient spiritualist traditions. Visually, they have black and dark gray skin tones and freckles that match their hair and eye color, which vary between shades of blue, white, yellow, orange and red. They also possess a unique gene that makes the scleras of their eyes black, although it never passes down to their mixed race offspring."
  volkenian_elves: "Volkenian"
@@ -22,7 +21,7 @@
  heyveilian_elves: "Heyveilian"
  heyveilian_elves_desc: "The Elves of the southern continent of Heyveil have adapted to the extreme cold, sparse vegetation and long polar nights by coming together during the winter months and rationing shared resources. Due to the harsh climate they’ve always been very isolated from other races and distant foreign conflicts, which have kept their population relatively high compared to other elven cultures. Visually, they have snow white to azureish white skin tones, gray, silver and white hair, and light blue, blue, purple and red eye colors."
 
- #Culture Groups
+ # Culture Groups
  valian_group: "Valian"
  valian_group_desc: "The Elves of the White Vale and the Blackstone Caldera are the most numerous of Heyveil, having spent hundreds of thousands of years of relative food security under the dominion of a unified and prosperous Empire of Solace, despite the desert vegetation and lack of wild fauna. During the winter and heavy snowstorms they ration their food to last until new shipments come in trading caravans that more resemble land boats sailing through the snow."
  albusian_group: "Albusian"
@@ -34,7 +33,8 @@
  cresentian_group: "Crescentian"
  cresentian_group_desc: "Elves of the Lunar Crescent."
 
- #Cultures
- solacian: "Solacian"
- solactian_desc: "The Elves of the Blackstone Caldera, mostly living in the ancient elven city of Hei An Zuban, one the last still intact since the Ancient Elven Wars. Due to the warmth of the caldera and the nutrients of the soil, vast fields of White Aelther grew to sustain a population large enough to fill this ancient metropolis and dominate the continent through sheer numbers."
- calderan: "Calderan"
+ # Cultures (Don't use/have descriptions)
+ weiji: "Weiji" # Solacian, comes from 'Wèijí' which is the simplified chinese translation of 'Solace' (comfort, consolation, solace, relief)
+ houshan: "Huoshan" # Calderan, comes from 'Huǒshān kǒu' which is the simplified chinese translation of 'Caldera'
+ nanji: "Nanji" # Outer Calderan or South Polean, comes from 'Nánjí' which is the simplified chinese translation of 'South Pole'
+ miansha: "Miansha" # White Veilian, comes from 'Miànshā' which is the simplified chinese translation of 'Veil'

@@ -2,6 +2,7 @@
 
 character_db={
 
+	# Austria
 	hab_albrecht_ii_habsburg = {
 		first_name = { name = name_albert }
 		nickname = { name = the_wise }
@@ -15,6 +16,23 @@ character_db={
 		dynasty = habsburg_dynasty
 		fertility = 75
 		tag = HAB
+		ruler_trait = lawgiver
+	}
+
+	# Ancient Empire of Solace
+	sol_astraelion_i_sol = {
+		first_name = { name = name_astraelion }
+		nickname = { name = the_wise }
+		culture = weiji
+		religion = catholic
+		estate = nobles_estate
+		adm = 100 dip = 100 mil = 100
+		female = no
+		birth_date = 529.7.27
+		birth = testprovince1
+		dynasty = sol_dynasty
+		fertility = 0
+		tag = SOL
 		ruler_trait = lawgiver
 	}
 }

@@ -1,7 +1,7 @@
 dynasty_manager = {
 	habsburg_dynasty = {
 		name = { name = habsburg_dynasty }
-		home = testprovince1
+		home = testprovince5
 		dynasty_name_type = location
 		male_names = {
 			name_albert name_frederick name_leopold name_otto name_rudolf name_vladislav
@@ -10,5 +10,15 @@ dynasty_manager = {
 			name_anna name_catherine name_elizabeth name_margaret
 		}
 	}
-
+	sol_dynasty = {
+		name = { name = sol_dynasty }
+		home = testprovince1
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
 }

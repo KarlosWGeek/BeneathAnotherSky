@@ -1,9 +1,16 @@
 
 colors = {
-	#Elven Colors
-	map_elven_language_family = rgb { 76 219 43 }
-	map_solacian = rgb { 22 23 25 }
-	map_calderan = rgb { 53 42 47 }
+	### Elven Culture Colors
+	map_elven_language_family = rgb { 0 176 240 }
+	
+	# Heyveilian Elves Cultures
+	map_weiji = rgb { 0 144 144 }
+	map_houshan = rgb { 64 176 176 }
+	map_nanji = rgb { 128 200 200 }
+	map_miansha = rgb { 160 216 216 }
+	
+	# Nation Colors
+	map_solace = rgb { 0 144 144 }
 
 	map_debug = rgb { 255 0 255 }
 
