@@ -3,3 +3,9 @@
 	player_playstyle = ADMINISTRATIVE
 	player_proficiency = EXPERIENCED
 }
+
+SOL_scenario = {
+	country = SOL
+	player_playstyle = ADMINISTRATIVE
+	player_proficiency = EXPERIENCED
+}

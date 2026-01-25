@@ -12,3 +12,18 @@ HAB = {
     description_category = diplomatic
     difficulty = 3
 }
+
+SOL = {
+    color = map_solace
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = rgb {	128 200 200 }
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = weiji
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
