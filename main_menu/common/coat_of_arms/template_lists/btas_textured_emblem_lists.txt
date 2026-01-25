@@ -1,0 +1,13 @@
+textured_emblem_texture_lists = {
+    textured_canton_flag = {
+        1 = "te_canton_man.dds" # Fallback design, shouldn't be used
+
+        ### Ancient Empire of Solace
+        special_selection = {
+            trigger = {
+                tag = SOL
+            }
+            500000 = "te_canton_sol.dds"
+        }
+    }
+}

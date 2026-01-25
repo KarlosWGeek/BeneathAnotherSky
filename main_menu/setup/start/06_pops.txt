@@ -1,25 +1,25 @@
 locations = {
    testprovince1 = {
       define_pop = {
-         culture = solacian
+         culture = weiji
          religion = catholic
          size = 0.012
          type = nobles
       }
       define_pop = {
-         culture = solacian
+         culture = weiji
          religion = catholic
          size = 0.057
          type = clergy
       }
       define_pop = {
-         culture = solacian
+         culture = weiji
          religion = catholic
          size = 1.776
          type = burghers
       }
       define_pop = {
-         culture = solacian
+         culture = weiji
          religion = catholic
          size = 35.598
          type = peasants
@@ -27,25 +27,25 @@ locations = {
    }
    testprovince2 = {
       define_pop = {
-         culture = danube_bavarian
+         culture = houshan
          religion = catholic
          size = 0.012
          type = nobles
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = houshan
          religion = catholic
          size = 0.057
          type = clergy
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = houshan
          religion = catholic
          size = 1.776
          type = burghers
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = houshan
          religion = catholic
          size = 35.598
          type = peasants
@@ -53,25 +53,25 @@ locations = {
    }
    testprovince3 = {
       define_pop = {
-         culture = danube_bavarian
+         culture = nanji
          religion = catholic
          size = 0.012
          type = nobles
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = nanji
          religion = catholic
          size = 0.057
          type = clergy
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = nanji
          religion = catholic
          size = 1.776
          type = burghers
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = nanji
          religion = catholic
          size = 35.598
          type = peasants
@@ -79,25 +79,25 @@ locations = {
    }
    testprovince4 = {
       define_pop = {
-         culture = danube_bavarian
+         culture = miansha
          religion = catholic
          size = 0.012
          type = nobles
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = miansha
          religion = catholic
          size = 0.057
          type = clergy
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = miansha
          religion = catholic
          size = 1.776
          type = burghers
       }
       define_pop = {
-         culture = danube_bavarian
+         culture = miansha
          religion = catholic
          size = 35.598
          type = peasants
