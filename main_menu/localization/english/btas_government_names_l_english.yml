@@ -1,5 +1,33 @@
 ﻿l_english:
+ #Elven
+ #Constructors
  country_name_construction_ancient_rank_name: "Ancient $RANK$ of $NAME$"
  country_name_construction_ancient_rank_name_map: "Ancient $RANK$ of $NAME$"
  country_name_construction_anceint: "$country_name_construction_ancient_rank_name$"
  country_name_construction_ancient_map: "$country_name_construction_ancient_rank_name_map$"
+ country_name_construction_rank_of_name: "$RANK$ of $NAME$"
+ country_name_construction_rank_of_name_map: "$RANK$ of $NAME$"
+ country_name_construction_albus_rank_of_name: "$country_name_construction_rank_of_name$"
+ country_name_construction_albus_rank_of_name_map: "$country_name_construction_rank_of_name$"
+
+ #Albus Mons
+ #Minor Clan
+ rank_county_albusian: "Minor Clan"
+ rank_county_albusian_ADJ: ""
+ rank_county_albusian_ruler_male: ""
+ rank_county_albusian_ruler_female: ""
+ #Clan
+ rank_duchy_albusian: "Clan"
+ rank_duchy_albusian_ADJ: ""
+ rank_duchy_albusian_ruler_male: ""
+ rank_duchy_albusian_ruler_female: ""
+ #Great Clan
+ rank_kingdom_albusian: "Great Clan"
+ rank_kindgom_albusian_ADJ: ""
+ rank_kindgom_albusian_ruler_male: "Storm King"
+ rank_kindgom_albusian_ruler_female: "Storm Queen"
+ #Stormnate
+ rank_empire_albusian: "Stormnate"
+ rank_empire_albusian_ADJ: ""
+ rank_empire_albusian_ruler_male: "Storm King"
+ rank_empire_albusian_ruler_female: "Storm Queen"
