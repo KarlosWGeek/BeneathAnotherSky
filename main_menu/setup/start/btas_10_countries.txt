@@ -41,7 +41,10 @@ countries = {
                 outward_vs_inward = -50
             }
 
-            country_rank = rank_duchy
+            #country_rank = rank_county
+            #country_rank = rank_duchy
+            #country_rank = rank_kingdom
+            country_rank = rank_empire
             dynasty = habsburg_dynasty
             capital = testprovince5
         }

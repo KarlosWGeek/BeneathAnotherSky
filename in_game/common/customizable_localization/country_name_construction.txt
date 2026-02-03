@@ -4,8 +4,17 @@
 		localization_key = country_name_construction_ancient_rank_name
 		trigger = {
 			OR = {
-				tag = HAB
+				#tag = HAB
 				tag = SOL
+			}
+		}
+	}
+	text = {
+		localization_key = country_name_construction_albus_rank_of_name
+		trigger = {
+			OR = {
+				tag = HAB
+				culture = { has_culture_group = culture_group:albusian_group }
 			}
 		}
 	}
