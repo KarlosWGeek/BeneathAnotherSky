@@ -1,28 +1,29 @@
 ﻿my_sea_zone = { topography = narrows climate = subtropical }
 
-testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = weiji natural_harbor_suitability = 1.00 raw_material = wheat }
-testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = houshan raw_material = wheat }
-testprovince3 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = nanji raw_material = wheat }
-testprovince4 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = miansha raw_material = wheat }
+testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian natural_harbor_suitability = 1.00 raw_material = wheat }
+testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince3 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince4 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
 testprovince5 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
 testprovince6 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince7 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince8 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince9 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince10 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince11 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince12 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince13 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince14 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince15 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince16 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince17 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince18 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince19 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince20 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince21 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince22 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
-testprovince23 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+
+testprovince7 = { topography = wetlands vegetation = jungle climate = arid religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince8 = { topography = flatland vegetation = forest climate = cold_arid religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince9 = { topography = rolling_flatland vegetation = woods climate = hot_semi_arid religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince10 = { topography = hills vegetation = farmland climate = cold_semi_arid religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince11 = { topography = plateau vegetation = grasslands climate = tropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince12 = { topography = irregular_plateau vegetation = sparse climate = tropical_monsoon religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince13 = { topography = mountains vegetation = desert climate = tropical_savanna religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince14 = { topography = high_plateau vegetation = enchanted_jungle climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince15 = { topography = high_mountains vegetation = enchanted_forest climate = oceanic religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince16 = { topography = floating_islands vegetation = haunted climate = mediterranean religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince17 = { topography = floating_mountains vegetation = urban climate = continental religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince18 = { topography = wetlands vegetation = grasslands climate = subarctic religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince19 = { topography = wetlands vegetation = grasslands climate = arctic religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince20 = { topography = wetlands vegetation = grasslands climate = polar religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince21 = { topography = wetlands vegetation = grasslands climate = hot_aerial religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince22 = { topography = wetlands vegetation = grasslands climate = aerial religion = catholic culture = danube_bavarian raw_material = wheat }
+testprovince23 = { topography = wetlands vegetation = grasslands climate = cold_aerial religion = catholic culture = danube_bavarian raw_material = wheat }
 testprovince24 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
 testprovince25 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
 testprovince26 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
@@ -257,14 +258,65 @@ testprovince254 = { topography = wetlands vegetation = grasslands climate = subt
 testprovince255 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
 testprovince256 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat }
 
-wasteland1 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland2 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland3 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland4 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland5 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland6 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland7 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland8 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland9 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
-wasteland10 = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
+land_heyveil_1 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = houshan raw_material = wheat }
+coast_heyveil_1 = { topography = coastal_ocean climate = cold_ocean_cli }
+ocean_heyveil_1 = { topography = ocean climate = cold_ocean_cli }
+land_heyveil_2 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = houshan raw_material = wheat }
+land_heyveil_3 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = houshan raw_material = wheat }
+land_heyveil_4 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = nanji raw_material = wheat }
+land_heyveil_5 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = nanji raw_material = wheat }
+land_heyveil_6 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = nanji raw_material = wheat }
+coast_heyveil_6 = { topography = coastal_ocean climate = cold_ocean_cli }
+ocean_heyveil_6 = { topography = ocean climate = cold_ocean_cli }
+land_heyveil_7 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = nanji raw_material = wheat }
+coast_heyveil_7 = { topography = coastal_ocean climate = cold_ocean_cli }
+ocean_heyveil_7 = { topography = ocean climate = cold_ocean_cli }
+land_heyveil_8 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = miansha raw_material = wheat }
+coast_heyveil_8 = { topography = coastal_ocean climate = cold_ocean_cli }
+ocean_heyveil_8 = { topography = ocean climate = cold_ocean_cli }
+land_heyveil_9 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = miansha raw_material = wheat }
+coast_heyveil_9 = { topography = coastal_ocean climate = cold_ocean_cli }
+ocean_heyveil_9 = { topography = ocean climate = cold_ocean_cli }
+land_heyveil_10 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = miansha raw_material = wheat }
+coast_heyveil_10 = { topography = coastal_ocean climate = cold_ocean_cli }
+ocean_heyveil_10 = { topography = ocean climate = cold_ocean_cli }
+land_heyveil_11 = { topography = flatland vegetation = desert climate = polar religion = catholic culture = miansha raw_material = wheat }
+coast_heyveil_11 = { topography = coastal_ocean climate = cold_ocean_cli }
+coast_heyveil_12 = { topography = coastal_ocean climate = cold_ocean_cli }
+
+downtown_hei_an_zuban_1 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_2 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_3 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_4 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_5 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_6 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_7 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_8 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_9 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_10 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_11 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_12 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_13 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_14 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_15 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_16 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_17 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_18 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_19 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_20 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_21 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_22 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_23 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+downtown_hei_an_zuban_24 = { topography = high_plateau vegetation = urban climate = polar religion = catholic culture = weiji raw_material = wheat }
+
+wasteland1 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland2 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland3 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland4 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland5 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland6 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland7 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland8 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland9 = { topography = ocean_wasteland climate = cold_ocean_cli }
+wasteland10 = { topography = ocean_wasteland climate = cold_ocean_cli }
 wasteland_blocker = { topography = flatland_wasteland vegetation = grasslands climate = subtropical }
