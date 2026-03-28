@@ -18,6 +18,10 @@ countries = {
 		# Austria
 		HAB = {
             own_control_core = {
+                testprovince1
+                testprovince2
+                testprovince3
+                testprovince4
                 testprovince5
                 testprovince6
             }
@@ -46,16 +50,47 @@ countries = {
             #country_rank = rank_kingdom
             country_rank = rank_empire
             dynasty = habsburg_dynasty
-            capital = testprovince5
+            capital = testprovince1
         }
 
 		# Ancient Empire of Solace
 		SOL = {
             own_control_core = {
-                testprovince1
-                testprovince2
-                testprovince3
-                testprovince4
+				land_heyveil_1
+				land_heyveil_2
+				land_heyveil_3
+				land_heyveil_4
+				land_heyveil_5
+				land_heyveil_6
+				land_heyveil_7
+				land_heyveil_8
+				land_heyveil_9
+				land_heyveil_10
+				land_heyveil_11
+				downtown_hei_an_zuban_1
+				downtown_hei_an_zuban_2
+				downtown_hei_an_zuban_3
+				downtown_hei_an_zuban_4
+				downtown_hei_an_zuban_5
+				downtown_hei_an_zuban_6
+				downtown_hei_an_zuban_7
+				downtown_hei_an_zuban_8
+				downtown_hei_an_zuban_9
+				downtown_hei_an_zuban_10
+				downtown_hei_an_zuban_11
+				downtown_hei_an_zuban_12
+				downtown_hei_an_zuban_13
+				downtown_hei_an_zuban_14
+				downtown_hei_an_zuban_15
+				downtown_hei_an_zuban_16
+				downtown_hei_an_zuban_17
+				downtown_hei_an_zuban_18
+				downtown_hei_an_zuban_19
+				downtown_hei_an_zuban_20
+				downtown_hei_an_zuban_21
+				downtown_hei_an_zuban_22
+				downtown_hei_an_zuban_23
+				downtown_hei_an_zuban_24
             }
 
             starting_technology_level = 2
@@ -79,7 +114,7 @@ countries = {
 
             country_rank = rank_empire
             dynasty = sol_dynasty
-            capital = testprovince1
+            capital = downtown_hei_an_zuban_12
         }
     }
 }

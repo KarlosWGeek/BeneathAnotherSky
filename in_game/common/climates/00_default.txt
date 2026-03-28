@@ -1,4 +1,8 @@
-﻿# Hot Arid
+﻿### ELYSIUM
+
+## LAND
+
+# Hot Arid
 arid = {
 	winter = none
 	color = climate_arid
@@ -327,6 +331,8 @@ polar = {
 	debug_color = rgb { 240 240 240 }  # for climate_screenshot mapmode
 }
 
+## SPECIAL
+
 # Hot Aerial
 hot_aerial = {
 	winter = none
@@ -403,4 +409,51 @@ cold_aerial = {
 		masDataClimateZone = 0.0
 	}
 	debug_color = rgb { 200 192 240 }  # for climate_screenshot mapmode
+}
+
+## SEA
+
+# Warm Ocean
+warm_ocean_cli = {
+	winter = none
+	color = climate_warm_ocean_cli
+	
+	location_modifier = {
+		#
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 8 120 168 }  # for climate_screenshot mapmode
+}
+
+# Ocean
+ocean_cli = {
+	winter = none
+	color = climate_ocean_cli
+	
+	location_modifier = {
+		#
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 112 168 216 }  # for climate_screenshot mapmode
+}
+
+# Cold Ocean
+cold_ocean_cli = {
+	winter = none
+	color = climate_cold_ocean_cli
+	
+	location_modifier = {
+		#
+	}
+	
+	audio_tags = {
+		masDataClimateZone = 0.0
+	}
+	debug_color = rgb { 184 224 255 }  # for climate_screenshot mapmode
 }
