@@ -10,6 +10,7 @@ dynasty_manager = {
 			name_anna name_catherine name_elizabeth name_margaret
 		}
 	}
+
 	sol_dynasty = {
 		name = { name = sol_dynasty }
 		home = testprovince1
@@ -21,4 +22,328 @@ dynasty_manager = {
 			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
 		}
 	}
+
+	seon_dynasty = {
+		name = { name = seon_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	neravid_dynasty = {
+		name = { name = neravid_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	hartuk_dynasty = {
+		name = { name = hartuk_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	embarth_dynasty = {
+		name = { name = embarth_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	crownspire_dynasty = {
+		name = { name = crownspire_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	arcum_dynasty = {
+		name = { name = arcum_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	delvaris_dynasty = {
+		name = { name = delvaris_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	solenor_dynasty = {
+		name = { name = solenor_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	vitalia_dynasty = {
+		name = { name = vitalia_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	haibai_dynasty = {
+		name = { name = haibai_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	norzheia_dynasty = {
+		name = { name = norzheia_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	valtaria_dynasty = {
+		name = { name = valtaria_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	liarda_dynasty = {
+		name = { name = liarda_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	elandor_dynasty = {
+		name = { name = elandor_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	orsvalen_dynasty = {
+		name = { name = orsvalen_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	aesvora_dynasty = {
+		name = { name = aesvora_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	korrelach_dynasty = {
+		name = { name = korrelach_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	ashiari_dynasty = {
+		name = { name = ashiari_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	hokasha_dynasty = {
+		name = { name = hokasha_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+	shezuma_dynasty  = {
+		name = { name = shezuma_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	osho_dynasty  = {
+		name = { name = osho_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	hito_dynasty  = {
+		name = { name = hito_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	shenzu_dynasty = {
+		name = { name = shenzu_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	cwazawa_dynasty = {
+		name = { name = cwazawa_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	xianzua_dynasty = {
+		name = { name = xianzua_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	shanxi_dynasty = {
+		name = { name = shanxi_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
+	xiaun_dynasty = {
+		name = { name = xiaun_dynasty }
+		home = testprovince7
+		dynasty_name_type = location
+		male_names = {
+			name_astraelion name_caelithor name_celesthael name_eltharion name_lunovar name_mythraelor name_noctyriel name_orionthir name_vaeloris name_zerethyn
+		}
+		female_names = {
+			name_astraelune name_auroryn name_caelithrae name_elthariel name_lunethrae name_mythraelle name_noctyriel name_selentha name_vaeloria name_zerethia
+		}
+	}
+
 }

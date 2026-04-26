@@ -35,4 +35,411 @@ character_db={
 		tag = SOL
 		ruler_trait = lawgiver
 	}
+
+	# Stormnate of Seongranguk
+	seon_caelithor_iv_seon = {
+		first_name = { name = name_caelithor }
+		culture = seongranguk
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = seon_dynasty
+		fertility = 50
+		tag = SEON
+		#ruler_trait = lawgiver
+	}
+
+	# Cloudocracy of Neravid
+	nrvd_celesthael_iii_nrvd = {
+		first_name = { name = name_celesthael }
+		culture = neravid
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = neravid_dynasty
+		fertility = 50
+		tag = NRVD
+	}
+
+	# Hartuk Clan
+	hrtk_eltharion_iii_hrtk = {
+		first_name = { name = name_eltharion }
+		culture = hartuk
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = hartuk_dynasty
+		fertility = 50
+		tag = HRTK
+	}
+
+	# Embarth Clan
+	emrt_lunovar_emrt = {
+		first_name = { name = name_lunovar }
+		culture = embarth
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = embarth_dynasty
+		fertility = 50
+		tag = EMRT
+	}
+
+	# Kingdom of Crownspire
+	crsp_mythraelor_i_crsp = {
+		first_name = { name = name_mythraelor }
+		culture = crownspire
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = crownspire_dynasty
+		fertility = 50
+		tag = CRSP
+	}
+
+	# Confederation of Arcum
+	arcm_noctyriel_arcm = {
+		first_name = { name = name_noctyriel }
+		culture = arcum
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = arcum_dynasty
+		fertility = 50
+		tag = ARCM
+	}
+
+	# Grand Duchy of Delvaris
+	dlrs_orionthir_dlrs = {
+		first_name = { name = name_orionthir }
+		culture = delvaris
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = delvaris_dynasty
+		fertility = 50
+		tag = DLRS
+	}
+
+	# Principality of Solenor
+	solr_vaeloris_vi_solr = {
+		first_name = { name = name_vaeloris }
+		culture = solenor
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = solenor_dynasty
+		fertility = 50
+		tag = SOLR
+	}
+
+	# Merchant Republic of Vitalia
+	vtla_zerethyn_vtla = {
+		first_name = { name = name_zerethyn }
+		culture = vitalia
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = vilanova_dynasty
+		fertility = 50
+		tag = VTLA
+	}
+
+	# Imperial Republic of Haibai
+	haib_astraelion_haib = {
+		first_name = { name = name_astraelion }
+		culture = haibai
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = haibai_dynasty
+		fertility = 50
+		tag = HAIB
+	}
+
+	# Theocracy of Norzheia
+	nrzh_caelithor_nrzh = {
+		first_name = { name = name_caelithor }
+		culture = norzheia
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = norzheia_dynasty
+		fertility = 50
+		tag = NRZH
+	}
+
+	# Merchant Republic of Valtaria
+	vltr_celesthael_vltr = {
+		first_name = { name = name_celesthael }
+		culture = valtaria
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = valtaria_dynasty
+		fertility = 50
+		tag = VLTR
+	}
+
+	# Kingdom of Liarda
+	lird_eltharion_iv_lird = {
+		first_name = { name = name_eltharion }
+		culture = liarda
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = liarda_dynasty
+		fertility = 50
+		tag = LIRD
+	}
+
+	# Duchy of Elandor
+	eldr_lunovar_ii_eldr = {
+		first_name = { name = name_lunovar }
+		culture = elandor
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = elandor_dynasty
+		fertility = 50
+		tag = ELDR
+	}
+
+	# Republic of Orsvalen
+	orsn_mythraelor_iii_orsn = {
+		first_name = { name = name_mythraelor }
+		culture = orsvalen
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = orsvalen_dynasty
+		fertility = 50
+		tag = ORSN
+	}
+
+	# Holy Order of aesvora
+	asvr_noctyriel_asvr = {
+		first_name = { name = name_noctyriel }
+		culture = aesvora
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = aesvora_dynasty
+		fertility = 50
+		tag = ASVR
+	}
+
+	# Kingdom of Korrelach
+	krlh_orionthir_vii_krlh = {
+		first_name = { name = name_orionthir }
+		culture = korrelach
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = korrelach_dynasty
+		fertility = 50
+		tag = KRLH
+	}
+
+	# Clan of Ashiari
+	ashr_vaeloris_iii_ashr = {
+		first_name = { name = name_vaeloris }
+		culture = ashiari
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = ashiari_dynasty
+		fertility = 50
+		tag = ASHR
+	}
+
+	#Hokasha Clan
+	hksh_zerethyn_iii_hksh = {
+		first_name = { name = name_zerethyn }
+		culture = hokasha
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = hokasha_dynasty
+		fertility = 50
+		tag = HKSH
+	}
+
+	#Shezuma Clan
+	shzm_aelthryon_iii_shzm = {
+		first_name = { name = name_aelthryon }
+		culture = shezuma
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = shezuma_dynasty
+		fertility = 50
+		tag = SHZM
+	}
+
+	#Osho Clan
+	osho_astronomys_iii_osho = {
+		first_name = { name = name_astronomys }
+		culture = osho
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = osho_dynasty
+		fertility = 50
+		tag = OSHO
+	}
+
+	#Hito Clan
+	hito_caelithorn_iii_hito = {
+		first_name = { name = name_caelithorn }
+		culture = hito
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = hito_dynasty
+		fertility = 50
+		tag = HITO
+	}
+
+	#Imperial Republic of Shenzu
+	snzu_caelithorn_snzu = {
+		first_name = { name = name_cryndoril }
+		culture = shenzu
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = shenzu_dynasty
+		fertility = 50
+		tag = SNZU
+	}
+
+	#Republic of Shuzema
+	sdg1_sylvarnox_sdg1 = {
+		first_name = { name = name_sylvarnox }
+		culture = haibai
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = cwazawa_dynasty
+		fertility = 50
+		tag = SDG1
+	}
+
+	#Republic of Plagio
+	slg1_skeltharys_slg1 = {
+		first_name = { name = name_skeltharys }
+		culture = shenzu
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = xianzua_dynasty
+		fertility = 50
+		tag = SLG1
+	}
+
+	#Duchy of Shang
+	swv1_glaciovar_swv1 = {
+		first_name = { name = name_glaciovar }
+		culture = nanji
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = shanxi_dynasty
+		fertility = 50
+		tag = SWV1
+	}
+
+	#Duchy of Liuqu
+	swv2_frostrellion_swv2 = {
+		first_name = { name = name_frostrellion }
+		culture = miansha
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1229.7.27
+		birth = testprovince1
+		dynasty = xiaun_dynasty
+		fertility = 50
+		tag = SWV1
+	}
+
 }

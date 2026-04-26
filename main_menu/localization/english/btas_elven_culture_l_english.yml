@@ -30,11 +30,54 @@
  celestial_group_desc: "Elves of the Celestial Plateau."
  midnightian_group: "Midnightian"
  midnightian_group_desc: "Elves of the Midnight Coast."
+ dark_gate_group: "Dark Gate"
+ dark_gate_group_desc: "Elves inhabiting the Dark Gate"
+ light_gate_group: "Light Gate"
+ light_gate_group_desc: "Elves inhabiting the Light Gate"
  cresentian_group: "Crescentian"
  cresentian_group_desc: "Elves of the Lunar Crescent."
+
+ #Sub Cultures
+ stormnate_group: "Stormnate"
+ stormnate_group_desc: "Albusian elves belonging to the Stormnate"
+ neravidian_group: "Neravidian"
+ neravidian_group_desc: "Albusian elves belonging to the Cloudrocracy"
 
  # Cultures (Don't use/have descriptions)
  weiji: "Weiji" # Solacian, comes from 'Wèijí' which is the simplified chinese translation of 'Solace' (comfort, consolation, solace, relief)
  houshan: "Huoshan" # Calderan, comes from 'Huǒshān kǒu' which is the simplified chinese translation of 'Caldera'
  nanji: "Nanji" # Outer Calderan or South Polean, comes from 'Nánjí' which is the simplified chinese translation of 'South Pole'
  miansha: "Miansha" # White Veilian, comes from 'Miànshā' which is the simplified chinese translation of 'Veil'
+
+#Albusian
+ seongranguk: "Seongranguk"
+ neravid:"Neravid"
+ hartuk: "Hartuk"
+ embarth: "Embarth"
+ ashiari: "Ashiari"
+ hokasha: "Hokasha"
+ shezuma: "Shezuma"
+ osho: "Osho"
+ hito: "Hito"
+ shenzu: "Shenzu"
+
+#Celestial Plateau
+ crownspire: "Greitousian"
+ arcum: "Arcum"
+ delvaris: "Delvaris"
+
+#Light Gate
+ solenor: "Solenor"
+ vitalia: "Vitalia"
+
+#Dark Gate
+ haibai: "Haibain"
+ norzheia: "Norzheian"
+
+#Midnight Coast
+ valtaria: "Valtarian"
+ liarda: "Liarda"
+ elandor: "Elandor"
+ orsvalen: "Orsvalen"
+ aesvora: "Aesvora"
+ korrelach: "Korrelach"

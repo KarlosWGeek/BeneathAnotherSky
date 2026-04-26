@@ -28,8 +28,26 @@ valian_group = {
 albusian_group = {
 }
 
+##Stormnate Group
+stormnate_group = {
+}
+
+##Stormnate Group
+neravidian_group = {
+}
+
 ##Celestial
 celestial_group = {
+}
+
+##Dark Gate
+dark_gate_group = {
+
+}
+
+##Light Gate
+light_gate_group = {
+
 }
 
 ##Midnightian
