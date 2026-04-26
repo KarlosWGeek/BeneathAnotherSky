@@ -45,11 +45,15 @@ countries = {
                 outward_vs_inward = -50
             }
 
-            country_rank = rank_duchy
+            #country_rank = rank_county
+            #country_rank = rank_duchy
+            #country_rank = rank_kingdom
+            country_rank = rank_empire
             dynasty = habsburg_dynasty
             capital = testprovince1
         }
 
+        # Important Nations of Heyveil
 		# Ancient Empire of Solace
 		SOL = {
             own_control_core = {
@@ -112,6 +116,924 @@ countries = {
             country_rank = rank_empire
             dynasty = sol_dynasty
             capital = downtown_hei_an_zuban_12
+        }
+
+        #Kingdom of Seongranguk
+        SEON = {
+            own_control_core = {
+                testprovince7
+                testprovince8
+                testprovince9
+                testprovince10
+                testprovince11
+                testprovince12
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = seon_caelithor_iv_seon
+
+                #societal values
+                serfdom_vs_free_subjects = -60
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = seon_dynasty
+            capital = testprovince85
+        }
+
+        #Kingdom of Neravid
+        NRVD = {
+            own_control_core = {
+                testprovince85
+                testprovince86
+                testprovince87
+                testprovince88
+                testprovince89
+                testprovince90
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = theocracy
+                heir_selection = theocratic_elective
+                ruler = nrvd_celesthael_iii_nrvd
+
+                #societal values
+                serfdom_vs_free_subjects = -60
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = neravid_dynasty
+            capital = testprovince85
+        }
+
+        #Merchant Republic of Valtaria
+        VLTR = {
+            own_control_core = {
+                testprovince139
+                testprovince133
+                testprovince145
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = republic
+                heir_selection = republic_4_year_terms
+                ruler = vltr_celesthael_vltr
+
+                #societal values
+                aristocracy_vs_plutocracy = 50
+                serfdom_vs_free_subjects = 10
+                offensive_vs_defensive = 40
+                land_vs_naval = 80
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = valtaria_dynasty
+            capital = testprovince139
+        }
+
+        #Kingdom of Crownspire
+        CRSP = {
+            own_control_core = {
+                testprovince50
+                testprovince49
+                testprovince43
+                testprovince55
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = crsp_mythraelor_i_crsp
+
+                #societal values
+                serfdom_vs_free_subjects = -60
+                offensive_vs_defensive = -50
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -60
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = crownspire_dynasty
+            capital = testprovince50
+        }
+
+        #Principality of Solenor
+        SOLR = {
+            own_control_core = {
+                testprovince162
+                testprovince155
+                testprovince156
+                testprovince161
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = solr_vaeloris_vi_solr
+
+                #societal values
+                serfdom_vs_free_subjects = -60
+                offensive_vs_defensive = -50
+                land_vs_naval = -20
+                belligerent_vs_conciliatory = -60
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = solenor_dynasty
+            capital = testprovince162
+        }
+
+        #Imperial Republic of Haibai
+        HAIB= {
+            own_control_core = {
+                testprovince108
+                testprovince102
+                testprovince114
+                testprovince101
+                testprovince107
+                testprovince113
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = republic
+                heir_selection = republic_4_year_terms
+                ruler = haib_astraelion_haib
+
+                #societal values
+                aristocracy_vs_plutocracy = 50
+                serfdom_vs_free_subjects = 10
+                offensive_vs_defensive = 40
+                land_vs_naval = 80
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = haibai_dynasty
+            capital = testprovince108
+        }
+
+        #Kingdom of Liarda
+        LIRD = {
+            own_control_core = {
+                testprovince144
+                testprovince138
+                testprovince150
+                testprovince143
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = lird_eltharion_iv_lird
+
+                #societal values
+                serfdom_vs_free_subjects = -60
+                offensive_vs_defensive = -50
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -60
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = liarda_dynasty
+            capital = testprovince144
+        }
+
+        #Confederation of Arcum
+        ARCM = {
+            own_control_core = {
+                testprovince54
+                testprovince48
+                testprovince60
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = republic
+                heir_selection = republic_4_year_terms
+                ruler = arcm_noctyriel_arcm
+
+                #societal values
+                aristocracy_vs_plutocracy = 50
+                serfdom_vs_free_subjects = 10
+                offensive_vs_defensive = 40
+                land_vs_naval = 80
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = arcum_dynasty
+            capital = testprovince54
+        }
+
+        #Clan of Hartuk
+        HRTK={
+            own_control_core = {
+                testprovince33
+                testprovince34
+                testprovince32
+                testprovince35
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = hrtk_eltharion_iii_hrtk
+
+                #societal values
+                serfdom_vs_free_subjects = -60
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = hartuk_dynasty
+            capital = testprovince33
+        }
+
+        #Duchy of Elandor
+        ELDR={
+            own_control_core = {
+                testprovince97
+                testprovince98
+                testprovince91
+                testprovince92
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = eldr_lunovar_ii_eldr
+
+                #societal values
+                aristocracy_vs_plutocracy =  50
+                serfdom_vs_free_subjects = 40
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_duchy
+            dynasty = elandor_dynasty
+            capital = testprovince98
+        }
+
+        #Republic of Orsvalen
+        ORSN={
+            own_control_core = {
+                testprovince122
+                testprovince121
+                testprovince123
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = republic
+                heir_selection = republic_4_year_terms
+                ruler = orsn_mythraelor_iii_orsn
+
+                #societal values
+                aristocracy_vs_plutocracy = 30
+                serfdom_vs_free_subjects = 50
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_duchy
+            dynasty = orsvalen_dynasty
+            capital = testprovince122
+        }
+
+        #Holy Order of Aesvora
+        ASVR={
+            own_control_core = {
+                testprovince135
+                testprovince136
+                testprovince141
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = theocracy
+                heir_selection = theocratic_elective
+                ruler = asvr_noctyriel_asvr
+
+                #societal values
+                aristocracy_vs_plutocracy = 30
+                serfdom_vs_free_subjects = 50
+                spiritualist_vs_humanist = -60
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_duchy
+            dynasty = aesvora_dynasty
+            capital = testprovince135
+        }
+
+        #Kingdom of Korrelach
+        KRLH={
+            own_control_core = {
+                testprovince157
+                testprovince158
+                testprovince159
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = krlh_orionthir_vii_krlh
+
+                #societal values
+                aristocracy_vs_plutocracy =  -50
+                serfdom_vs_free_subjects = -30
+                offensive_vs_defensive = -30
+                land_vs_naval = 40
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = korrelach_dynasty
+            capital = testprovince157
+        }
+
+        #Merchant Republic of Vitalia
+        VTLA={
+            own_control_core = {
+                testprovince171
+                testprovince172
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = republic
+                heir_selection = republic_4_year_terms
+                ruler = vtla_zerethyn_vtla
+
+                #societal values
+                aristocracy_vs_plutocracy = 30
+                serfdom_vs_free_subjects = 50
+                offensive_vs_defensive = 30
+                land_vs_naval = -50
+                belligerent_vs_conciliatory = 30
+                outward_vs_inward = -40
+            }
+
+            country_rank = rank_duchy
+            dynasty = vitalia_dynasty
+            capital = testprovince171
+        }
+
+        #Theocracy of Norzheia
+        NRZH={
+            own_control_core = {
+                testprovince105
+                testprovince111
+                testprovince100
+                testprovince106
+                testprovince99
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = theocracy
+                heir_selection = theocratic_elective
+                ruler = nrzh_caelithor_nrzh
+
+                #societal values
+                aristocracy_vs_plutocracy = 30
+                serfdom_vs_free_subjects = 50
+                spiritualist_vs_humanist = -60
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_duchy
+            dynasty = norzheia_dynasty
+            capital = testprovince105
+        }
+
+        #Grand Duchy of Delvaris
+        DLRS={
+            own_control_core = {
+                testprovince166
+                testprovince167
+                testprovince165
+                testprovince164
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = dlrs_orionthir_dlrs
+
+                #societal values
+                aristocracy_vs_plutocracy = 30
+                serfdom_vs_free_subjects = 50
+                spiritualist_vs_humanist = -60
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_duchy
+            dynasty = delvaris_dynasty
+            capital = testprovince166
+        }
+
+        #Embarth Clan
+        EMRT={
+            own_control_core = {
+                testprovince29
+                testprovince30
+                testprovince22
+                testprovince23
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = emrt_lunovar_emrt
+
+                #societal values
+                aristocracy_vs_plutocracy = 30
+                serfdom_vs_free_subjects = 50
+                spiritualist_vs_humanist = -60
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = -50
+            }
+
+            country_rank = rank_duchy
+            dynasty = embarth_dynasty
+            capital = testprovince29
+        }
+
+        #Heyveil Minors
+        #Albus Clans
+        #Ashiari Clan
+        ASHR = {
+            own_control_core = {
+                testprovince13
+                testprovince14
+                testprovince15
+                testprovince16
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ashr_vaeloris_iii_ashr
+
+                #societal values
+                aristocracy_vs_plutocracy = -40
+                serfdom_vs_free_subjects = -60
+                spiritualist_vs_humanist = -20
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = 40
+            }
+
+            country_rank = rank_duchy
+            dynasty = ashiari_dynasty
+            capital = testprovince14
+        }
+
+        #Hokasha Clan
+        HKSH = {
+            own_control_core = {
+                testprovince17
+                testprovince18
+                testprovince24
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = hksh_zerethyn_iii_hksh
+
+                #societal values
+                aristocracy_vs_plutocracy = -40
+                serfdom_vs_free_subjects = -60
+                spiritualist_vs_humanist = -20
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = 40
+            }
+
+            country_rank = rank_county
+            dynasty = hokasha_dynasty
+            capital = testprovince17
+        }
+
+        #Shezuma Clan
+        SHZM = {
+            own_control_core = {
+                testprovince26
+                testprovince27
+                testprovince28
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = shzm_aelthryon_iii_shzm
+
+                #societal values
+                aristocracy_vs_plutocracy = -40
+                serfdom_vs_free_subjects = -60
+                spiritualist_vs_humanist = -20
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = 40
+            }
+
+            country_rank = rank_county
+            dynasty = shezuma_dynasty
+            capital = testprovince27
+        }
+
+        #Hito Clan
+        HITO = {
+            own_control_core = {
+                testprovince80
+                testprovince79
+                testprovince81
+                testprovince82
+                testprovince74
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = theocracy
+                heir_selection = theocratic_elective
+                ruler = hito_caelithorn_iii_hito
+
+                #societal values
+                aristocracy_vs_plutocracy = -40
+                serfdom_vs_free_subjects = -60
+                spiritualist_vs_humanist = -20
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = 40
+            }
+
+            country_rank = rank_duchy
+            dynasty = hito_dynasty
+            capital = testprovince80
+        }
+
+        #Osho Clan
+        OSHO = {
+            own_control_core = {
+                testprovince76
+                testprovince77
+                testprovince78
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = theocracy
+                heir_selection = theocratic_elective
+                ruler = osho_astronomys_iii_osho
+
+                #societal values
+                aristocracy_vs_plutocracy = -40
+                serfdom_vs_free_subjects = -60
+                spiritualist_vs_humanist = -20
+                offensive_vs_defensive = -30
+                land_vs_naval = -80
+                belligerent_vs_conciliatory = -40
+                outward_vs_inward = 40
+            }
+
+            country_rank = rank_county
+            dynasty = osho_dynasty
+            capital = testprovince77
+        }
+
+        #Imperial Republic of Shenzu
+        SNZU= {
+            own_control_core = {
+                testprovince182
+                testprovince183
+                testprovince176
+                testprovince175
+                testprovince189
+                testprovince190
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = republic
+                heir_selection = republic_4_year_terms
+                ruler = snzu_caelithorn_snzu
+
+                #societal values
+                aristocracy_vs_plutocracy = 50
+                serfdom_vs_free_subjects = 10
+                offensive_vs_defensive = 40
+                land_vs_naval = 80
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 50
+            }
+
+            country_rank = rank_kingdom
+            dynasty = shenzu_dynasty
+            capital = testprovince182
+        }
+
+        #Republic of Shuzema
+        SDG1= {
+            own_control_core = {
+                testprovince95
+                testprovince96
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = republic
+                heir_selection = republic_4_year_terms
+                ruler = sdg1_sylvarnox_sdg1
+
+                #societal values
+                aristocracy_vs_plutocracy = 50
+                serfdom_vs_free_subjects = 10
+                offensive_vs_defensive = 40
+                land_vs_naval = 80
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 50
+            }
+
+            country_rank = rank_duchy
+            dynasty = cwazawa_dynasty
+            capital = testprovince95
+        }
+
+        #Republic of Plagio
+        SLG1= {
+            own_control_core = {
+                testprovince187
+                testprovince188
+                testprovince181
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = republic
+                heir_selection = republic_4_year_terms
+                ruler = slg1_skeltharys_slg1
+
+                #societal values
+                aristocracy_vs_plutocracy = 50
+                serfdom_vs_free_subjects = 10
+                offensive_vs_defensive = 40
+                land_vs_naval = 80
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 50
+            }
+
+            country_rank = rank_duchy
+            dynasty = xianzua_dynasty
+            capital = testprovince187
+        }
+
+        #Duchy of Shang
+        SWV1= {
+            own_control_core = {
+                testprovince213
+                testprovince212
+                testprovince214
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = swv1_glaciovar_swv1
+
+                #societal values
+                aristocracy_vs_plutocracy = -50
+                serfdom_vs_free_subjects = -30
+                offensive_vs_defensive = 0
+                land_vs_naval = -60
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 60
+            }
+
+            country_rank = rank_duchy
+            dynasty = shanxi_dynasty
+            capital = testprovince213
+        }
+
+        #Duchy of Liuqu
+        SWV2= {
+            own_control_core = {
+                testprovince209
+                testprovince203
+                testprovince215
+            }
+
+            starting_technology_level = 2
+
+            discovered_regions = {
+                custom_region
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = swv2_frostrellion_swv2
+
+                #societal values
+                aristocracy_vs_plutocracy = -50
+                serfdom_vs_free_subjects = -30
+                offensive_vs_defensive = 0
+                land_vs_naval = -60
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 60
+            }
+
+            country_rank = rank_duchy
+            dynasty = xiaun_dynasty
+            capital = testprovince209
         }
     }
 }
