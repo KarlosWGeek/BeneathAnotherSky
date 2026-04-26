@@ -11,6 +11,29 @@ colors = {
 	
 	# Nation Colors
 	map_solace = rgb { 0 144 144 }
+	map_Seongranguk = rgb { 88 13 88 }
+	map_neravid = rgb { 89 250 170 }
+	map_valtaria = rgb { 132 136 240 }
+	map_crownspire = rgb { 139 191 236 }
+	map_solenor = rgb { 138 205 61 }
+	map_haibai = rgb { 26 117 117 }
+	map_liarda = rgb { 9 34 84 }
+	map_arcum = rgb { 76 102 110 }
+	map_hartuk = rgb { 210 18 18 }
+	map_elandor = rgb { 164 164 164 }
+	map_orsvalen = rgb { 121 148 34 }
+	map_aesvora = rgb { 243 243 243 }
+	map_korrelach = rgb { 131 177 223 }
+	map_vitalia = rgb { 108 19 90 }
+	map_norzheia = rgb { 44 31 44 }
+	map_delvaris = rgb { 195 170 190 }
+	map_embarth = rgb { 215 105 42 }
+	map_ashiari = rgb { 193 49 49 }
+	map_hokasha = rgb { 51 25 0 }
+	map_shezuma = rgb { 108 216 104 }
+	map_osho = rgb { 85 172 185 }
+	map_hito = rgb { 144 140 208 }
+	map_shenzu = rgb { 62 176 39 }
 
 	map_debug = rgb { 255 0 255 }
 

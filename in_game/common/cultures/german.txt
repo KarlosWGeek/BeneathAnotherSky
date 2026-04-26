@@ -10,6 +10,6 @@
 	}	
 	
 	culture_groups = {
-		german_group
+		german_group albusian_group
 	}
 }

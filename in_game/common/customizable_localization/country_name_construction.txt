@@ -6,160 +6,279 @@
 			OR = {
 				#tag = HAB
 				tag = SOL
+				#tag = SOLR
 			}
 		}
 	}
+
+	#Special titles
+
+	#Confederation
 	text = {
-		localization_key = country_name_construction_albus_rank_of_name
+		localization_key = country_name_construction_confederation_county_name
 		trigger = {
-			OR = {
-				tag = HAB
-				culture = { has_culture_group = culture_group:albusian_group }
-			}
+			government_type = government_type:republic
+			#Change this later to make the condition that it is the leader of a Confederation I.O.
+			tag = ARCM
 		}
 	}
-	# text = {
-	# 	localization_key = country_name_construction_name
-	# 	trigger = {
-	# 		OR = {
-	# 			AND = {
-	# 				tag = PAP
-	# 				has_reform = government_reform:papacy_reform
-	# 			}
-	# 		}
-	# 	}
-	# }
-	# text = {
-	# 	localization_key = country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank
-	# 	trigger = {
-	# 		OR = {
-	# 			AND = {
-	# 				tag = GBR
-	# 				coa_def_GBR_uk_trigger = yes
-	# 			}
-	# 			AND = {
-	# 				tag = MAM
-	# 				OR = {
-	# 					country_rank = country_rank:rank_empire
-	# 					country_rank = country_rank:rank_kingdom
-	# 				}
-	# 				religion.group = religion_group:muslim
-	# 			}
-	# 			AND = {
-	# 				tag = DAU
-	# 				OR = {
-	# 					country_rank = country_rank:rank_duchy
-	# 					country_rank = country_rank:rank_county
-	# 				}
-	# 			}
-	# 			AND = {
-	# 				tag = PAL
-	# 				OR = {
-	# 					country_rank = country_rank:rank_duchy
-	# 					country_rank = country_rank:rank_county
-	# 				}
-	# 			}
-	# 		}
-	# 	}
-	# }
-	#
-	# text = {
-	# 	localization_key = country_name_construction_prefix_name_rank
-	# 	trigger = {
-	# 		government_type = government_type:monarchy
-	# 		OR = {
-	# 			country_rank = country_rank:rank_kingdom
-	# 			country_rank = country_rank:rank_empire
-	# 		}
-	# 		tag = MAL
-	# 	}
-	# }
-	#
-	# text = {
-	# 	localization_key = country_name_construction_prefix_name
-	# 	trigger = {
-	# 		country_rank ?= country_rank:rank_empire
-	# 		court_language ?= { language_family ?= language_family:chinese_language_family }
-	# 	}
-	# }
-	#
-	# text = {
-	# 	localization_key = country_name_construction_prefix_name_horde
-	# 	trigger = {
-	# 		government_type = government_type:steppe_horde
-	# 	}
-	# }
-	#
-	# text = {
-	# 	localization_key = country_name_construction_prefix_adjective_rank
-	# 	trigger = {
-	# 		OR = {
-	# 			AND = {
-	# 				country_rank = country_rank:rank_empire
-	# 				NOT = { tag = LAT }
-	# 			}
-	#
-	# 			tag = TIM
-	# 			tag = GLH
-	# 			tag = CHG
-	# 			tag = LAT
-	# 			AND = {
-	# 				tag = PLC
-	# 				country_rank = country_rank:rank_kingdom
-	# 			}
-	#
-	# 			AND = {
-	# 				country_rank = country_rank:rank_duchy
-	# 				government_type = government_type:republic
-	# 				culture = culture:frisian
-	# 			}
-	#
-	# 			AND = {
-	# 				tag = HSA
-	# 				government_type = government_type:republic
-	# 			}
-	#
-	# 			AND = {
-	# 				has_reform = government_reform:military_order_reform
-	# 				OR = {
-	# 					country_rank = country_rank:rank_kingdom
-	# 					country_rank = country_rank:rank_duchy
-	# 				}
-	# 				NOT = { tag = KNI }
-	# 			}
-	# 			has_reform = government_reform:japanese_clan
-	# 			country_type = pop
-	# 		}
-	# 	}
-	# }
-	#
-	# text = {
-	# 	localization_key = country_name_construction_sultanate
-	# 	trigger = {
-	# 		religion.group = religion_group:muslim
-	# 	}
-	# }
-	#
-	# text = {
-	# 	localization_key = country_name_construction_crown
-	# 	trigger = {
-	#
-	# 		country_rank_is_kingdom = yes
-	# 		OR = {
-	# 			tag = ARA
-	# 			tag = CAS
-	# 			tag = POL
-	# 			AND = {
-	# 				tag = BOH
-	# 				has_variable = crown_of_bohemia_variable
-	# 			}
-	# 		}
-	# 	}
-	# }
-	#
-	# text = {
-	# 	localization_key = country_name_construction_prefix_rank_of_name
-	# 	fallback = yes
-	# }
+
+	#Imperial Republic
+	text = {
+		localization_key = country_name_construction_imperial_republic_name
+		trigger = {
+			government_type = government_type:republic
+			country_rank ?= country_rank:rank_kingdom
+			#Change this later to make the condition that it's for a Kingdom level republic subject of Solace
+			#tag = HAIB
+			#Top Overlord Solace
+			overlord = c:SOL
+
+		}
+	}
+
+	#Principality
+	text = {
+		localization_key = country_name_construction_principality_name
+		trigger = {
+			government_type = government_type:monarchy
+			OR = {
+				country_rank ?= country_rank:rank_kingdom
+				country_rank ?= country_rank:rank_duchy
+				country_rank ?= country_rank:rank_county
+			}
+			#Change this later to make the condition that it has the Principality G.R.
+			tag = SOLR
+		}
+	}
+
+	#Grand Principality
+	text = {
+		localization_key = country_name_construction_grand_principality_name
+		trigger = {
+			government_type = government_type:monarchy
+			country_rank ?= country_rank:rank_empire
+			#Change this later to make the condition that it has the Principality G.R.
+			tag = SOLR
+		}
+	}
+
+	#Orders
+	text = {
+		localization_key = country_name_construction_order_name
+		trigger = {
+			government_type = government_type:theocracy
+			country_rank ?= country_rank:rank_county
+			#Change this later to make the condition that it has the Principality G.R.
+			tag = ASVR
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_holy_order_name
+		trigger = {
+			government_type = government_type:theocracy
+			country_rank ?= country_rank:rank_duchy
+			#Change this later to make the condition that it has the Principality G.R.
+			tag = ASVR
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_grand_order_name
+		trigger = {
+			government_type = government_type:theocracy
+			OR = {
+				country_rank ?= country_rank:rank_kingdom
+				country_rank ?= country_rank:rank_empire
+			}
+			#Change this later to make the condition that it has the Principality G.R.
+			tag = ASVR
+		}
+	}
+
+	#Grand Duchy
+	text = {
+		localization_key = country_name_construction_grand_duchy_name
+		trigger = {
+			government_type = government_type:monarchy
+			country_rank ?= country_rank:rank_duchy
+			#Change this later to restrict the Grand Duchy title to a Reform or Culture
+			tag = DLRS
+		}
+	}
+
+	#Albusian titles
+	#The Imperial Title
+	text = {
+		localization_key = country_name_construction_albusian_empire_name
+		trigger = {
+			country_rank ?= country_rank:rank_empire
+			culture = { has_culture_group = culture_group:albusian_group }
+		}
+	}
+
+	#Stormnate titles
+	text = {
+	 	localization_key = country_name_construction_stormnate_kingdom_name
+	  	trigger = {
+	 		country_rank ?= country_rank:rank_kingdom
+			culture = { has_culture_group = culture_group:albusian_group }
+			culture = { has_culture_group = culture_group:stormnate_group }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_stormnate_duchy_name
+		trigger = {
+			country_rank ?= country_rank:rank_duchy
+			culture = { has_culture_group = culture_group:albusian_group }
+			culture = { has_culture_group = culture_group:stormnate_group }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_stormnate_county_name
+		trigger = {
+			country_rank ?= country_rank:rank_county
+			culture = { has_culture_group = culture_group:albusian_group }
+			culture = { has_culture_group = culture_group:stormnate_group }
+		}
+	}
+
+	#Cloudocracy titles
+	text = {
+		localization_key = country_name_construction_cloud_kingdom_name
+		trigger = {
+			country_rank ?= country_rank:rank_kingdom
+			culture = { has_culture_group = culture_group:albusian_group }
+			culture = { has_culture_group = culture_group:neravidian_group }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_cloud_duchy_name
+		trigger = {
+			country_rank ?= country_rank:rank_duchy
+			culture = { has_culture_group = culture_group:albusian_group }
+			culture = { has_culture_group = culture_group:neravidian_group }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_cloud_county_name
+		trigger = {
+			country_rank ?= country_rank:rank_county
+			culture = { has_culture_group = culture_group:albusian_group }
+			culture = { has_culture_group = culture_group:neravidian_group }
+		}
+	}
+
+	#Independent (Fallback)
+	text = {
+		localization_key = country_name_construction_albusian_empire_name
+		trigger = {
+			country_rank ?= country_rank:rank_empire
+			culture = { has_culture_group = culture_group:albusian_group }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_albusian_kingdom_name
+		trigger = {
+			country_rank ?= country_rank:rank_kingdom
+			culture = { has_culture_group = culture_group:albusian_group }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_albusian_duchy_name
+		trigger = {
+			country_rank ?= country_rank:rank_duchy
+			culture = { has_culture_group = culture_group:albusian_group }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_albusian_county_name
+		trigger = {
+			country_rank ?= country_rank:rank_county
+			culture = { has_culture_group = culture_group:albusian_group }
+		}
+	}
+
+	#Theocracies
+	text = {
+		localization_key = country_name_construction_theocracy_county_name
+		trigger = {
+			government_type = government_type:theocracy
+			country_rank ?= country_rank:rank_county
+			#Additional restrictions can be added here
+			#tag = NRZH
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_theocracy_duchy_name
+		trigger = {
+			government_type = government_type:theocracy
+			country_rank ?= country_rank:rank_duchy
+			#Additional restrictions can be added here
+			#tag = NRZH
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_theocracy_kingdom_name
+		trigger = {
+			government_type = government_type:theocracy
+			country_rank ?= country_rank:rank_kingdom
+			#Additional restrictions can be added here
+			#tag = NRZH
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_theocracy_empire_name
+		trigger = {
+			government_type = government_type:theocracy
+			country_rank ?= country_rank:rank_empire
+			#Additional restrictions can be added here
+			#tag = NRZH
+		}
+	}
+
+	#Defaults
+	text = {
+		localization_key = country_name_construction_prefix_name_rank
+		trigger = {
+			government_type = government_type:monarchy
+			OR = {
+				country_rank = country_rank:rank_kingdom
+				country_rank = country_rank:rank_empire
+			}
+			tag = MAL
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_prefix_name
+		trigger = {
+			country_rank ?= country_rank:rank_empire
+			court_language ?= { language_family ?= language_family:chinese_language_family }
+		}
+	}
+
+	text = {
+		localization_key = country_name_construction_prefix_name_horde
+		trigger = {
+			government_type = government_type:steppe_horde
+		}
+	}
+
+	text = {
+	 	localization_key = country_name_construction_prefix_rank_of_name
+	 	fallback = yes
+	}
 }
 country_name_construction_map = { parent = country_name_construction suffix = "_map" }
