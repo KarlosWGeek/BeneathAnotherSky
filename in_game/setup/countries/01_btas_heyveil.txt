@@ -20,7 +20,7 @@ HAB = {
 #Ancient Empire of Solace
 SOL = {
     color = map_solace
-    color2 = rgb { 0 144 144 }
+    color2 = rgb { 40 40 40 }
 
     unit_color0 = rgb {	160 216 216 }
     unit_color1 = map_solace

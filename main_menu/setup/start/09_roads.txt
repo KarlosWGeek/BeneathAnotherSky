@@ -1,3 +1,108 @@
 road_network = {
- 	testprovince1 = testprovince2
+ 	### HEYVEIL
+	
+	## Solace
+	
+	# Xianluo-Se
+	urban_xianluo_se_1 = urban_xianluo_se_2
+	urban_xianluo_se_2 = urban_xianluo_se_3
+	urban_xianluo_se_3 = urban_xianluo_se_4
+	urban_xianluo_se_4 = urban_xianluo_se_5
+	urban_xianluo_se_5 = urban_xianluo_se_6
+	urban_xianluo_se_6 = urban_xianluo_se_7
+	urban_xianluo_se_7 = urban_xianluo_se_8
+	urban_xianluo_se_8 = urban_xianluo_se_9
+	urban_xianluo_se_9 = urban_xianluo_se_10
+	urban_xianluo_se_10 = urban_xianluo_se_11
+	urban_xianluo_se_11 = urban_xianluo_se_12
+	urban_xianluo_se_12 = urban_xianluo_se_13
+	urban_xianluo_se_13 = urban_xianluo_se_14
+	urban_xianluo_se_14 = urban_xianluo_se_15
+	urban_xianluo_se_15 = urban_xianluo_se_16
+	urban_xianluo_se_16 = urban_xianluo_se_17
+	urban_xianluo_se_17 = urban_xianluo_se_18
+	urban_xianluo_se_18 = urban_xianluo_se_19
+	urban_xianluo_se_19 = urban_xianluo_se_20
+	urban_xianluo_se_20 = urban_xianluo_se_21
+	urban_xianluo_se_21 = urban_xianluo_se_22
+	urban_xianluo_se_22 = urban_xianluo_se_23
+	urban_xianluo_se_23 = urban_xianluo_se_24
+	urban_xianluo_se_24 = urban_xianluo_se_1
+	
+	urban_xianluo_se_1 = suburban_xianluo_se_1
+	urban_xianluo_se_6 = suburban_xianluo_se_6
+	urban_xianluo_se_7 = suburban_xianluo_se_7
+	urban_xianluo_se_12 = suburban_xianluo_se_12
+	urban_xianluo_se_13 = suburban_xianluo_se_13
+	urban_xianluo_se_18 = suburban_xianluo_se_18
+	urban_xianluo_se_19 = suburban_xianluo_se_19
+	urban_xianluo_se_24 = suburban_xianluo_se_24
+	
+	suburban_xianluo_se_1 = suburban_xianluo_se_2
+	suburban_xianluo_se_2 = suburban_xianluo_se_3
+	suburban_xianluo_se_3 = suburban_xianluo_se_4
+	suburban_xianluo_se_4 = suburban_xianluo_se_5
+	suburban_xianluo_se_5 = suburban_xianluo_se_6
+	suburban_xianluo_se_6 = suburban_xianluo_se_7
+	suburban_xianluo_se_7 = suburban_xianluo_se_8
+	suburban_xianluo_se_8 = suburban_xianluo_se_9
+	suburban_xianluo_se_9 = suburban_xianluo_se_10
+	suburban_xianluo_se_10 = suburban_xianluo_se_11
+	suburban_xianluo_se_11 = suburban_xianluo_se_12
+	suburban_xianluo_se_12 = suburban_xianluo_se_13
+	suburban_xianluo_se_13 = suburban_xianluo_se_14
+	suburban_xianluo_se_14 = suburban_xianluo_se_15
+	suburban_xianluo_se_15 = suburban_xianluo_se_16
+	suburban_xianluo_se_16 = suburban_xianluo_se_17
+	suburban_xianluo_se_17 = suburban_xianluo_se_18
+	suburban_xianluo_se_18 = suburban_xianluo_se_19
+	suburban_xianluo_se_19 = suburban_xianluo_se_20
+	suburban_xianluo_se_20 = suburban_xianluo_se_21
+	suburban_xianluo_se_21 = suburban_xianluo_se_22
+	suburban_xianluo_se_22 = suburban_xianluo_se_23
+	suburban_xianluo_se_23 = suburban_xianluo_se_24
+	suburban_xianluo_se_24 = suburban_xianluo_se_1
+	
+	suburban_xianluo_se_1 = farmland_xianluo_se_1
+	suburban_xianluo_se_6 = farmland_xianluo_se_6
+	suburban_xianluo_se_7 = farmland_xianluo_se_7
+	suburban_xianluo_se_12 = farmland_xianluo_se_12
+	suburban_xianluo_se_13 = farmland_xianluo_se_13
+	suburban_xianluo_se_18 = farmland_xianluo_se_18
+	suburban_xianluo_se_19 = farmland_xianluo_se_19
+	suburban_xianluo_se_24 = farmland_xianluo_se_24
+	
+	farmland_xianluo_se_1 = farmland_xianluo_se_2
+	farmland_xianluo_se_2 = farmland_xianluo_se_3
+	farmland_xianluo_se_3 = farmland_xianluo_se_4
+	farmland_xianluo_se_4 = farmland_xianluo_se_5
+	farmland_xianluo_se_5 = farmland_xianluo_se_6
+	farmland_xianluo_se_6 = farmland_xianluo_se_7
+	farmland_xianluo_se_7 = farmland_xianluo_se_8
+	farmland_xianluo_se_8 = farmland_xianluo_se_9
+	farmland_xianluo_se_9 = farmland_xianluo_se_10
+	farmland_xianluo_se_10 = farmland_xianluo_se_11
+	farmland_xianluo_se_11 = farmland_xianluo_se_12
+	farmland_xianluo_se_12 = farmland_xianluo_se_13
+	farmland_xianluo_se_13 = farmland_xianluo_se_14
+	farmland_xianluo_se_14 = farmland_xianluo_se_15
+	farmland_xianluo_se_15 = farmland_xianluo_se_16
+	farmland_xianluo_se_16 = farmland_xianluo_se_17
+	farmland_xianluo_se_17 = farmland_xianluo_se_18
+	farmland_xianluo_se_18 = farmland_xianluo_se_19
+	farmland_xianluo_se_19 = farmland_xianluo_se_20
+	farmland_xianluo_se_20 = farmland_xianluo_se_21
+	farmland_xianluo_se_21 = farmland_xianluo_se_22
+	farmland_xianluo_se_22 = farmland_xianluo_se_23
+	farmland_xianluo_se_23 = farmland_xianluo_se_24
+	farmland_xianluo_se_24 = farmland_xianluo_se_1
+	
+	suburban_xianluo_se_24 = urban_xianluo_se_1
+	farmland_xianluo_se_24 = suburban_xianluo_se_1
+	suburban_xianluo_se_6 = urban_xianluo_se_7
+	farmland_xianluo_se_6 = suburban_xianluo_se_7
+	suburban_xianluo_se_12 = urban_xianluo_se_13
+	farmland_xianluo_se_12 = suburban_xianluo_se_13
+	suburban_xianluo_se_18 = urban_xianluo_se_19
+	farmland_xianluo_se_18 = suburban_xianluo_se_19
 }

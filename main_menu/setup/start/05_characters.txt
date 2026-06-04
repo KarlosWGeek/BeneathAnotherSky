@@ -28,8 +28,8 @@ character_db={
 		estate = nobles_estate
 		adm = 100 dip = 100 mil = 100
 		female = no
-		birth_date = 529.7.27
-		birth = testprovince1
+		birth_date = 401.7.27
+		birth = downtown_xianluo_se_12
 		dynasty = sol_dynasty
 		fertility = 0
 		tag = SOL

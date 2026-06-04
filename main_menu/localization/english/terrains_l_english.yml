@@ -123,6 +123,11 @@
  ocean_wasteland_desc: "Abyssal Trenches are the deepest, steep-walled ocean depressions formed by subduction, creating cold, high-pressure environments with dramatic vertical relief and rare specialized life."
  
  # Wastelands
+ floating_wasteland: "Floating Edges"
+ floating_wasteland_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
+ ancient_fortification: "Ancient Fortification"
+ ancient_fortification_desc: "Ancient Fortification are megastructures built hundreds of thousands of years ago as the ultimate form of defense. They are impossible to climb or break through, as even the smallest of them are too thick, too tall or enchanted with powerful ancient magic."
+ 
  wetlands_wasteland: "Wetlands Wasteland"
  wetlands_wasteland_desc: "$wetlands_desc$"
  flatland_wasteland: "Flatland Wasteland"

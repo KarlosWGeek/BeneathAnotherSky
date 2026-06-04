@@ -1,3 +1,13 @@
 market_manager = {
 	add_market = testprovince1
+	
+	# HEYVEIL
+	add_market = urban_xianluo_se_1
+	add_market = urban_xianluo_se_7
+	add_market = urban_xianluo_se_13
+	add_market = urban_xianluo_se_19
+	add_market = south_pole_location_226
+	add_market = south_pole_location_243
+	add_market = south_pole_location_327
+	add_market = south_pole_location_466
 }
