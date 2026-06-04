@@ -1,0 +1,118 @@
+﻿l_english:
+ #Elven
+ #Constructors
+ country_name_construction_ancient_rank_name: "Ancient $RANK$ of $NAME$"
+ country_name_construction_ancient_rank_name_map: "Ancient $RANK$ of $NAME$"
+ country_name_construction_rank_of_name: "$RANK$ of $NAME$"
+ country_name_construction_rank_of_name_map: "$RANK$ of $NAME$"
+
+ country_name_construction_ancient: "$country_name_construction_ancient_rank_name$"
+ country_name_construction_ancient_map: "$country_name_construction_ancient_rank_name_map$"
+
+ #Albus Mons
+ #The Imperial Title
+ country_name_construction_albusian_empire_name: "Tengoku of $NAME$"
+ country_name_construction_albusian_empire_name_map: "Tengoku of $NAME$"
+ rank_empire_albusian_rule_male: "Tennō"
+ rank_empire_albusian_rule_female: "Tennō"
+
+ #Kingdom Titles
+ #Stormnate Title
+ country_name_construction_stormnate_kingdom_name: "Arashi of $NAME$"
+ country_name_construction_stormnate_kingdom_name_map: "Arashi of $NAME$"
+ rank_kingdom_stormnate_rule_male: "Storm King"
+ rank_kingdom_stormnate_rule_female: "Storm Queen"
+
+ #Cloudocracy Title
+ country_name_construction_cloud_kingdom_name: "Ame of $NAME$"
+ country_name_construction_cloud_kingdom_name_map: "Ame of $NAME$"
+ rank_country_cloud_kingdom_rule_male: "Rain King"
+ rank_country_cloud_kingdom_rule_female: "Rain Queen"
+
+ #Independent Title
+ country_name_construction_albusian_kingdom_name: "Taiyo of $NAME$"
+ country_name_construction_albusian_kingdom_name_map: "Taiyo of $NAME$"
+ rank_country_albus_kingdom_rule_male: "Sun King"
+ rank_country_albus_kingdom_rule_female: "Sun Queen"
+
+ #Duchy Titles
+ #Stormnate Title
+ country_name_construction_stormnate_duchy_name: "Inazuma of $NAME$"
+ country_name_construction_stormnate_duchy_name_map: "Inazuma of $NAME$"
+ rank_country_storm_duchy_rule_male: "Lightning Lord"
+ rank_country_storm_duchy_rule_female: "Lightning Lady"
+
+ #Cloudocracy Title
+ country_name_construction_cloud_duchy_name: "Mizu of $NAME$"
+ country_name_construction_cloud_duchy_name_map: "Mizu of $NAME$"
+ rank_country_cloud_duchy_rule_male: "Water Lord"
+ rank_country_cloud_duchy_rule_female: "Water Lady"
+
+ #Independent Title
+ country_name_construction_albusian_duchy_name: "Kasai of $NAME$"
+ country_name_construction_albusian_duchy_name_map: "Kasai of $NAME$"
+ rank_country_albus_duchy_rule_male: "Fire Lord"
+ rank_country_albus_duchy_rule_female: "Fire Lady"
+
+ #county
+ #Stormnate Title
+ country_name_construction_stormnate_county_name: "Kurai of $NAME$"
+ country_name_construction_stormnate_county_name_map: "Kurai of $NAME$"
+ rank_country_storm_rule_male: "Lord"
+ rank_country_storm_rule_female: "Lady"
+
+ #Cloudocracy Title
+ country_name_construction_cloud_county_name: "Kaze of $NAME$"
+ country_name_construction_cloud_county_name_map: "Kaze of $NAME$"
+ rank_country_cloud_rule_male: "Lord"
+ rank_country_cloud_rule_female: "Lady"
+
+ #Independent Title
+ country_name_construction_albusian_county_name: "Raito of $NAME$"
+ country_name_construction_albusian_county_name_map: "Raito of $NAME$"
+ rank_country_albus_rule_male: "Lord"
+ rank_country_albus_rule_female: "Lady"
+
+ #Special Titles
+ #Imperial Republic
+ country_name_construction_imperial_republic_name: "Imperial Republic of $NAME$"
+ country_name_construction_imperial_republic_name_map: "Imperial Republic of $NAME$"
+
+ #Confederation
+ country_name_construction_confederation_county_name: "Confederation of $NAME$"
+ country_name_construction_confederation_county_name_map: "Confederation of $NAME$"
+
+ #Principality
+ country_name_construction_principality_name: "Principality of $NAME$"
+ country_name_construction_principality_name_map: "Principality of $NAME$"
+
+ #Grand Principality
+ country_name_construction_grand_principality_name: "Grand Principality of $NAME$"
+ country_name_construction_grand_principality_name_map: "Grand Principality of $NAME$"
+
+ #Holy Orders
+ country_name_construction_order_name: "Order of $NAME$"
+ country_name_construction_order_name_map: "Order of $NAME$"
+
+ country_name_construction_holy_order_name: "Holy Order of $NAME$"
+ country_name_construction_holy_order_name_map: "Holy Order of $NAME$"
+
+ country_name_construction_grand_order_name: "Grand Order of $NAME$"
+ country_name_construction_grand_order_name_map: "Grand Order of $NAME$"
+
+ #Theocracies
+ country_name_construction_theocracy_county_name: "Temple of $NAME$"
+ country_name_construction_theocracy_county_name_map: "Temple of $NAME$"
+
+ country_name_construction_theocracy_duchy_name: "Theocracy of $NAME$"
+ country_name_construction_theocracy_duchy_name_map: "Theocracy of $NAME$"
+
+ country_name_construction_theocracy_kingdom_name: "Grand Theocracy of $NAME$"
+ country_name_construction_theocracy_kingdom_name_map: "Grand Theocracy of $NAME$"
+
+ country_name_construction_theocracy_empire_name: "Imperial Theocracy of $NAME$"
+ country_name_construction_theocracy_empire_name_map: "Imperial Theocracy of $NAME$"
+
+ #Grand Duchy
+ country_name_construction_grand_duchy_name: "Grand Duchy of $NAME$"
+ country_name_construction_grand_duchy_name_map: "Grand Duchy of $NAME$"

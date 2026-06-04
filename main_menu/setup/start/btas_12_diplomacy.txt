@@ -1,0 +1,24 @@
+diplomacy_manager = {
+    #-------------Solace-------------#
+    #All subjects are members of the Mantle of the Depths
+    #Dark Gate
+    dependency = { first = SOL second = HAIB subject_type = vassal }
+    dependency = { first = HAIB second = SDG1 subject_type = vassal }
+    #Light Gate
+    dependency = { first = SOL second = SNZU subject_type = vassal }
+    dependency = { first = SNZU second = SLG1 subject_type = vassal }
+    #Celestial Plateau
+    dependency = { first = SOL second = CRSP subject_type = tributary }
+    dependency = { first = SOL second = ARCM subject_type = tributary }
+    #White Vale
+    dependency = { first = SOL second = SWV1 subject_type = vassal }
+    dependency = { first = SOL second = SWV2 subject_type = vassal }
+
+    #-------------Seongranguk-------------#
+    dependency = { first = SEON second = ASHR subject_type = vassal }
+    dependency = { first = SEON second = HKSH subject_type = vassal }
+
+    #-------------Neravid-------------#
+    dependency = { first = NRVD second = HITO subject_type = vassal }
+    dependency = { first = NRVD second = OSHO subject_type = vassal }
+}

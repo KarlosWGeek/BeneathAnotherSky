@@ -3,12 +3,37 @@
  ### Elves
 
  ## Dynasties
- 
  # Heyveil
  sol_dynasty: "Sol"
+ seon_dynasty: "Seon"
+ neravid_dynasty: "Neravid"
+ hartuk_dynasty: "Hartuk"
+ embarth_dynasty: "Embarth"
+ crownspire_dynasty: "Greilta"
+ arcum_dynasty: "Arcum"
+ delvaris_dynasty: "Delvaris"
+ solenor_dynasty: "Solenor"
+ vitalia_dynasty: "Vitalia"
+ haibai_dynasty: "Haibai"
+ norzheia_dynasty: "Norzheia"
+ valtaria_dynasty: "Valtaria"
+ liarda_dynasty: "Liarda"
+ elandor_dynasty: "Elandor"
+ orsvalen_dynasty: "Orsvalen"
+ aesvora_dynasty: "Aesvora"
+ korrelach_dynasty: "Korrelach"
+ ashiari_dynasty: "Ashiari"
+ hokasha_dynasty: "Hokasha"
+ shezuma_dynasty: "Shezuma"
+ osho_dynasty: "Osho"
+ hito_dynasty: "Hito"
+ shenzu_dynasty: "Shenzu"
+ cwazawa_dynasty: "Cwazawa"
+ xianzua_dynasty: "Xianzua"
+ shanxi_dynasty: "Shanxi"
+ xiaun_dynasty: "Xiaun"
 
  ## Names
- 
  # Heyveil Male Special/Unique
  name_astraelion: "Astraelion"
  name_caelithor: "Caelithor"

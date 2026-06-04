@@ -11,6 +11,29 @@ colors = {
 	
 	# Nation Colors
 	map_solace = rgb { 0 144 144 }
+	map_Seongranguk = rgb { 88 13 88 }
+	map_neravid = rgb { 89 250 170 }
+	map_valtaria = rgb { 132 136 240 }
+	map_crownspire = rgb { 139 191 236 }
+	map_solenor = rgb { 138 205 61 }
+	map_haibai = rgb { 26 117 117 }
+	map_liarda = rgb { 9 34 84 }
+	map_arcum = rgb { 76 102 110 }
+	map_hartuk = rgb { 210 18 18 }
+	map_elandor = rgb { 164 164 164 }
+	map_orsvalen = rgb { 121 148 34 }
+	map_aesvora = rgb { 243 243 243 }
+	map_korrelach = rgb { 131 177 223 }
+	map_vitalia = rgb { 108 19 90 }
+	map_norzheia = rgb { 44 31 44 }
+	map_delvaris = rgb { 195 170 190 }
+	map_embarth = rgb { 215 105 42 }
+	map_ashiari = rgb { 193 49 49 }
+	map_hokasha = rgb { 51 25 0 }
+	map_shezuma = rgb { 108 216 104 }
+	map_osho = rgb { 85 172 185 }
+	map_hito = rgb { 144 140 208 }
+	map_shenzu = rgb { 62 176 39 }
 
 	map_debug = rgb { 255 0 255 }
 
@@ -40,7 +63,11 @@ colors = {
 	terrain_hills_wasteland = rgb { 93 146 121}
 	terrain_marsh_wasteland = rgb { 0 159 100}
 
-	# Climate Colors
+	### ELYSIUM
+	
+	## CLIMATE
+	
+	# Land Climate Colors
 	climate_arid = rgb { 224 216 160 } # Hot Desert
 	climate_cold_arid = rgb { 200 192 136 } # Cold Desert
 	climate_hot_semi_arid = rgb { 232 184 120 } # Hot Semi-Arid
@@ -55,12 +82,20 @@ colors = {
 	climate_subarctic = rgb { 176 192 176 } # Subarctic
 	climate_arctic = rgb { 208 208 208 } # Arctic
 	climate_polar = rgb { 240 240 240 } # Polar
+	
+	# Special Climate Colors
 	climate_hot_aerial = rgb { 232 128 80 } # Hot Aerial
 	climate_aerial = rgb { 240 192 8 } # Aerial
 	climate_cold_aerial = rgb { 200 192 240 } # Cold Aerial
+	
+	# Ocean Climate Colors
+	climate_warm_ocean_cli = rgb { 8 120 168 } # Warm Ocean
+	climate_ocean_cli = rgb { 112 168 216 } # Ocean
+	climate_cold_ocean_cli = rgb { 184 224 255 } # Cold Ocean
+
+	## VEGETATION
 
 	# Vegetation Colors
-	terrain_enchanted = rgb { 128 0 208 } # Enchanted
 	terrain_jungle = rgb { 0 32 0 } # Jungle
 	terrain_forest = rgb { 0 64 0 } # Forest
 	terrain_woods = rgb { 0 136 0 } # Woods
@@ -68,41 +103,54 @@ colors = {
 	terrain_grasslands = rgb { 0 208 0  } # Grasslands
 	terrain_steppe = rgb { 152 240 120 } # Sparse
 	terrain_desert = rgb { 255 240 184 } # Desert
+	
+	# Special Vegetation Colors
+	terrain_enchanted_jungle = rgb { 56 0 136 } # Enchanted Jungle
+	terrain_enchanted = rgb { 128 0 208 } # Enchanted Forest
 	terrain_haunted = rgb { 240 240 240 } # Haunted
 	terrain_urban = rgb { 192 0 0 } # Urban
+	
+	## TOPOGRAPHY
 
 	# Land Topography Colors
-	terrain_marsh = rgb { 8 72 32 } # Wetlands
-	terrain_flatlands = rgb { 16 112 16 } # Flatlands
-	terrain_rolling_flatlands = rgb { 8 160 8 } # Rolling Flatlands
-	terrain_plateau = rgb { 48 176 24 } # Plateau
-	terrain_irregular_plateau = rgb { 136 176 0 } # Irregular Plateau
-	terrain_high_plateau = rgb { 192 176 64 } # High Plateau
-	terrain_hills = rgb { 208 192 152 } # Hills
-	terrain_mountain = rgb { 232 216 176 } # Mountains
+	terrain_marsh = rgb { 40 120 112 } # Wetlands
+	terrain_flatlands = rgb { 80 168 72 } # Flatlands
+	terrain_rolling_flatlands = rgb { 232 184 128 } # Rolling Flatlands
+	terrain_hills = rgb { 176 96 40 } # Hills
+	terrain_plateau = rgb { 144 64 8 } # Plateau
+	terrain_irregular_plateau = rgb { 112 24 0 } # Irregular Plateau
+	terrain_mountain = rgb { 64 0 0 } # Mountains
+	terrain_high_plateau = rgb { 192 192 192 } # High Plateau
 	terrain_high_mountain = rgb { 208 208 208 } # High Mountains
+	
+	# Special Topography Colors
 	terrain_floating_islands = rgb { 168 16 112 } # Floating Islands
 	terrain_floating_mountains = rgb { 136 56 200 } # Floating Mountains
+	terrain_floating_wasteland = rgb { 136 0 64 } # Floating Edges
 
 	# Maritime Topography Colors
-	terrain_salt_pans = rgb { 112 96 64 } # Salt Pans
-	terrain_frozen_sea = rgb { 160 192 208 } # Frozen
-	terrain_high_lakes = rgb { 144 176 192 } # Fresh High
-	terrain_lakes = rgb { 128 160 176 } # Fresh
-	terrain_inland_sea = rgb { 96 128 144 } # Saline
-	terrain_atoll = rgb { 80 112 128 } # Atoll
-	terrain_narrows = rgb { 64 96 112 } # Narrows
+	terrain_frozen_ocean = rgb { 184 216 232 } # Deep Frozen
+	terrain_frozen_sea = rgb { 168 200 216 } # Frozen
+	terrain_high_lakes = rgb { 152 184 200 } # Fresh High
+	terrain_lakes = rgb { 136 168 184 } # Fresh
+	terrain_salt_pans = rgb { 112 96 56 } # Salt Pans
+	terrain_inland_sea = rgb { 88 120 136 } # Saline
+	terrain_atoll = rgb { 72 104 120 } # Atoll
+	terrain_narrows = rgb { 56 88 104 } # Narrows
 
 	# Oceanic Topography Colors
-	terrain_coastal_ocean = rgb { 48 80 96 } # Coastal Ocean
-	terrain_ocean = rgb { 32 64 80 } # Continental Shelf
-	terrain_oceanic_plateau = rgb { 16 48 64 } # Oceanic Plateau
-	terrain_oceanic_ridge = rgb { 0 32 48 } # Oceanic Ridge
-	terrain_deep_ocean = rgb { 0 16 32 } # Abyssal Plains
+	terrain_coastal_ocean = rgb { 40 72 88 } # Coastal Ocean
+	terrain_ocean = rgb { 24 56 72 } # Continental Shelf
+	terrain_oceanic_plateau = rgb { 8 40 56 } # Oceanic Plateau
+	terrain_oceanic_ridge = rgb { 0 24 40 } # Oceanic Ridge
+	terrain_deep_ocean = rgb { 0 8 24 } # Abyssal Plains
 	terrain_ocean_wasteland = rgb { 0 0 16 } # Abyssal Trench
 
 	# Wasteland Topography Colors
-	terrain_floating_wasteland = rgb { 136 0 64 } # Floating Edges
+	
+	### VULKARIA
+	
+	### AETHERITH
 
 	# ranks
 

@@ -1,7 +1,9 @@
 ﻿l_english:
  ### CLIMATE
  
- # Arid
+ ## ELYSIUM - LAND
+ 
+ #Arid
  arid: "Hot Arid"
  arid_desc: "Hot Arids are extremely dry regions with intense heat, minimal rainfall, sparse vegetation, and wide temperature swings between scorching days and cooler nights."
  cold_arid: "Cold Arid"
@@ -33,6 +35,9 @@
  arctic_desc: "Arctics are polar-edge regions with frigid temperatures, short cool summers, minimal precipitation, and tundra vegetation surviving thin soils and persistent cold."
  polar: "Polar"
  polar_desc: "Polars are extreme high-latitude climates with permanent cold icy landscapes, very little precipitation, and minimal vegetation adapted to severe environmental limits."
+ 
+ ## ELYSIUM - Special
+ 
  # Aerial
  hot_aerial: "Hot Aerial"
  hot_aerial_desc: "Hot Aerials are floating equatorial islands with intense sunlight, warm temperatures, frequent storms, and unique ecosystems adapted to skyborne environments."
@@ -41,9 +46,21 @@
  cold_aerial: "Cold Aerial"
  cold_aerial_desc: "Cold Aerials are floating frigid islands with harsh winds, freezing temperatures, sparse hardy life, and long periods of low sunlight."
  
+ ## ELYSIUM - SEA
+ 
+ # Ocean
+ warm_ocean_cli: "Warm Ocean"
+ warm_ocean_cli_desc: "Placeholder"
+ ocean_cli: "Ocean"
+ ocean_cli_desc: "Placeholder"
+ cold_ocean_cli: "Cold Ocean"
+ cold_ocean_cli_desc: "Placeholder"
+ 
  
  
  ### TOPOGRAPHY
+ 
+ ## ELYSIUM
  
  # Land Topography
  wetlands: "Wetlands"
@@ -52,32 +69,38 @@
  flatland_desc: "Flatlands are broad, level expanses with minimal elevation change, offering open horizons, expansive skies, and ideal conditions for agriculture, settlement, and easy travel."
  rolling_flatland: "Rolling Flatlands"
  rolling_flatland_desc: "Rolling Flatlands are gently undulating terrains with subtle rises and dips, blending mostly flat surfaces with mild variation that adds texture while remaining easily navigable."
+ hills: "Hills"
+ hills_desc: "Hills are rounded elevated landforms rising above surrounding terrain, featuring moderate slopes, varied contours, and scenic transitions between lowlands and rugged uplands."
  plateau: "Plateau"
  plateau_desc: "Plateaus are elevated flat terrains rising sharply from surrounding areas, characterized by broad level surfaces, dramatic edges, and stable conditions supporting vegetation and wildlife."
  irregular_plateau: "Irregular Plateau"
  irregular_plateau_desc: "Irregular Plateaus are elevated landforms with uneven surfaces, varied slopes, and scattered ridges, creating a more complex landscape than smoother, typical plateaus."
- high_plateau: "High Plateau"
- high_plateau_desc: "High Plateaus are vast elevated regions situated at significant altitude, offering expansive views, cooler climates, and sweeping plains atop dramatically uplifted terrain."
- hills: "Hills"
- hills_desc: "Hills are rounded elevated landforms rising above surrounding terrain, featuring moderate slopes, varied contours, and scenic transitions between lowlands and rugged uplands."
  mountains: "Mountains"
  mountains_desc: "Mountains are prominent landforms with steep slopes, high peaks, and dramatic elevation changes, creating challenging environments shaped by tectonic and geological forces."
+ high_plateau: "High Plateau"
+ high_plateau_desc: "High Plateaus are vast elevated regions situated at significant altitude, offering expansive views, cooler climates, and sweeping plains atop dramatically uplifted terrain."
  high_mountains: "High Mountains"
  high_mountains_desc: "High Mountains are extremely elevated, imposing ranges with sharp ridges, towering summits, and severe climates, forming dramatic landscapes that dominate surrounding regions."
+ 
+ # Special Topography
  floating_islands: "Floating Island"
  floating_islands_desc: "Floating Islands are mysterious airborne landmasses of varying sizes, suspended by enigmatic magical forces, affecting air and sea current above and beneath them."
  floating_mountains: "Floating Mountains"
  floating_mountains_desc: "Floating Mountains are rare, high elevation regions on Floating Islands large enough to support them, often holding some of the rarest and most exotic minerals in the world."
+ floating_wasteland: "Floating Edges"
+ floating_wasteland_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
  
  # Maritime Topography
- salt_pans: "Salt Pan"
- salt_pans_desc: "Salt Pans are flat, sun-baked coastal or inland basins where seawater or saline groundwater evaporates, leaving mineral-rich crusts and stark, reflective landscapes."
+ frozen_ocean: "Deep Frozen"
+ frozen_ocean_desc: "Deep Frozen regions are deep oceans that have their surface covered in thick ice sheets that may break off and melt in the summer, often located at or near the poles, where temperature drops enough to freeze even high-salinity water."
  frozen_sea: "Frozen"
- frozen_sea_desc: "Frozen regions are very low-salinity waters that freeze seasonally, like polar seas, forming shifting ice cover, extreme temperatures, and unique ecosystems adapted to harsh seasonal cycles."
+ frozen_sea_desc: "Frozen regions are very low-salinity waters that freeze seasonally, forming shifting ice cover, extreme temperatures, and unique ecosystems adapted to harsh seasonal cycles."
  high_lakes: "Fresh"
  high_lakes_desc: "Fresh regions are low-salinity freshwater lakes, offering stable habitats, diverse species, and gentle hydrological conditions shaped by river inflows, precipitation, and surrounding terrestrial landscapes."
  lakes: "Fresh"
  lakes_desc: "Fresh regions are low-salinity freshwater lakes, offering stable habitats, diverse species, and gentle hydrological conditions shaped by river inflows, precipitation, and surrounding terrestrial landscapes."
+ salt_pans: "Salt Pan"
+ salt_pans_desc: "Salt Pans are flat, sun-baked coastal or inland basins where seawater or saline groundwater evaporates, leaving mineral-rich crusts and stark, reflective landscapes."
  inland_sea: "Saline"
  inland_sea_desc: "Saline regions are high-salinity inland seas, salt lakes, or atoll lagoons, featuring dense waters, limited outflow, and specialized ecosystems adapted to intense evaporation and mineral concentration."
  atoll: "Atoll"
@@ -85,7 +108,7 @@
  narrows: "Narrows"
  narrows_desc: "Narrows are highly saline maritime passages bordered closely by land, creating constrained waterways like straits or enclosed archipelagic seas with dynamic currents and concentrated marine activity."
  
- # Oceanic Topography
+ # Ocean Topography
  coastal_ocean: "Coastal Ocean"
  coastal_ocean_desc: "Coastal Oceans are dynamic, nutrient-rich border zones where land meets sea, supporting diverse ecosystems, intense biological productivity, and vital human activities shaped by shifting tides and currents."
  ocean: "Continental Shelf"
@@ -100,6 +123,11 @@
  ocean_wasteland_desc: "Abyssal Trenches are the deepest, steep-walled ocean depressions formed by subduction, creating cold, high-pressure environments with dramatic vertical relief and rare specialized life."
  
  # Wastelands
+ floating_wasteland: "Floating Edges"
+ floating_wasteland_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
+ ancient_fortification: "Ancient Fortification"
+ ancient_fortification_desc: "Ancient Fortification are megastructures built hundreds of thousands of years ago as the ultimate form of defense. They are impossible to climb or break through, as even the smallest of them are too thick, too tall or enchanted with powerful ancient magic."
+ 
  wetlands_wasteland: "Wetlands Wasteland"
  wetlands_wasteland_desc: "$wetlands_desc$"
  flatland_wasteland: "Flatland Wasteland"
@@ -115,16 +143,15 @@
  mountain_wasteland: "Mountain Wasteland"
  mountain_wasteland_desc: "$mountains_desc$"
  
- floating_wasteland: "Floating Edges"
- floating_wasteland_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
+ ## VULKARIA
+ 
+ ## AETHERITH
  
  
  
- ### vegetation
+ ### Vegetation
  
  # Vegetation
- enchanted: "Enchanted"
- enchanted_desc: "Enchanted Mythical Forests of Manabloom Trees, their purple bark and pink leaves nourished by flowing planetary mana currents that create vibrant, otherworldly ecosystems."
  jungle: "Jungle"
  jungle_desc: "Jungles are dense, humid ecosystems filled with towering trees, intertwined vines, and abundant wildlife, creating layered canopies and thriving biodiversity in warm tropical climates."
  forest: "Forest"
@@ -139,6 +166,12 @@
  sparse_desc: "Sparse regions are lightly vegetated landscapes with scattered shrubs, hardy plants, and open ground, forming transitional zones shaped by limited water, nutrient-poor soils, or harsh climates."
  desert: "Desert"
  desert_desc: "Deserts are arid environments with minimal vegetation, extreme temperatures, and vast stretches of sand or rock, hosting resilient species adapted to intense dryness and heat."
+ 
+ # Special
+ enchanted_jungle: "Enchanted Jungle"
+ enchanted_jungle_desc: "Enchanted Jungles only occur in places where the concentrations of planetary are so high that megaflora can be found, with Manabloom Trees specifically growing to truly gigantic sizes not possible anywhere else in the world."
+ enchanted: "Enchanted Forest"
+ enchanted_desc: "Enchanted Mythical Forests of Manabloom Trees, their purple bark and pink leaves nourished by flowing planetary mana currents that create vibrant, otherworldly ecosystems."
  haunted: "Haunted"
  haunted_desc: "Haunted Mangrove Forests of Graveshade Trees, their gray foliage sustained by draining mana from soil and living creatures, resulting in eerie, lifeless, and hostile ecosystems."
  urban: "Urban"

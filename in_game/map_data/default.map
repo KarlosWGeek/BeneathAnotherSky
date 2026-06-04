@@ -27,6 +27,30 @@ earthquakes = {
 # European Seas
 sea_zones = { 
 	my_sea_zone
+	coast_heyveil_1
+	ocean_heyveil_1
+	coast_heyveil_6
+	ocean_heyveil_6
+	coast_heyveil_7
+	ocean_heyveil_7
+	coast_heyveil_8
+	ocean_heyveil_8
+	coast_heyveil_9
+	ocean_heyveil_9
+	coast_heyveil_10
+	ocean_heyveil_10
+	coast_heyveil_11
+	coast_heyveil_12
+	wasteland1
+	wasteland2
+	wasteland3
+	wasteland4
+	wasteland5
+	wasteland6
+	wasteland7
+	wasteland8
+	wasteland9
+	wasteland10
 } 
 
 ###############
@@ -58,6 +82,78 @@ impassable_mountains = {
 	wasteland9
 	wasteland10
 	wasteland_blocker
+	blackstone_crownwall_inner_1
+	blackstone_crownwall_inner_2
+	blackstone_crownwall_inner_3
+	blackstone_crownwall_inner_4
+	blackstone_crownwall_inner_5
+	blackstone_crownwall_inner_6
+	blackstone_crownwall_inner_7
+	blackstone_crownwall_inner_8
+	blackstone_crownwall_inner_9
+	blackstone_crownwall_inner_10
+	blackstone_crownwall_inner_11
+	blackstone_crownwall_inner_12
+	blackstone_crownwall_inner_13
+	blackstone_crownwall_inner_14
+	blackstone_crownwall_inner_15
+	blackstone_crownwall_inner_16
+	blackstone_crownwall_inner_17
+	blackstone_crownwall_inner_18
+	blackstone_crownwall_inner_19
+	blackstone_crownwall_inner_20
+	blackstone_crownwall_inner_21
+	blackstone_crownwall_inner_22
+	blackstone_crownwall_inner_23
+	blackstone_crownwall_inner_24
+	blackstone_crownwall_middle_1
+	blackstone_crownwall_middle_2
+	blackstone_crownwall_middle_3
+	blackstone_crownwall_middle_4
+	blackstone_crownwall_middle_5
+	blackstone_crownwall_middle_6
+	blackstone_crownwall_middle_7
+	blackstone_crownwall_middle_8
+	blackstone_crownwall_middle_9
+	blackstone_crownwall_middle_10
+	blackstone_crownwall_middle_11
+	blackstone_crownwall_middle_12
+	blackstone_crownwall_middle_13
+	blackstone_crownwall_middle_14
+	blackstone_crownwall_middle_15
+	blackstone_crownwall_middle_16
+	blackstone_crownwall_middle_17
+	blackstone_crownwall_middle_18
+	blackstone_crownwall_middle_19
+	blackstone_crownwall_middle_20
+	blackstone_crownwall_middle_21
+	blackstone_crownwall_middle_22
+	blackstone_crownwall_middle_23
+	blackstone_crownwall_middle_24
+	blackstone_crownwall_outer_1
+	blackstone_crownwall_outer_2
+	blackstone_crownwall_outer_3
+	blackstone_crownwall_outer_4
+	blackstone_crownwall_outer_5
+	blackstone_crownwall_outer_6
+	blackstone_crownwall_outer_7
+	blackstone_crownwall_outer_8
+	blackstone_crownwall_outer_9
+	blackstone_crownwall_outer_10
+	blackstone_crownwall_outer_11
+	blackstone_crownwall_outer_12
+	blackstone_crownwall_outer_13
+	blackstone_crownwall_outer_14
+	blackstone_crownwall_outer_15
+	blackstone_crownwall_outer_16
+	blackstone_crownwall_outer_17
+	blackstone_crownwall_outer_18
+	blackstone_crownwall_outer_19
+	blackstone_crownwall_outer_20
+	blackstone_crownwall_outer_21
+	blackstone_crownwall_outer_22
+	blackstone_crownwall_outer_23
+	blackstone_crownwall_outer_24
 }
 
 non_ownable = {
