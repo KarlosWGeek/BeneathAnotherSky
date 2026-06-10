@@ -57,47 +57,167 @@ countries = {
 		# Ancient Empire of Solace
 		SOL = {
             own_control_core = {
-				land_heyveil_1
-				land_heyveil_2
-				land_heyveil_3
-				land_heyveil_4
-				land_heyveil_5
-				land_heyveil_6
-				land_heyveil_7
-				land_heyveil_8
-				land_heyveil_9
-				land_heyveil_10
-				land_heyveil_11
-				downtown_hei_an_zuban_1
-				downtown_hei_an_zuban_2
-				downtown_hei_an_zuban_3
-				downtown_hei_an_zuban_4
-				downtown_hei_an_zuban_5
-				downtown_hei_an_zuban_6
-				downtown_hei_an_zuban_7
-				downtown_hei_an_zuban_8
-				downtown_hei_an_zuban_9
-				downtown_hei_an_zuban_10
-				downtown_hei_an_zuban_11
-				downtown_hei_an_zuban_12
-				downtown_hei_an_zuban_13
-				downtown_hei_an_zuban_14
-				downtown_hei_an_zuban_15
-				downtown_hei_an_zuban_16
-				downtown_hei_an_zuban_17
-				downtown_hei_an_zuban_18
-				downtown_hei_an_zuban_19
-				downtown_hei_an_zuban_20
-				downtown_hei_an_zuban_21
-				downtown_hei_an_zuban_22
-				downtown_hei_an_zuban_23
-				downtown_hei_an_zuban_24
-            }
+				# Xianluo-Se
+				urban_xianluo_se_1 urban_xianluo_se_2 urban_xianluo_se_3 urban_xianluo_se_4 urban_xianluo_se_5 urban_xianluo_se_6
+				urban_xianluo_se_7 urban_xianluo_se_8 urban_xianluo_se_9 urban_xianluo_se_10 urban_xianluo_se_11 urban_xianluo_se_12
+				urban_xianluo_se_13 urban_xianluo_se_14 urban_xianluo_se_15 urban_xianluo_se_16 urban_xianluo_se_17 urban_xianluo_se_18
+				urban_xianluo_se_19 urban_xianluo_se_20 urban_xianluo_se_21 urban_xianluo_se_22 urban_xianluo_se_23 urban_xianluo_se_24
+				
+				suburban_xianluo_se_1 suburban_xianluo_se_2 suburban_xianluo_se_3 suburban_xianluo_se_4 suburban_xianluo_se_5 suburban_xianluo_se_6
+				suburban_xianluo_se_7 suburban_xianluo_se_8 suburban_xianluo_se_9 suburban_xianluo_se_10 suburban_xianluo_se_11 suburban_xianluo_se_12
+				suburban_xianluo_se_13 suburban_xianluo_se_14 suburban_xianluo_se_15 suburban_xianluo_se_16 suburban_xianluo_se_17 suburban_xianluo_se_18
+				suburban_xianluo_se_19 suburban_xianluo_se_20 suburban_xianluo_se_21 suburban_xianluo_se_22 suburban_xianluo_se_23 suburban_xianluo_se_24
+				
+				farmland_xianluo_se_1 farmland_xianluo_se_2 farmland_xianluo_se_3 farmland_xianluo_se_4 farmland_xianluo_se_5 farmland_xianluo_se_6
+				farmland_xianluo_se_7 farmland_xianluo_se_8 farmland_xianluo_se_9 farmland_xianluo_se_10 farmland_xianluo_se_11 farmland_xianluo_se_12
+				farmland_xianluo_se_13 farmland_xianluo_se_14 farmland_xianluo_se_15 farmland_xianluo_se_16 farmland_xianluo_se_17 farmland_xianluo_se_18
+				farmland_xianluo_se_19 farmland_xianluo_se_20 farmland_xianluo_se_21 farmland_xianluo_se_22 farmland_xianluo_se_23 farmland_xianluo_se_24
+				
+				# South Pole Region 1
+				south_pole_location_1 south_pole_location_2 south_pole_location_3 south_pole_location_4 south_pole_location_5
+				south_pole_location_6 south_pole_location_7 south_pole_location_8 south_pole_location_9 south_pole_location_10
+				south_pole_location_11 south_pole_location_12 south_pole_location_13 south_pole_location_14 south_pole_location_15
+				south_pole_location_16 south_pole_location_17 south_pole_location_18 south_pole_location_19 south_pole_location_20
+				south_pole_location_21 south_pole_location_22 south_pole_location_23 south_pole_location_24 south_pole_location_25
+				south_pole_location_26 south_pole_location_27 south_pole_location_28 south_pole_location_29 south_pole_location_30
+				
+				south_pole_location_31 south_pole_location_32 south_pole_location_33 south_pole_location_34 south_pole_location_35
+				south_pole_location_36 south_pole_location_37 south_pole_location_38 south_pole_location_39 south_pole_location_40
+				south_pole_location_41 south_pole_location_42 south_pole_location_43 south_pole_location_44 south_pole_location_45
+				south_pole_location_46 south_pole_location_47 south_pole_location_48 south_pole_location_49 south_pole_location_50
+				south_pole_location_51 south_pole_location_52 south_pole_location_53 south_pole_location_54 south_pole_location_55
+				south_pole_location_56 south_pole_location_57 south_pole_location_58 south_pole_location_59 south_pole_location_60
+				
+				south_pole_location_61 south_pole_location_62 south_pole_location_63 south_pole_location_64 south_pole_location_65
+				south_pole_location_66 south_pole_location_67 south_pole_location_68 south_pole_location_69 south_pole_location_70
+				south_pole_location_71 south_pole_location_72 south_pole_location_73 south_pole_location_74 south_pole_location_75
+				south_pole_location_76 south_pole_location_77 south_pole_location_78 south_pole_location_79 south_pole_location_80
+				south_pole_location_81 south_pole_location_82 south_pole_location_83 south_pole_location_84 south_pole_location_85
+				south_pole_location_86 south_pole_location_87 south_pole_location_88 south_pole_location_89 south_pole_location_90
+				
+				# South Pole Region 2
+				south_pole_location_91 south_pole_location_92 south_pole_location_93 south_pole_location_94 south_pole_location_95
+				south_pole_location_96 south_pole_location_97 south_pole_location_98 south_pole_location_99 south_pole_location_100
+				south_pole_location_101 south_pole_location_102 south_pole_location_103 south_pole_location_104 south_pole_location_105
+				south_pole_location_106 south_pole_location_107 south_pole_location_108 south_pole_location_109 south_pole_location_110
+				south_pole_location_111 south_pole_location_112 south_pole_location_113 south_pole_location_114 south_pole_location_115
+				south_pole_location_116 south_pole_location_117 south_pole_location_118 south_pole_location_119 south_pole_location_120
+				
+				south_pole_location_121 south_pole_location_122 south_pole_location_123 south_pole_location_124 south_pole_location_125
+				south_pole_location_126 south_pole_location_127 south_pole_location_128 south_pole_location_129 south_pole_location_130
+				south_pole_location_131 south_pole_location_132 south_pole_location_133 south_pole_location_134 south_pole_location_135
+				south_pole_location_136 south_pole_location_137 south_pole_location_138 south_pole_location_139 south_pole_location_140
+				south_pole_location_141 south_pole_location_142 south_pole_location_143 south_pole_location_144 south_pole_location_145
+				south_pole_location_146 south_pole_location_147 south_pole_location_148 south_pole_location_149 south_pole_location_150
+				
+				south_pole_location_151 south_pole_location_152 south_pole_location_153 south_pole_location_154 south_pole_location_155
+				south_pole_location_156 south_pole_location_157 south_pole_location_158 south_pole_location_159 south_pole_location_160
+				south_pole_location_161 south_pole_location_162 south_pole_location_163 south_pole_location_164 south_pole_location_165
+				south_pole_location_166 south_pole_location_167 south_pole_location_168 south_pole_location_169 south_pole_location_170
+				south_pole_location_171 south_pole_location_172 south_pole_location_173 south_pole_location_174 south_pole_location_175
+				south_pole_location_176 south_pole_location_177 south_pole_location_178 south_pole_location_179 south_pole_location_180
+
+				south_pole_location_181 south_pole_location_182 south_pole_location_183 south_pole_location_184 south_pole_location_185
+				south_pole_location_186 south_pole_location_187 south_pole_location_188 south_pole_location_189 south_pole_location_190
+				south_pole_location_191 south_pole_location_192 south_pole_location_193 south_pole_location_194 south_pole_location_195
+				south_pole_location_196 south_pole_location_197 south_pole_location_198 south_pole_location_199 south_pole_location_200
+				south_pole_location_201 south_pole_location_202 south_pole_location_203 south_pole_location_204 south_pole_location_205
+				south_pole_location_206 south_pole_location_207 south_pole_location_208 south_pole_location_209 south_pole_location_210
+
+				south_pole_location_211 south_pole_location_212 south_pole_location_213 south_pole_location_214 south_pole_location_215
+				south_pole_location_216 south_pole_location_217 south_pole_location_218 south_pole_location_219 south_pole_location_220
+				south_pole_location_221 south_pole_location_222 south_pole_location_223 south_pole_location_224 south_pole_location_225
+				south_pole_location_226 south_pole_location_227 south_pole_location_228 south_pole_location_229 south_pole_location_230
+				south_pole_location_231 south_pole_location_232 south_pole_location_233 south_pole_location_234 south_pole_location_235
+				south_pole_location_236 south_pole_location_237 south_pole_location_238 south_pole_location_239 south_pole_location_240
+				
+				# South Pole Region 3
+				south_pole_location_241 south_pole_location_242 south_pole_location_243 south_pole_location_244 south_pole_location_245
+				south_pole_location_246 south_pole_location_247 south_pole_location_248 south_pole_location_249 south_pole_location_250
+				south_pole_location_251 south_pole_location_252 south_pole_location_253 south_pole_location_254 south_pole_location_255
+				south_pole_location_256 south_pole_location_257 south_pole_location_258 south_pole_location_259 south_pole_location_260
+				south_pole_location_261 south_pole_location_262 south_pole_location_263 south_pole_location_264 south_pole_location_265
+				
+				south_pole_location_266 south_pole_location_267 south_pole_location_268 south_pole_location_269 south_pole_location_270
+				south_pole_location_271 south_pole_location_272 south_pole_location_273 south_pole_location_274 south_pole_location_275
+				south_pole_location_276 south_pole_location_277 south_pole_location_278 south_pole_location_279 south_pole_location_280
+				south_pole_location_281 south_pole_location_282 south_pole_location_283 south_pole_location_284 south_pole_location_285
+				south_pole_location_286 south_pole_location_287 south_pole_location_288 south_pole_location_289 south_pole_location_290
+				
+				south_pole_location_291 south_pole_location_292 south_pole_location_293 south_pole_location_294 south_pole_location_295
+				south_pole_location_296 south_pole_location_297 south_pole_location_298 south_pole_location_299 south_pole_location_300
+				south_pole_location_301 south_pole_location_302 south_pole_location_303 south_pole_location_304 south_pole_location_305
+				south_pole_location_306 south_pole_location_307 south_pole_location_308 south_pole_location_309 south_pole_location_310
+				south_pole_location_311 south_pole_location_312 south_pole_location_313 south_pole_location_314 south_pole_location_315
+				south_pole_location_316 south_pole_location_317 south_pole_location_318 south_pole_location_319 south_pole_location_320
+				south_pole_location_321 south_pole_location_322 south_pole_location_323 south_pole_location_324 south_pole_location_325
+				south_pole_location_326 south_pole_location_327 south_pole_location_328 south_pole_location_329 south_pole_location_330
+				
+				# South Pole Region 4
+				south_pole_location_331 south_pole_location_332 south_pole_location_333 south_pole_location_334 south_pole_location_335
+				south_pole_location_336 south_pole_location_337 south_pole_location_338 south_pole_location_339 south_pole_location_340
+				south_pole_location_341 south_pole_location_342 south_pole_location_343 south_pole_location_344 south_pole_location_345
+				south_pole_location_346 south_pole_location_347 south_pole_location_348 south_pole_location_349 south_pole_location_350
+				south_pole_location_351 south_pole_location_352 south_pole_location_353 south_pole_location_354 south_pole_location_355
+				
+				south_pole_location_356 south_pole_location_357 south_pole_location_358 south_pole_location_359 south_pole_location_360
+				south_pole_location_361 south_pole_location_362 south_pole_location_363 south_pole_location_364 south_pole_location_365
+				south_pole_location_366 south_pole_location_367 south_pole_location_368 south_pole_location_369 south_pole_location_370
+				south_pole_location_371 south_pole_location_372 south_pole_location_373 south_pole_location_374 south_pole_location_375
+				south_pole_location_376 south_pole_location_377 south_pole_location_378 south_pole_location_379 south_pole_location_380
+				
+				south_pole_location_381 south_pole_location_382 south_pole_location_383 south_pole_location_384 south_pole_location_385
+				south_pole_location_386 south_pole_location_387 south_pole_location_388 south_pole_location_389 south_pole_location_390
+				south_pole_location_391 south_pole_location_392 south_pole_location_393 south_pole_location_394 south_pole_location_395
+				south_pole_location_396 south_pole_location_397 south_pole_location_398 south_pole_location_399 south_pole_location_400
+				south_pole_location_401 south_pole_location_402 south_pole_location_403 south_pole_location_404 south_pole_location_405
+				
+				south_pole_location_406 south_pole_location_407 south_pole_location_408 south_pole_location_409 south_pole_location_410
+				south_pole_location_411 south_pole_location_412 south_pole_location_413 south_pole_location_414 south_pole_location_415
+				south_pole_location_416 south_pole_location_417 south_pole_location_418 south_pole_location_419 south_pole_location_420
+				south_pole_location_421 south_pole_location_422 south_pole_location_423 south_pole_location_424 south_pole_location_425
+				south_pole_location_426 south_pole_location_427 south_pole_location_428 south_pole_location_429 south_pole_location_430
+				south_pole_location_431 south_pole_location_432 south_pole_location_433 south_pole_location_434 south_pole_location_435
+				
+				# South Pole Region 5
+				south_pole_location_436 south_pole_location_437 south_pole_location_438 south_pole_location_439 south_pole_location_440
+				south_pole_location_441 south_pole_location_442 south_pole_location_443 south_pole_location_444 south_pole_location_445
+				south_pole_location_446 south_pole_location_447 south_pole_location_448 south_pole_location_449 south_pole_location_450
+				south_pole_location_451 south_pole_location_452 south_pole_location_453 south_pole_location_454 south_pole_location_455
+				
+				south_pole_location_456 south_pole_location_457 south_pole_location_458 south_pole_location_459 south_pole_location_460
+				south_pole_location_461 south_pole_location_462 south_pole_location_463 south_pole_location_464 south_pole_location_465
+				south_pole_location_466 south_pole_location_467 south_pole_location_468 south_pole_location_469 south_pole_location_470
+				south_pole_location_471 south_pole_location_472 south_pole_location_473 south_pole_location_474 south_pole_location_475
+				south_pole_location_476 south_pole_location_477 south_pole_location_478 south_pole_location_479 south_pole_location_480
+				
+				south_pole_location_481 south_pole_location_482 south_pole_location_483 south_pole_location_484 south_pole_location_485
+				south_pole_location_486 south_pole_location_487 south_pole_location_488 south_pole_location_489 south_pole_location_490
+				south_pole_location_491 south_pole_location_492 south_pole_location_493 south_pole_location_494 south_pole_location_495
+				south_pole_location_496 south_pole_location_497 south_pole_location_498 south_pole_location_499 south_pole_location_500
+				south_pole_location_501 south_pole_location_502 south_pole_location_503 south_pole_location_504 south_pole_location_505
+				
+				south_pole_location_506 south_pole_location_507 south_pole_location_508 south_pole_location_509 south_pole_location_510
+				south_pole_location_511 south_pole_location_512 south_pole_location_513 south_pole_location_514 south_pole_location_515
+				south_pole_location_516 south_pole_location_517 south_pole_location_518 south_pole_location_519 south_pole_location_520
+				south_pole_location_521 south_pole_location_522 south_pole_location_523 south_pole_location_524 south_pole_location_525
+				south_pole_location_526 south_pole_location_527 south_pole_location_528 south_pole_location_529 south_pole_location_530
+			}
 
             starting_technology_level = 2
 
             discovered_regions = {
                 custom_region
+				rest_of_heyveil_region
+				
+				xianluo_se_region
+				suburban_xianluo_se_area
+				farmland_xianluo_se_area
+				south_pole_region_1
+				south_pole_region_2
+				south_pole_region_3
+				south_pole_region_4
+				south_pole_region_5
             }
 
             government = {
@@ -115,7 +235,7 @@ countries = {
 
             country_rank = rank_empire
             dynasty = sol_dynasty
-            capital = downtown_hei_an_zuban_12
+            capital = downtown_xianluo_se_12
         }
 
         #Kingdom of Seongranguk
