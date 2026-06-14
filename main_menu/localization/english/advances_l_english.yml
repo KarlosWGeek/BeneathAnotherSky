@@ -201,8 +201,53 @@
  
  ### Advances
  
- 
  ## Sovereigns
+ 
+ # Government
+ national_borders: "National Borders"
+ national_borders_desc: "Territorial boundaries are formally defined and defended. Political identity becomes tied to land as well as people, allowing rulers to claim authority over specific regions and resources rather than only kinship groups."
+ national_governments_a: "National Governments"
+ national_governments_a_desc: "The emergence of sovereign political systems that extended authority beyond city-states and tribal rule into unified realms broadly represents the rise of National Governments. From the human feudal monarchies to the elven centralized imperial bureaucracies and the dwarven peasants’ republics, and other comparable political structures elsewhere, these governments organized power through layered hierarchies of land, labor, and obligation."
+ distribution_of_power_advance: "Distribution of Power"
+ distribution_of_power_advance_desc: "Distribution of Power determines how authority is divided among the ruler, administrative bodies, and estates. The state is a complex and fragile entity - a well-balanced power distribution ensures stability, while giving any single institution too much power risks breeding tyranny or administrative paralysis."
+ codified_laws: "Codified Laws"
+ codified_laws_desc: "Statutes and regulations are the lifeblood of a well-functioning society. If we are to hone our efficiency and internal capabilities, a set of robust codified laws are of vital importance."
+ conscription_laws: "Conscription Laws"
+ conscription_laws_desc: "Every organized state needs the ability to defend its borders and ensure its own sovereignty. By conscripting some of our able-bodied citizens into levies in times of war, we can guarantee national security."
+ delegation_of_land_ownership: "Delegation of Land Ownership"
+ delegation_of_land_ownership_desc: "It is our divine right to rule over our lands and our people, but they are both far too vast and numerous to be done alone. Therefore we will allocate them to a select few, trusted to be loyal to the nation, to administer them and maintain law and order."
+ succession_laws: "Succession Laws"
+ succession_laws_desc: "Statutes and regulations are the lifeblood of a well-functioning society. If we are to hone our efficiency and internal capabilities, a set of robust codified laws are of vital importance."
+ taxation_advance: "Taxation"
+ taxation_advance_desc: "Operating in a civilized society implies the maintenance of a central authority. By extracting taxes from our subjects and citizens, we will easily operate in a productive manner."
+ subjects_advance: "Vassalization"
+ subjects_advance_desc: "The delegation of local government to subjects under our banner is an acceptable way to keep their folks from revolting whilst extracting precious tribute from them, specially at distant lands where it’s hard to enforce direct control."
+ mandatory_military_service: "Mandatory Military Service"
+ mandatory_military_service_desc: "Strength on the battlefield is not only about having the largest army, but also about its coordination and using the terrain to our advantage. By training them during times of peace, we can ensure our armies will always be more prepared, organized and well-equipped than our enemies, which will increase our likelihood of victory."
+ 
+ codified_noble_tenure: "Codified Noble Tenure"
+ codified_noble_tenure_desc: "Noble land rights and obligations are formally recognized in law. Estates become hereditary, stabilizing elite authority and ensuring continuity of governance across generations."
+ imperial_revenue_offices: "Imperial Revenue Offices"
+ imperial_revenue_offices_desc: "Permanent state offices oversee tax collection, accounting, and resource management. Revenue becomes predictable and enforceable rather than irregular tribute."
+ tributary_administration_system: "Tributary Administration System"
+ tributary_administration_system_desc: "A structured system manages tribute from subject rulers and territories, formalizing obligations while allowing limited local autonomy."
+ fealty_and_levy_charter: "Fealty and Levy Charter"
+ fealty_and_levy_charter_desc: "Binding agreements require subordinate rulers and landholders to provide soldiers and loyalty in exchange for protection and legitimacy."
+ cadastral_survey_authority: "Cadastral Survey Authority"
+ cadastral_survey_authority_desc: "The state surveys and records landholdings, establishing accurate ownership records and improving taxation, inheritance, and administrative control."
+ provincial_treasury_network: "Provincial Treasury Network"
+ provincial_treasury_network_desc: "Regional treasuries collect, store and distribute wealth locally, improving financial efficiency across distant territories."
+ imperial_governorship_system: "Imperial Governorship System"
+ imperial_governorship_system_desc: "Appointed governors administer provinces on behalf of the central authority, extending direct state control into distant regions."
+ bureau_of_civil_registers: "Bureau of Civil Registers"
+ bureau_of_civil_registers_desc: "The state maintains official records of population, property, and status, strengthening administrative oversight and planning."
+ hereditary_office_recognition: "Hereditary Office Recognition"
+ hereditary_office_recognition_desc: "Government positions become tied to specific families or lineages, ensuring continuity while strengthening elite loyalty."
+ centralized_imperial_bureaucracy: "Centralized Imperial Bureaucracy"
+ centralized_imperial_bureaucracy_desc: "A unified administrative structure coordinates governance across all territories through permanent offices, standardized procedures, and professional officials."
+
+ 
+ 
  
  # General
  written_alphabet: "Written Alphabet"
@@ -215,20 +260,10 @@
  mapmaking_desc: "Drawing places or countries on a paper or a scroll is much more than art, it is about collecting information in them for strategic use. By knowing where places are, we can not only better coordinate attacks but also give us better knowledge of our own territory. As the elders said, knowledge is power."
  colonies: "Colonies"
  colonies_desc: "Be it by sending our own people to settle in new lands, by establishing natives in a certain place under our rule or by a mix of both, a colony is a foothold of our own power in a certain region that will let us further expand our control."
- codified_laws: "Codified Laws"
- codified_laws_desc: "Statutes and regulations are the lifeblood of a well-functioning society. If we are to hone our efficiency and internal capabilities, a set of robust codified laws are of vital importance."
- distribution_of_power_advance: "$distribution_of_power_law$"
- distribution_of_power_advance_desc: "$distribution_of_power_law_desc$"
- subjects_advance: "Subject Nations"
- subjects_advance_desc: "The delegation of local government to subjects under our banner is an acceptable way to keep their folks from revolting whilst extracting precious tribute from them."
- taxation_advance: "Taxation"
- taxation_advance_desc: "Operating in a civilized society implies the maintenance of a central authority. By extracting taxes from our subjects and citizens, we will easily operate in a productive manner."
  state_administration_advance: "State Administration"
  state_administration_advance_desc: "Taxation of our population is only as feasible as long as we know who lives where and what local customs and laws apply to the populace. As such, the introduction of a system to administrate the realm is necessary."
  
  # National Governments
- national_governments_a: "National Governments"
- national_governments_a_desc: "Laws and rules mean nothing if they are not compiled, standardized, and overall made understandable by the members of our society. Should we enforce them, the rule of freedom and justice will reach the furthest corners of our realm." #Formerly Legalism
  medieval_administration: "Medieval Administration"
  medieval_administration_desc: "With a military elite to govern our society, the next stage of development is to have a literate class of administrators. Usually, these will be drawn from the ranks of clergy."
  pest_house_advance: "$pest_house$"

@@ -1,41 +1,86 @@
 # avoid naming the same as Cultures and Languages
 
-#Species
+# Species
 elven_species = {
+	country_modifier = {
+		global_disease_resistance = 0.9
+		global_population_growth = -0.9
+	}
+	
+	character_modifier = {
+		character_life_expectancy = 900
+	}
 }
 
-#Sub-Species
-#Elves are a monolithic species, they do not have subspecies.
 
-#Divided by Continent
-#Alveris
+
+# Sub-Species
+
+# Elves are a monolithic species, they do not have subspecies.
+
+
+
+# Continental Cultures
+
+## Alveris
 alverisian_elves = {
 }
 
-#Materterra
+## Materterra
 materterran_elves = {
 }
 
-#Heyveil
+## Heyveil
 heyveilian_elves = {
+	country_modifier = {
+		global_population_capacity_modifier = 1.0
+	}
+	
+	character_modifier = {
+		character_life_expectancy = 10
+	}
+	
+	location_modifier = {
+		local_monthly_development_modifier = 0.5
+		local_supply_limit_modifier = 0.4
+	}
 }
 
-##Valian
+### Valian
 valian_group = {
+	country_modifier = {
+		global_pop_food_consumption = -0.1
+		global_food_capacity_modifier = 0.1
+	}
+	
+	location_modifier = {
+		movement_cost = -0.1
+		global_distance_from_capital_speed_propagation = 0.1
+		trade_range_modifier = 0.1
+	}
 }
 
-##Albusian
+### Starcrownian
 albusian_group = {
 }
 
-##Celestial
+### Celestial
 celestial_group = {
 }
 
-##Midnightian
+### Stormveilian
 midnightian_group = {
 }
 
-##Crescentian
+### Platinean
 cresentian_group = {
+}
+
+### Auroran
+light_gate_group = {
+}
+
+### Nightfallen
+dark_gate_group = {
+
 }

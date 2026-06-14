@@ -25,6 +25,245 @@
 #
 ################################################################
 
+### ADVANCED TRIBAL
+
+national_borders = {
+	age = age_1_sovereigns
+	icon = abacus_advance
+	depth = 0
+	
+	starting_technology_level = 1
+	
+	global_integration_speed_modifier = 0.05
+}
+
+national_governments_a = {
+	age = age_1_sovereigns
+	icon = legalism_advance
+	depth = 0
+	
+	allow = { has_embraced_institution = institution:national_governments_i }
+	requires = codified_laws
+	starting_technology_level = 1
+	
+	country_cabinet_efficiency = 0.05
+}
+
+distribution_of_power_advance = {
+	age = age_1_sovereigns
+
+	requires = national_borders
+	#requires = national_governments_a
+	starting_technology_level = 1
+	
+	unlock_law = distribution_of_power_law
+}
+
+codified_laws = {
+	age = age_1_sovereigns
+	icon = scholasticism
+	
+	#requires = national_borders
+	requires = national_governments_a
+	research_cost = 2.0
+	starting_technology_level = 1
+	
+	has_codified_laws = yes
+	allow_council_parliament = yes
+}
+
+conscription_laws = {
+	age = age_1_sovereigns
+
+	#requires = national_borders
+	requires = national_governments_a
+	starting_technology_level = 1
+	
+	#unlock_law = conscription_law
+	global_manpower_modifier = 0.025
+}
+
+delegation_of_land_ownership = {
+	age = age_1_sovereigns
+
+	requires = distribution_of_power_advance
+	starting_technology_level = 1
+	
+	#can fabricate claims
+	global_nobles_city_desired_pop = 0.05
+	global_nobles_max_literacy= 0.05
+}
+
+succession_laws = {
+	age = age_1_sovereigns
+
+	#requires = distribution_of_power_advance
+	requires = codified_laws
+	starting_technology_level = 1
+	
+	#unlock_law = succession_law
+	monthly_legitimacy = 0.05
+}
+
+taxation_advance = {
+	age = age_1_sovereigns
+	icon = genoese_banking_traditions
+	
+	requires = codified_laws
+	research_cost = 2.5
+	starting_technology_level = 1
+	
+	enable_taxation = yes
+	has_stability_investment = yes
+}
+
+subjects_advance = {
+	age = age_1_sovereigns
+	icon = diplomatic_influence
+	
+	requires = codified_laws
+	#requires = conscription_laws	
+	research_cost = 2.5
+	starting_technology_level = 1
+	
+	allow_subjects = yes
+	unlock_subject_type = vassal
+}
+
+mandatory_military_service = {
+	age = age_1_sovereigns
+
+	requires = conscription_laws
+	starting_technology_level = 1
+	
+	#can fabricate claims
+	global_nobles_city_desired_pop = 0.05
+	global_nobles_max_literacy= 0.05
+}
+
+### CLASSICAL ANTIQUITY
+
+codified_noble_tenure = {
+	age = age_1_sovereigns
+
+	requires = delegation_of_land_ownership
+	#requires = succession_laws
+	starting_technology_level = 2
+	
+	stability_cost = -0.05
+}
+
+imperial_revenue_offices = {
+	age = age_1_sovereigns
+
+	requires = taxation_advance
+	starting_technology_level = 2
+	
+	global_estate_max_tax = 0.05
+}
+
+tributary_administration_system = {
+	age = age_1_sovereigns
+
+	requires = taxation_advance
+	#requires = subjects_advance
+	starting_technology_level = 2
+	
+	#allow_tributary_subject = yes
+	subject_pays_tributary_cost_modifier = 0.05
+}
+
+fealty_and_levy_charter = {
+	age = age_1_sovereigns
+
+	requires = subjects_advance
+	#requires = mandatory_military_service
+	starting_technology_level = 2
+	
+	global_levy_size_modifier = 0.05
+}
+
+cadastral_survey_authority = {
+	age = age_1_sovereigns
+
+	requires = codified_noble_tenure
+	starting_technology_level = 2
+	
+	global_monthly_prosperity = 0.025
+	global_devastation_recovery = 0.025
+	global_prosperity_decay = -0.025
+}
+
+provincial_treasury_network = {
+	age = age_1_sovereigns
+
+	requires = imperial_revenue_offices
+	#requires = tributary_administration_system
+	starting_technology_level = 2
+	
+	tax_income_efficiency = 0.05
+}
+
+imperial_governorship_system = {
+	age = age_1_sovereigns
+
+	requires = tributary_administration_system
+	#requires = fealty_and_levy_charter
+	starting_technology_level = 2
+	
+	global_max_control = 0.025
+}
+
+bureau_of_civil_registers = {
+	age = age_1_sovereigns
+
+	requires = cadastral_survey_authority
+	starting_technology_level = 2
+	
+	global_monthly_development = 0.025
+	global_devastation_recovery = 0.025
+}
+
+hereditary_office_recognition = {
+	age = age_1_sovereigns
+
+	requires = cadastral_survey_authority
+	starting_technology_level = 2
+	
+	global_nobles_max_literacy = 0.05
+}
+
+centralized_imperial_bureaucracy = {
+	age = age_1_sovereigns
+
+	#requires = cadastral_survey_authority
+	#requires = provincial_treasury_network
+	requires = imperial_governorship_system
+	starting_technology_level = 2
+	
+	annexation_speed_modifier = 0.05
+	diplomatic_annexation_cost = -0.05
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 written_alphabet = {
 	age = age_1_sovereigns
 	icon = abacus_advance
@@ -72,81 +311,23 @@ colonies = {
 	can_colonize = yes
 }
 
-codified_laws = {
-	age = age_1_sovereigns
-	icon = scholasticism
-	
-	requires = written_alphabet
-	
-	research_cost = 2.0
-	has_codified_laws = yes
-	allow_council_parliament = yes
-	
-	starting_technology_level = 2
-}
-
-distribution_of_power_advance = {
-	age = age_1_sovereigns
-	unlock_law = distribution_of_power_law
-
-	requires = codified_laws
-}
-
-subjects_advance = {
-	age = age_1_sovereigns
-	icon = diplomatic_influence
-	research_cost = 2.5
-	
-	allow_subjects = yes
-	unlock_subject_type = vassal
-	
-	requires = codified_laws
-}
-
-taxation_advance = {
-	age = age_1_sovereigns
-	icon = genoese_banking_traditions
-	research_cost = 2.5
-	enable_taxation = yes
-	has_stability_investment = yes
-	
-	
-	requires = codified_laws
-}
-
 state_administration_advance = {
 	age = age_1_sovereigns
 	research_cost = 2.5
 	unlock_law = administrative_system
 	
-	requires = taxation_advance
+	#requires = taxation_advance
 
 	potential = {
 		has_tribal_government = no
 	}
 }
 
-################################
-# National Governments
-################################
-
-national_governments_a = {
-	age = age_1_sovereigns
-	icon = legalism_advance
-		
-	stability_cost = -0.1
-	
-	requires = codified_laws
-	
-	allow = { has_embraced_institution = institution:national_governments_i }
-}
-
-
 medieval_administration  = {
 	age = age_1_sovereigns
 	icon = scholasticism
 
-	requires = national_governments_a
+	#requires = national_governments_a
 
 	government_reform_slots = 1
 }

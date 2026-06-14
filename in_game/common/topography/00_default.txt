@@ -29,7 +29,7 @@ wetlands = {
 		masDataTopologyElevation = 0.1
 	}
 	
-	debug_color = rgb { 8 72 32 } # for topology_screenshot mapmode
+	debug_color = rgb { 40 120 112 } # for topology_screenshot mapmode
 }
 
 # Flatlands
@@ -46,7 +46,7 @@ flatland = {
 		masDataTopologyElevation = 0.1
 	}
 	
-	debug_color = rgb { 16 112 16 } # for topology_screenshot mapmode
+	debug_color = rgb { 80 168 72 } # for topology_screenshot mapmode
 }
 
 # Rolling Flatlands
@@ -76,102 +76,7 @@ rolling_flatland = {
 		masDataTopologyElevation = 0.1
 	}
 	
-	debug_color = rgb { 8 160 8 } # for topology_screenshot mapmode
-}
-
-# Plateau
-plateau = {
-	color = terrain_plateau
-	movement_cost = 1.25
-	defender = 1
-	vegetation_density = 0.8
-	
-	weather_front_strength_change_percent = 0
-	weather_cyclone_strength_change_percent = 0
-	weather_tornado_strength_change_percent = 0
-
-	location_modifier = { 
-		# Economy
-		local_monthly_development_modifier = -0.10
-		local_road_building_time = 0.5
-		local_rgo_build_time = 0.25 
-		
-		# Military
-		local_frontage_allowed = -1
-		blocks_vision_from_sea = yes
-	}
-	
-	audio_tags = {
-		masDataTopologyElevation = 0.7
-	}
-	
-	debug_color = rgb { 48 176 24 } # for topology_screenshot mapmode
-}
-
-# Irregular Plateau
-irregular_plateau = {
-	color = terrain_irregular_plateau
-	movement_cost = 1.35
-	defender = 1
-	vegetation_density = 0.7
-	
-	weather_front_strength_change_percent = 0
-	weather_cyclone_strength_change_percent = 0
-	weather_tornado_strength_change_percent = 0
-
-	location_modifier = { 
-		# Population
-		local_population_capacity_modifier = -0.1
-		local_monthly_food_modifier = -0.05
-		
-		# Economy
-		local_monthly_development_modifier = -0.35
-		local_road_building_time = 0.75
-		local_rgo_build_time = 0.35
-		
-		# Military
-		local_frontage_allowed = -2
-		blocks_vision_from_sea = yes
-	}
-	
-	audio_tags = {
-		masDataTopologyElevation = 0.7
-	}
-	
-	debug_color = rgb { 136 176 0 } # for topology_screenshot mapmode
-}
-
-# High Plateau
-high_plateau = {
-	color = terrain_high_plateau
-	movement_cost = 1.5
-	defender = 2
-	vegetation_density = 0.6
-	
-	weather_front_strength_change_percent = 0
-	weather_cyclone_strength_change_percent = 0
-	weather_tornado_strength_change_percent = 0
-
-	location_modifier = { 
-		# Population
-		local_population_capacity_modifier = -0.05
-		
-		# Economy
-		local_monthly_development_modifier = -0.25
-		local_road_building_time = 1.0
-		local_rgo_build_time = 0.5
-		
-		# Military
-		local_frontage_allowed = -2
-		blocks_vision_from_land = yes
-		blocks_vision_from_sea = yes
-	}
-	
-	audio_tags = {
-		masDataTopologyElevation = 0.7
-	}
-	
-	debug_color = rgb { 192 176 64 } # for topology_screenshot mapmode
+	debug_color = rgb { 232 184 128 } # for topology_screenshot mapmode
 }
 
 # Hills
@@ -205,7 +110,69 @@ hills = {
 		masDataTopologyElevation = 0.4
 	}
 	
-	debug_color = rgb { 208 192 152 } # for topology_screenshot mapmode
+	debug_color = rgb { 176 96 40 } # for topology_screenshot mapmode
+}
+
+# Plateau
+plateau = {
+	color = terrain_plateau
+	movement_cost = 1.25
+	defender = 1
+	vegetation_density = 0.8
+	
+	weather_front_strength_change_percent = 0
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = { 
+		# Economy
+		local_monthly_development_modifier = -0.10
+		local_road_building_time = 0.5
+		local_rgo_build_time = 0.25 
+		
+		# Military
+		local_frontage_allowed = -1
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 0.7
+	}
+	
+	debug_color = rgb { 144 64 8 } # for topology_screenshot mapmode
+}
+
+# Irregular Plateau
+irregular_plateau = {
+	color = terrain_irregular_plateau
+	movement_cost = 1.35
+	defender = 1
+	vegetation_density = 0.7
+	
+	weather_front_strength_change_percent = 0
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = { 
+		# Population
+		local_population_capacity_modifier = -0.1
+		local_monthly_food_modifier = -0.05
+		
+		# Economy
+		local_monthly_development_modifier = -0.35
+		local_road_building_time = 0.75
+		local_rgo_build_time = 0.35
+		
+		# Military
+		local_frontage_allowed = -2
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 0.7
+	}
+	
+	debug_color = rgb { 112 24 0 } # for topology_screenshot mapmode
 }
 
 # Mountains
@@ -240,7 +207,40 @@ mountains = {
 		masDataTopologyElevation = 1.0
 	}
 	
-	debug_color = rgb { 232 216 176 } # for topology_screenshot mapmode
+	debug_color = rgb { 64 0 0 } # for topology_screenshot mapmode
+}
+
+# High Plateau
+high_plateau = {
+	color = terrain_high_plateau
+	movement_cost = 1.5
+	defender = 2
+	vegetation_density = 0.6
+	
+	weather_front_strength_change_percent = 0
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = { 
+		# Population
+		local_population_capacity_modifier = -0.05
+		
+		# Economy
+		local_monthly_development_modifier = -0.25
+		local_road_building_time = 1.0
+		local_rgo_build_time = 0.5
+		
+		# Military
+		local_frontage_allowed = -2
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 0.7
+	}
+	
+	debug_color = rgb { 192 192 192 } # for topology_screenshot mapmode
 }
 
 # High Mountains
@@ -346,23 +346,31 @@ floating_mountains = {
 
 ### MARITIME TOPOGRAPHY
 
-# Salt Pans
-salt_pans = {
-	color = terrain_salt_pans
-	movement_cost = 1.0
+# Deep Frozen
+frozen_ocean = {
+	color = terrain_frozen_ocean
+	movement_cost = 1.75
 	
-	can_freeze_over = no
-	can_have_ice = no
-	is_lake = yes
-	
+	can_freeze_over = yes
+	can_have_ice = yes
+	is_deep_ocean = yes
+	defender = 2
+
 	weather_front_strength_change_percent = 0
 	weather_cyclone_strength_change_percent = 0
 	weather_tornado_strength_change_percent = 0
 
-	audio_tags = {
-		
+	location_modifier = {
+		blocks_vision_from_sea = yes
+		local_navy_attrition = 10
+		max_attrition = 50
+		local_frontage_allowed = -4
 	}
-	debug_color = rgb { 112 96 64 } # for topology_screenshot mapmode
+	
+	audio_tags = {
+		masDataTopologyLake = 1.0
+	}
+	debug_color = rgb { 184 216 232 } # for topology_screenshot mapmode
 }
 
 # Frozen
@@ -372,7 +380,6 @@ frozen_sea = {
 	
 	can_freeze_over = yes
 	can_have_ice = yes
-	is_deep_ocean = yes
 	defender = 1
 
 	weather_front_strength_change_percent = 0
@@ -381,15 +388,15 @@ frozen_sea = {
 
 	location_modifier = {
 		blocks_vision_from_sea = yes
-		local_navy_attrition = 2
-		max_attrition = 10
-		local_frontage_allowed = -2
+		local_navy_attrition = 5
+		max_attrition = 25
+		local_frontage_allowed = -3
 	}
 	
 	audio_tags = {
 		masDataTopologyLake = 1.0
 	}
-	debug_color = rgb { 160 192 208 } # for topology_screenshot mapmode
+	debug_color = rgb { 168 200 216 } # for topology_screenshot mapmode
 }
 
 # Fresh High
@@ -412,7 +419,7 @@ high_lakes = {
 	audio_tags = {
 		masDataTopologyLake = 1.0
 	}
-	debug_color = rgb { 144 176 192 } # for topology_screenshot mapmode
+	debug_color = rgb { 152 184 200 } # for topology_screenshot mapmode
 }
 
 # Fresh
@@ -435,7 +442,26 @@ lakes = {
 	audio_tags = {
 		masDataTopologyLake = 1.0
 	}
-	debug_color = rgb { 128 160 176 } # for topology_screenshot mapmode
+	debug_color = rgb { 136 168 184 } # for topology_screenshot mapmode
+}
+
+# Salt Pans
+salt_pans = {
+	color = terrain_salt_pans
+	movement_cost = 1.0
+	
+	can_freeze_over = no
+	can_have_ice = no
+	is_lake = yes
+	
+	weather_front_strength_change_percent = 0
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	audio_tags = {
+		
+	}
+	debug_color = rgb { 112 96 56 } # for topology_screenshot mapmode
 }
 
 # Saline
@@ -454,7 +480,7 @@ inland_sea = {
 		masDataTopologyElevation = 0
 		masDataTopologyOcean = 1
 	}
-	debug_color = rgb { 96 128 144 } # for topology_screenshot mapmode
+	debug_color = rgb { 88 120 136 } # for topology_screenshot mapmode
 }
 
 # Atoll
@@ -474,7 +500,7 @@ atoll = {
 		masDataTopologyOcean = 1
 		masDataTopologyCoast = 1		
 	}
-	debug_color = rgb { 64 96 112 } # for topology_screenshot mapmode
+	debug_color = rgb { 72 104 120 } # for topology_screenshot mapmode
 }
 
 # Narrows
@@ -499,7 +525,7 @@ narrows = {
 		masDataTopologyElevation = 0
 		masDataTopologyOcean = 1
 	}
-	debug_color = rgb { 48 80 96 } # for topology_screenshot mapmode
+	debug_color = rgb { 56 88 104 } # for topology_screenshot mapmode
 }
 
 
@@ -523,7 +549,7 @@ coastal_ocean = {
 		masDataTopologyOcean = 1
 		masDataTopologyCoast = 1
 	}
-	debug_color = rgb { 32 64 80 } # for topology_screenshot mapmode
+	debug_color = rgb { 40 72 88 } # for topology_screenshot mapmode
 }
 
 # Continental Shelf
@@ -655,6 +681,100 @@ ocean_wasteland = {
 
 ### WASTELANDS
 
+# Impassable Mountains
+mountain_wasteland = {
+	color = terrain_mountain_wasteland
+	movement_cost = 1.0
+	
+	blocked_in_winter = yes
+	#always_winter = yes # also needs Climate to have always_winter (visual only)
+	
+	weather_front_strength_change_percent = 0 #-4
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		blocks_vision_from_sea = yes
+		blocks_vision_from_land = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 1.0
+
+	}
+	debug_color = rgb { 255 255 255 } # for topology_screenshot mapmode
+}
+
+# Glacial Wasteland
+glacial_wasteland = {
+	color = terrain_mountain_wasteland
+	movement_cost = 1.0
+	
+	blocked_in_winter = yes
+	#always_winter = yes # also needs Climate to have always_winter (visual only)
+	
+	weather_front_strength_change_percent = 0 #-4
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		blocks_vision_from_sea = yes
+		blocks_vision_from_land = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 1.0
+
+	}
+	debug_color = rgb { 200 232 248 } # for topology_screenshot mapmode
+}
+
+# Floating Edges
+floating_wasteland = {
+	color = terrain_floating_wasteland
+	movement_cost = 2.0
+	
+	weather_front_strength_change_percent = 0 #-4
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 1.0
+	}
+	
+	debug_color = rgb { 136 0 64 } # for topology_screenshot mapmode
+}
+
+# Ancient Fortification
+ancient_fortification = {
+	color = terrain_ancient_fortification
+	movement_cost = 2.0
+	
+	weather_front_strength_change_percent = 0 #-4
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+	audio_tags = {
+		masDataTopologyElevation = 1.0
+	}
+	
+	debug_color = rgb { 32 32 32 } # for topology_screenshot mapmode
+}
+
+
+
+
+
 flatland_wasteland = {
 	color = terrain_grasslands
 	movement_cost = 1.0
@@ -767,47 +887,4 @@ mesa_wasteland = {
 
 	}
 	debug_color = rgb { 141 105 61 } # for topology_screenshot mapmode
-}
-
-mountain_wasteland = {
-	color = terrain_mountain_wasteland
-	movement_cost = 1.0
-	blocked_in_winter = yes
-	#always_winter = yes # also needs Climate to have always_winter (visual only)
-	weather_front_strength_change_percent = 0 #-4
-	weather_cyclone_strength_change_percent = 0
-	weather_tornado_strength_change_percent = 0
-
-	location_modifier = {
-		blocks_vision_from_sea = yes
-		blocks_vision_from_land = yes
-	}
-	
-	audio_tags = {
-		masDataTopologyElevation = 1.0
-
-	}
-	debug_color = rgb { 105 24 4 } # for topology_screenshot mapmode
-}
-
-# Floating Edges
-floating_wasteland = {
-	color = terrain_floating_wasteland
-	movement_cost = 2.0
-	weather_front_strength_change_percent = 0 #-4
-	weather_cyclone_strength_change_percent = 0
-	weather_tornado_strength_change_percent = 0
-
-	location_modifier = {
-		# Military
-		local_frontage_allowed = -4
-		blocks_vision_from_land = yes
-		blocks_vision_from_sea = yes
-	}
-	
-	audio_tags = {
-		masDataTopologyElevation = 1.0
-
-	}
-	debug_color = rgb { 136 0 64 } # for topology_screenshot mapmode
 }

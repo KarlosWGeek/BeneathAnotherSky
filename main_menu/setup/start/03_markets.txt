@@ -1,3 +1,15 @@
 market_manager = {
 	add_market = testprovince1
+	
+	# HEYVEIL
+	
+	## White Vale
+	add_market = urban_xianluo_se_1
+	add_market = south_pole_location_188
+	add_market = south_pole_location_289
+	add_market = south_pole_location_400
+	add_market = south_pole_location_520
+	
+	## Starcrown MOUNTAINS
+	add_market = seongranguk_1
 }

@@ -21,20 +21,65 @@
  heyveilian_elves: "Heyveilian"
  heyveilian_elves_desc: "The Elves of the southern continent of Heyveil have adapted to the extreme cold, sparse vegetation and long polar nights by coming together during the winter months and rationing shared resources. Due to the harsh climate they’ve always been very isolated from other races and distant foreign conflicts, which have kept their population relatively high compared to other elven cultures. Visually, they have snow white to azureish white skin tones, gray, silver and white hair, and light blue, blue, purple and red eye colors."
 
- # Culture Groups
+ # Cultures
+ 
+ ## Vailian
  valian_group: "Valian"
  valian_group_desc: "The Elves of the White Vale and the Blackstone Caldera are the most numerous of Heyveil, having spent hundreds of thousands of years of relative food security under the dominion of a unified and prosperous Empire of Solace, despite the desert vegetation and lack of wild fauna. During the winter and heavy snowstorms they ration their food to last until new shipments come in trading caravans that more resemble land boats sailing through the snow."
- albusian_group: "Albusian"
- albusian_group_desc: "Elves of the Albus Mons mountain chain."
- celestial_group: "Celestial"
- celestial_group_desc: "Elves of the Celestial Plateau."
- midnightian_group: "Midnightian"
- midnightian_group_desc: "Elves of the Midnight Coast."
- cresentian_group: "Crescentian"
- cresentian_group_desc: "Elves of the Lunar Crescent."
-
- # Cultures (Don't use/have descriptions)
+ 
  weiji: "Weiji" # Solacian, comes from 'Wèijí' which is the simplified chinese translation of 'Solace' (comfort, consolation, solace, relief)
  houshan: "Huoshan" # Calderan, comes from 'Huǒshān kǒu' which is the simplified chinese translation of 'Caldera'
  nanji: "Nanji" # Outer Calderan or South Polean, comes from 'Nánjí' which is the simplified chinese translation of 'South Pole'
  miansha: "Miansha" # White Veilian, comes from 'Miànshā' which is the simplified chinese translation of 'Veil'
+ 
+ ## Starcrownian
+ albusian_group: "Starcrownian"
+ albusian_group_desc: "Elves of the Starcrown Mountains."
+ 
+ seongranguk: "Seongranguk"
+ neravid: "Neravid"
+ hartuk: "Hartuk"
+ embarth: "Embarth"
+ ashiari: "Ashiari"
+ hokasha: "Hokasha"
+ shezuma: "Shezuma"
+ osho: "Osho"
+ hito: "Hito"
+
+ ## Celestial
+ celestial_group: "Celestial"
+ celestial_group_desc: "Elves of the Celestial Plateau."
+ 
+ crownspire: "Greitousian"
+ arcum: "Arcum"
+ delvaris: "Delvaris"
+
+ ## Stormveilian
+ midnightian_group: "Stormveilian"
+ midnightian_group_desc: "Elves of the Stormveil Coast."
+ 
+ valtaria: "Valtarian"
+ liarda: "Liarda"
+ elandor: "Elandor"
+ orsvalen: "Orsvalen"
+ aesvora: "Aesvora"
+ korrelach: "Korrelach"
+ 
+ ## Platinean
+ cresentian_group: "Platinean"
+ cresentian_group_desc: "Elves of the Platinum Coast."
+
+ ## Auroran
+ light_gate_group: "Auroran"
+ light_gate_group_desc: "Elves of the Aurora Expanse."
+ 
+ solenor: "Solenor"
+ vitalia: "Vitalia"
+ shenzu: "Shenzu"
+
+ ## Nightfallen
+ dark_gate_group: "Nightfallen"
+ dark_gate_group_desc: "Elves of the Nightfall Divide."
+ 
+ haibai: "Haibain"
+ norzheia: "Norzheian"

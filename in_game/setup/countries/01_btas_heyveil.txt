@@ -1,3 +1,6 @@
+#The nations of Heyveil: continent of Ice and Darkness
+
+#The Eternal Test Subject. FEAR HIM.
 HAB = {
     color = map_austrian
     color2 = rgb { 220  220  220 }	#Like in EU4
@@ -13,12 +16,14 @@ HAB = {
     difficulty = 3
 }
 
+#Tier S
+#Ancient Empire of Solace
 SOL = {
     color = map_solace
-    color2 = rgb { 0 144 144 }
+    color2 = rgb { 40 40 40 }
 
     unit_color0 = rgb {	160 216 216 }
-    unit_color1 = rgb {	128 200 200 }
+    unit_color1 = map_solace
     unit_color2 = rgb {	64 176 176 }
 
     culture_definition = weiji
@@ -27,3 +32,439 @@ SOL = {
     description_category = administrative
     difficulty = 2
 }
+
+#Tier A
+#Kingdom of Seongranguk
+SEON = {
+    color = map_Seongranguk
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_Seongranguk
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = seongranguk
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Kingdom of Neravid
+NRVD = {
+    color = map_neravid
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_neravid
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = neravid
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Merchant Republic of Valtaria
+VLTR = {
+    color = map_valtaria
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_valtaria
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = valtaria
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Kingdom of Crownspire
+CRSP = {
+    color = map_crownspire
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_crownspire
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = crownspire
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Tier B
+#Principality of Solenor
+SOLR = {
+    color = map_solenor
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_solenor
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = solenor
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Imperial Republic of Haibai
+HAIB= {
+    color = map_haibai
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_haibai
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = haibai
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Kingdom of Liarda
+LIRD= {
+    color = map_liarda
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_liarda
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = liarda
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Confederation of Arcum
+ARCM= {
+    color = map_arcum
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_arcum
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = arcum
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Clan of Hartuk
+HRTK= {
+    color = map_hartuk
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_hartuk
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = hartuk
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Tier C
+#Duchy of Elandor
+ELDR= {
+    color = map_elandor
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_elandor
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = elandor
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Republic of Orsvalen
+ORSN= {
+    color = map_orsvalen
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_orsvalen
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = orsvalen
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Holy Order of Aesvora
+ASVR= {
+    color = map_aesvora
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_aesvora
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = aesvora
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Kingdom of Korrelach
+KRLH= {
+    color = map_korrelach
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_korrelach
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = korrelach
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Merchant Republic of Vitalia
+VTLA= {
+    color = map_vitalia
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_vitalia
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = vitalia
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Theocracy of Norzheia
+NRZH= {
+    color = map_norzheia
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_norzheia
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = norzheia
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Grand Duchy of Delvaris
+DLRS= {
+    color = map_delvaris
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_delvaris
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = delvaris
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Embarth Clan
+EMRT= {
+    color = map_embarth
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_embarth
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = embarth
+    religion_definition = catholic
+
+    description_category = administrative
+    difficulty = 2
+}
+
+#Tier D
+#Albus Nations
+#Stormante Subjects
+#Ashiari Clan
+ASHR = {
+    color = map_ashiari
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_ashiari
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = ashiari
+    religion_definition = catholic
+    description_category = administrative
+    difficulty = 2
+}
+
+#Hokasha Clan
+HKSH = {
+    color = map_hokasha
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_hokasha
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = hokasha
+    religion_definition = catholic
+    description_category = administrative
+    difficulty = 2
+}
+
+#Neravid Subjects
+#Osho Clan
+OSHO = {
+    color = map_osho
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_osho
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = osho
+    religion_definition = catholic
+    description_category = administrative
+    difficulty = 2
+}
+
+#Hito Clan
+HITO = {
+    color = map_hito
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_hito
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = hito
+    religion_definition = catholic
+    description_category = administrative
+    difficulty = 2
+}
+
+#Independent Albusians
+#Shezuma Clan
+SHZM = {
+    color = map_shezuma
+    color2 = rgb { 0 144 144 }
+
+    unit_color0 = rgb {	160 216 216 }
+    unit_color1 = map_shezuma
+    unit_color2 = rgb {	64 176 176 }
+
+    culture_definition = shezuma
+    religion_definition = catholic
+    description_category = administrative
+    difficulty = 2
+}
+
+ #Solace Subjects
+ #Dark Gate
+ #Republic of Shuzema
+ SDG1 = {
+     color = rgb { 93 132 85 }
+     color2 = rgb { 0 144 144 }
+
+     unit_color0 = rgb { 160 216 216 }
+     unit_color1 = rgb { 93 132 85 }
+     unit_color2 = rgb { 64 176 176 }
+
+     culture_definition = haibai
+     religion_definition = catholic
+     description_category = administrative
+     difficulty = 2
+ }
+
+ #Light Gate
+ #Republic of Plagio
+ SLG1 = {
+     color = rgb { 39 55 60 }
+     color2 = rgb { 0 144 144 }
+
+     unit_color0 = rgb { 39 55 60 }
+     unit_color1 = rgb { 93 132 85 }
+     unit_color2 = rgb { 64 176 176 }
+
+     culture_definition = shenzu
+     religion_definition = catholic
+     description_category = administrative
+     difficulty = 2
+ }
+
+ #Imperial Republic of Shenzhu
+ SNZU = {
+     color = map_shenzu
+     color2 = rgb { 0 144 144 }
+
+     unit_color0 = rgb { 160 216 216 }
+     unit_color1 = map_shenzu
+     unit_color2 = rgb { 64 176 176 }
+
+     culture_definition = shenzu
+     religion_definition = catholic
+     description_category = administrative
+     difficulty = 2
+ }
+
+ #White Vale
+ #Duchy of Shang
+ SWV1 = {
+     color = rgb { 165 185 38 }
+     color2 = rgb { 0 144 144 }
+
+     unit_color0 = rgb { 160 216 216 }
+     unit_color1 = rgb { 165 185 38 }
+     unit_color2 = rgb { 64 176 176 }
+
+     culture_definition = nanji
+     religion_definition = catholic
+     description_category = administrative
+     difficulty = 2
+ }
+
+ #Duchy of Liuqu
+ SWV2 = {
+     color = rgb { 185 116 38 }
+     color2 = rgb { 0 144 144 }
+
+     unit_color0 = rgb { 160 216 216 }
+     unit_color1 = rgb { 185 116 38 }
+     unit_color2 = rgb { 64 176 176 }
+
+     culture_definition = miansha
+     religion_definition = catholic
+     description_category = administrative
+     difficulty = 2
+ }
+
+ #Celestial Plateau

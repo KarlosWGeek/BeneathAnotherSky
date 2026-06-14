@@ -1,9 +1,22 @@
+# Heyveilian
+
+## Valian
+
 weiji = {
     language = heyveilian_dialect
 
     color = map_weiji
 
     tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+		global_crown_estate_power = 0.25
+		global_max_control = 0.15
+		global_monthly_control = 0.1
+		global_distance_from_capital_speed_propagation = 0.05
+		global_monthly_food_modifier = 0.25
+		global_food_capacity_modifier = 0.15
+	}
 
     opinions = {
         houshan = kindred
@@ -67,5 +80,393 @@ miansha = {
 
     culture_groups = {
         elven_species heyveilian_elves valian_group
+    }
+}
+
+## Starcrownian
+
+seongranguk = {
+    language = heyveilian_dialect
+
+    color = map_Seongranguk
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        neravid = enemy
+        crownspire = negative
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+neravid = {
+    language = heyveilian_dialect
+
+    color = map_neravid
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        seongranguk = enemy
+        crownspire = negative
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+hartuk = {
+    language = heyveilian_dialect
+
+    color = map_hartuk
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        hartuk = positive
+        shezuma = positive
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+embarth = {
+    language = heyveilian_dialect
+
+    color = map_embarth
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        hartuk = positive
+        shezuma = positive
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+ashiari = {
+    language = heyveilian_dialect
+
+    color = map_ashiari
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        seongranguk = kindred
+        hokasha = positive
+        shezuma =  positive
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+hokasha= {
+    language = heyveilian_dialect
+
+    color = map_hokasha
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        seongranguk = kindred
+        ashiari = positive
+        shezuma =  positive
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+shezuma= {
+    language = heyveilian_dialect
+
+    color = map_shezuma
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        hartuk = positive
+        embarth = positive
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+osho = {
+    language = heyveilian_dialect
+
+    color = map_osho
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        neravid = kindred
+        hito = positive
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+hito  = {
+    language = heyveilian_dialect
+
+    color = map_hito
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        neravid = kindred
+        osho = positive
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves albusian_group
+    }
+}
+
+## Celestial
+
+crownspire = {
+    language = heyveilian_dialect
+
+    color = map_crownspire
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+        seongranguk = negative
+        neravid =  negative
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves celestial_group
+    }
+}
+
+arcum = {
+    language = heyveilian_dialect
+
+    color = map_arcum
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves celestial_group
+    }
+}
+
+delvaris = {
+    language = heyveilian_dialect
+
+    color = map_delvaris
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves celestial_group
+    }
+}
+
+## Stormveilian
+valtaria = {
+    language = heyveilian_dialect
+
+    color = map_valtaria
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves midnightian_group
+    }
+}
+
+liarda = {
+    language = heyveilian_dialect
+
+    color = map_liarda
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves midnightian_group
+    }
+}
+
+elandor = {
+    language = heyveilian_dialect
+
+    color = map_elandor
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves midnightian_group
+    }
+}
+
+orsvalen = {
+    language = heyveilian_dialect
+
+    color = map_orsvalen
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves midnightian_group
+    }
+}
+
+aesvora = {
+    language = heyveilian_dialect
+
+    color = map_aesvora
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves midnightian_group
+    }
+}
+
+korrelach = {
+    language = heyveilian_dialect
+
+    color = map_korrelach
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves midnightian_group
+    }
+}
+
+## Platinean
+
+## Auroran
+solenor = {
+    language = heyveilian_dialect
+
+    color = map_solenor
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves light_gate_group
+    }
+}
+vitalia = {
+    language = heyveilian_dialect
+
+    color = map_vitalia
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves light_gate_group
+    }
+}
+
+shenzu= {
+    language = heyveilian_dialect
+
+    color = map_shenzu
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves light_gate_group
+    }
+}
+
+## Nightfallen
+haibai = {
+    language = heyveilian_dialect
+
+    color = map_haibai
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves dark_gate_group
+    }
+}
+
+norzheia = {
+    language = heyveilian_dialect
+
+    color = map_norzheia
+
+    tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        elven_species heyveilian_elves dark_gate_group
     }
 }
