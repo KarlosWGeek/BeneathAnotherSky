@@ -53,8 +53,9 @@ countries = {
             capital = testprovince1
         }
 
-        # Important Nations of Heyveil
-		# Ancient Empire of Solace
+        # HEYVEIL
+		
+		## Ancient Empire of Solace
 		SOL = {
             own_control_core = {
 				# Xianluo-Se
@@ -218,6 +219,7 @@ countries = {
 				south_pole_region_3
 				south_pole_region_4
 				south_pole_region_5
+				starcrown_mountains_west_1
             }
 
             government = {
@@ -226,11 +228,11 @@ countries = {
                 ruler = sol_astraelion_i_sol
 
                 #societal values
-                serfdom_vs_free_subjects = -60
-                offensive_vs_defensive = -30
-                land_vs_naval = -80
-                belligerent_vs_conciliatory = -40
-                outward_vs_inward = -50
+                serfdom_vs_free_subjects = -20
+                offensive_vs_defensive = 80
+                land_vs_naval = 100
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 60
             }
 
             country_rank = rank_empire
@@ -238,21 +240,56 @@ countries = {
             capital = downtown_xianluo_se_12
         }
 
-        #Kingdom of Seongranguk
+        ## Kingdom of Seongranguk
         SEON = {
             own_control_core = {
-                testprovince7
-                testprovince8
-                testprovince9
-                testprovince10
-                testprovince11
-                testprovince12
+                seongranguk_1 seongranguk_2 seongranguk_3 seongranguk_4 seongranguk_5
+                seongranguk_6 seongranguk_7 seongranguk_8 seongranguk_9 seongranguk_10
+                seongranguk_11 seongranguk_12 seongranguk_13 seongranguk_14 seongranguk_15
+                seongranguk_16 seongranguk_17 seongranguk_18 seongranguk_19 seongranguk_20
+                seongranguk_21 seongranguk_22 seongranguk_23 seongranguk_24 seongranguk_25
+				
+				# All locations below this will become vassals and Stormnate IO tags
+                seongranguk_26 seongranguk_27 seongranguk_28 seongranguk_29 seongranguk_30
+				seongranguk_31 seongranguk_32 seongranguk_33 seongranguk_34 seongranguk_35
+				seongranguk_36 seongranguk_37 seongranguk_38 seongranguk_39 seongranguk_40
+				seongranguk_41 seongranguk_42 seongranguk_43 seongranguk_44 seongranguk_45
+				seongranguk_46 seongranguk_47 seongranguk_48 seongranguk_49 seongranguk_50
+				
+				seongranguk_51 seongranguk_52 seongranguk_53 seongranguk_54 seongranguk_55
+				seongranguk_56 seongranguk_57 seongranguk_58 seongranguk_59 seongranguk_60
+				seongranguk_61 seongranguk_62 seongranguk_63 seongranguk_64 seongranguk_65
+				seongranguk_66 seongranguk_67 seongranguk_68 seongranguk_69 seongranguk_70
+				seongranguk_71 seongranguk_72 seongranguk_73 seongranguk_74 seongranguk_75
+				
+				seongranguk_76 seongranguk_77 seongranguk_78 seongranguk_79 seongranguk_80
+				seongranguk_81 seongranguk_82 seongranguk_83 seongranguk_84 seongranguk_85
+				seongranguk_86 seongranguk_87 seongranguk_88 seongranguk_89 seongranguk_90
+				seongranguk_91 seongranguk_92 seongranguk_93 seongranguk_94 seongranguk_95
+				seongranguk_96 seongranguk_97 seongranguk_98 seongranguk_99 seongranguk_100
+				
+                seongranguk_101 seongranguk_102 seongranguk_103 seongranguk_104 seongranguk_105
+                seongranguk_106 seongranguk_107 seongranguk_108 seongranguk_109 seongranguk_110
+                seongranguk_111 seongranguk_112 seongranguk_113 seongranguk_114 seongranguk_115
+                seongranguk_116 seongranguk_117 seongranguk_118 seongranguk_119 seongranguk_120
+                seongranguk_121 seongranguk_122 seongranguk_123 seongranguk_124 seongranguk_125
             }
 
             starting_technology_level = 2
 
             discovered_regions = {
                 custom_region
+				rest_of_heyveil_region
+				
+				xianluo_se_region
+				suburban_xianluo_se_area
+				farmland_xianluo_se_area
+				south_pole_region_1
+				south_pole_region_2
+				south_pole_region_3
+				south_pole_region_4
+				south_pole_region_5
+				starcrown_mountains_west_1
             }
 
             government = {
@@ -262,15 +299,15 @@ countries = {
 
                 #societal values
                 serfdom_vs_free_subjects = -60
-                offensive_vs_defensive = -30
-                land_vs_naval = -80
-                belligerent_vs_conciliatory = -40
-                outward_vs_inward = -50
+                offensive_vs_defensive = -40
+                land_vs_naval = 100
+                belligerent_vs_conciliatory = 40
+                outward_vs_inward = 60
             }
 
             country_rank = rank_kingdom
             dynasty = seon_dynasty
-            capital = testprovince85
+            capital = seongranguk_1
         }
 
         #Kingdom of Neravid

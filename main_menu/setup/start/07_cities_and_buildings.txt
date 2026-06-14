@@ -5,29 +5,29 @@ locations = {
 	
 	# Xianluo-Se - Megalopolis
 	urban_xianluo_se_1 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_2 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_3 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_4 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_5 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_6 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_7 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_8 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_9 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_10 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_11 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_12 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_13 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_14 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_15 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_16 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_17 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_18 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_19 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_20 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_21 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_22 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_23 = { rank = megalopolis	town_setup = chinese_city }
-	urban_xianluo_se_24 = { rank = megalopolis	town_setup = chinese_city }
+	urban_xianluo_se_2 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_3 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_4 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_5 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_6 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_7 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_8 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_9 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_10 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_11 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_12 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_13 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_14 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_15 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_16 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_17 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_18 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_19 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_20 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_21 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_22 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_23 = { rank = metropolis	town_setup = chinese_city }
+	urban_xianluo_se_24 = { rank = metropolis	town_setup = chinese_city }
 	
 	# Xianluo-Se - Cities and Towns
 	suburban_xianluo_se_1 = { rank = town	town_setup = chinese_city }
@@ -56,16 +56,20 @@ locations = {
 	suburban_xianluo_se_24 = { rank = city	town_setup = chinese_city }
 	
 	# South Pole - Grasslands and Sparse
-	south_pole_location_7 = { rank = town	town_setup = chinese_city }
+	south_pole_location_5 = { rank = town	town_setup = chinese_city }
 	south_pole_location_11 = { rank = town	town_setup = chinese_city }
 	south_pole_location_16 = { rank = town	town_setup = chinese_city }
 	south_pole_location_82 = { rank = town	town_setup = chinese_city }
 	
 	# South Pole - Desert
+	south_pole_location_188 = { rank = town	town_setup = chinese_city }
 	south_pole_location_226 = { rank = town	town_setup = chinese_city }
 	south_pole_location_243 = { rank = town	town_setup = chinese_city }
-	south_pole_location_327 = { rank = town	town_setup = chinese_city }
-	south_pole_location_466 = { rank = town	town_setup = chinese_city }
+	south_pole_location_289 = { rank = town	town_setup = chinese_city }
+	south_pole_location_341 = { rank = town	town_setup = chinese_city }
+	south_pole_location_400 = { rank = town	town_setup = chinese_city }
+	south_pole_location_473 = { rank = town	town_setup = chinese_city }
+	south_pole_location_520 = { rank = town	town_setup = chinese_city }
 }
 
 building_manager = { }

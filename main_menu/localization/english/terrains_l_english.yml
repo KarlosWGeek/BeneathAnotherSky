@@ -87,8 +87,6 @@
  floating_islands_desc: "Floating Islands are mysterious airborne landmasses of varying sizes, suspended by enigmatic magical forces, affecting air and sea current above and beneath them."
  floating_mountains: "Floating Mountains"
  floating_mountains_desc: "Floating Mountains are rare, high elevation regions on Floating Islands large enough to support them, often holding some of the rarest and most exotic minerals in the world."
- floating_wasteland: "Floating Edges"
- floating_wasteland_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
  
  # Maritime Topography
  frozen_ocean: "Deep Frozen"
@@ -123,15 +121,20 @@
  ocean_wasteland_desc: "Abyssal Trenches are the deepest, steep-walled ocean depressions formed by subduction, creating cold, high-pressure environments with dramatic vertical relief and rare specialized life."
  
  # Wastelands
+ mountain_wasteland: "Impassable Mountains"
+ mountain_wasteland_desc: "Impassable Mountains are far too steep and elevated natural geographic barriers, preventing the movement of armies or trade caravans entirely."
+ glacial_wasteland: "Glacial Wasteland"
+ glacial_wasteland_desc: "Glacial Wastelands are made up of ice sheets and snow-covered landscapes that stretch as far as the horizon, with winters and snowstorms so severe very few dare to cross it."
+ 
  floating_wasteland: "Floating Edges"
  floating_wasteland_desc: "Floating Edges represents the dangerously fragile boundaries of the Floating Islands, where unstable terrain and sheer drops make movement treacherous and long-term habitation nearly impossible."
  ancient_fortification: "Ancient Fortification"
  ancient_fortification_desc: "Ancient Fortification are megastructures built hundreds of thousands of years ago as the ultimate form of defense. They are impossible to climb or break through, as even the smallest of them are too thick, too tall or enchanted with powerful ancient magic."
  
- wetlands_wasteland: "Wetlands Wasteland"
- wetlands_wasteland_desc: "$wetlands_desc$"
  flatland_wasteland: "Flatland Wasteland"
  flatland_wasteland_desc: "$flatland_desc$"
+ wetlands_wasteland: "Wetlands Wasteland"
+ wetlands_wasteland_desc: "$wetlands_desc$"
  plateau_wasteland: "Plateau Wasteland"
  plateau_wasteland_desc: "$plateau_desc$"
  hills_wasteland: "Hills Wasteland"
@@ -139,9 +142,7 @@
  dune_wasteland: "Dune wasteland"
  dune_wasteland_desc: "$desert_desc$"
  mesa_wasteland: "Mesa Wasteland"
- mesa_wasteland_desc: "$desert_desc$" 
- mountain_wasteland: "Mountain Wasteland"
- mountain_wasteland_desc: "$mountains_desc$"
+ mesa_wasteland_desc: "$desert_desc$"
  
  ## VULKARIA
  

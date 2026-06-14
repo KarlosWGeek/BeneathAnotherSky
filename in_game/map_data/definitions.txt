@@ -218,6 +218,50 @@
 		}
 	}
 	
+	starcrown_mountains = {
+		starcrown_mountains_west_1 = {
+			seongranguk_area_1 = {
+				seongranguk_province_1 = { seongranguk_1 seongranguk_2 seongranguk_3 seongranguk_4 seongranguk_5 }
+				seongranguk_province_2 = { seongranguk_6 seongranguk_7 seongranguk_8 seongranguk_9 seongranguk_10 }
+				seongranguk_province_3 = { seongranguk_11 seongranguk_12 seongranguk_13 seongranguk_14 seongranguk_15 }
+				seongranguk_province_4 = { seongranguk_16 seongranguk_17 seongranguk_18 seongranguk_19 seongranguk_20 }
+				seongranguk_province_5 = { seongranguk_21 seongranguk_22 seongranguk_23 seongranguk_24 seongranguk_25 }
+			}
+			
+			seongranguk_area_2 = {
+				seongranguk_province_6 = { seongranguk_26 seongranguk_27 seongranguk_28 seongranguk_29 seongranguk_30 }
+				seongranguk_province_7 = { seongranguk_31 seongranguk_32 seongranguk_33 seongranguk_34 seongranguk_35 }
+				seongranguk_province_8 = { seongranguk_36 seongranguk_37 seongranguk_38 seongranguk_39 seongranguk_40 }
+				seongranguk_province_9 = { seongranguk_41 seongranguk_42 seongranguk_43 seongranguk_44 seongranguk_45 }
+				seongranguk_province_10 = { seongranguk_46 seongranguk_47 seongranguk_48 seongranguk_49 seongranguk_50 }
+			}
+			
+			seongranguk_area_3 = {
+				seongranguk_province_11 = { seongranguk_51 seongranguk_52 seongranguk_53 seongranguk_54 seongranguk_55 }
+				seongranguk_province_12 = { seongranguk_56 seongranguk_57 seongranguk_58 seongranguk_59 seongranguk_60 }
+				seongranguk_province_13 = { seongranguk_61 seongranguk_62 seongranguk_63 seongranguk_64 seongranguk_65 }
+				seongranguk_province_14 = { seongranguk_66 seongranguk_67 seongranguk_68 seongranguk_69 seongranguk_70 }
+				seongranguk_province_15 = { seongranguk_71 seongranguk_72 seongranguk_73 seongranguk_74 seongranguk_75 }
+			}
+			
+			seongranguk_area_4 = {
+				seongranguk_province_16 = { seongranguk_76 seongranguk_77 seongranguk_78 seongranguk_79 seongranguk_80 }
+				seongranguk_province_17 = { seongranguk_81 seongranguk_82 seongranguk_83 seongranguk_84 seongranguk_85 }
+				seongranguk_province_18 = { seongranguk_86 seongranguk_87 seongranguk_88 seongranguk_89 seongranguk_90 }
+				seongranguk_province_19 = { seongranguk_91 seongranguk_92 seongranguk_93 seongranguk_94 seongranguk_95 }
+				seongranguk_province_20 = { seongranguk_96 seongranguk_97 seongranguk_98 seongranguk_99 seongranguk_100 }
+			}
+			
+			seongranguk_area_5 = {
+				seongranguk_province_21 = { seongranguk_101 seongranguk_102 seongranguk_103 seongranguk_104 seongranguk_105 }
+				seongranguk_province_22 = { seongranguk_106 seongranguk_107 seongranguk_108 seongranguk_109 seongranguk_110 }
+				seongranguk_province_23 = { seongranguk_111 seongranguk_112 seongranguk_113 seongranguk_114 seongranguk_115 }
+				seongranguk_province_24 = { seongranguk_116 seongranguk_117 seongranguk_118 seongranguk_119 seongranguk_120 }
+				seongranguk_province_25 = { seongranguk_121 seongranguk_122 seongranguk_123 seongranguk_124 seongranguk_125 }
+			}
+		}
+	}
+	
 	rest_of_heyveil_subcontinent = {
 		rest_of_heyveil_region = {
 			rest_of_heyveil_area = {
@@ -509,55 +553,6 @@ custom_continent = {
 					testprovince254
 					testprovince255
 					testprovince256
-					land_heyveil_1
-					coast_heyveil_1
-					ocean_heyveil_1
-					land_heyveil_2
-					land_heyveil_3
-					land_heyveil_4
-					land_heyveil_5
-					land_heyveil_6
-					coast_heyveil_6
-					ocean_heyveil_6
-					land_heyveil_7
-					coast_heyveil_7
-					ocean_heyveil_7
-					land_heyveil_8
-					coast_heyveil_8
-					ocean_heyveil_8
-					land_heyveil_9
-					coast_heyveil_9
-					ocean_heyveil_9
-					land_heyveil_10
-					coast_heyveil_10
-					ocean_heyveil_10
-					land_heyveil_11
-					coast_heyveil_11
-					coast_heyveil_12
-					downtown_hei_an_zuban_1
-					downtown_hei_an_zuban_2
-					downtown_hei_an_zuban_3
-					downtown_hei_an_zuban_4
-					downtown_hei_an_zuban_5
-					downtown_hei_an_zuban_6
-					downtown_hei_an_zuban_7
-					downtown_hei_an_zuban_8
-					downtown_hei_an_zuban_9
-					downtown_hei_an_zuban_10
-					downtown_hei_an_zuban_11
-					downtown_hei_an_zuban_12
-					downtown_hei_an_zuban_13
-					downtown_hei_an_zuban_14
-					downtown_hei_an_zuban_15
-					downtown_hei_an_zuban_16
-					downtown_hei_an_zuban_17
-					downtown_hei_an_zuban_18
-					downtown_hei_an_zuban_19
-					downtown_hei_an_zuban_20
-					downtown_hei_an_zuban_21
-					downtown_hei_an_zuban_22
-					downtown_hei_an_zuban_23
-					downtown_hei_an_zuban_24
 				}
 			}
 

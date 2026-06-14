@@ -82,6 +82,7 @@ impassable_mountains = {
 	wasteland9
 	wasteland10
 	wasteland_blocker
+	
 	blackstone_crownwall_inner_1
 	blackstone_crownwall_inner_2
 	blackstone_crownwall_inner_3
@@ -154,6 +155,12 @@ impassable_mountains = {
 	blackstone_crownwall_outer_22
 	blackstone_crownwall_outer_23
 	blackstone_crownwall_outer_24
+	
+	starcrown_mountains_wasteland_1
+	starcrown_mountains_wasteland_2
+	starcrown_mountains_wasteland_3
+	starcrown_mountains_wasteland_4
+	starcrown_mountains_wasteland_5
 }
 
 non_ownable = {

@@ -59,7 +59,6 @@ colors = {
 	terrain_rock_wasteland = rgb { 141 117 61 }
 	terrain_mesa_wasteland = rgb { 141 105 61 }
 	terrain_plateau_wasteland = rgb { 195 195 195 }
-	terrain_mountain_wasteland = rgb { 73 14 0 }
 	terrain_hills_wasteland = rgb { 93 146 121}
 	terrain_marsh_wasteland = rgb { 0 159 100}
 
@@ -126,7 +125,6 @@ colors = {
 	# Special Topography Colors
 	terrain_floating_islands = rgb { 168 16 112 } # Floating Islands
 	terrain_floating_mountains = rgb { 136 56 200 } # Floating Mountains
-	terrain_floating_wasteland = rgb { 136 0 64 } # Floating Edges
 
 	# Maritime Topography Colors
 	terrain_frozen_ocean = rgb { 184 216 232 } # Deep Frozen
@@ -147,17 +145,35 @@ colors = {
 	terrain_ocean_wasteland = rgb { 0 0 16 } # Abyssal Trench
 
 	# Wasteland Topography Colors
+	terrain_mountain_wasteland = rgb { 73 14 0 } # Impassable Mountains
+	terrain_glacial_wasteland = rgb { 200 232 248 } # Glacial Wasteland
+	terrain_floating_wasteland = rgb { 136 0 64 } # Floating Edges
+	terrain_ancient_fortification = rgb { 32 32 32 } # Ancient Fortification
 	
 	### VULKARIA
 	
 	### AETHERITH
 
-	# ranks
+	# Location Ranks
+	location_rank_megalopolis = rgb { 104 72 160 }
+	location_rank_metropolis = rgb { 40 128 200 }
+	location_rank_city = rgb { 48 160 64 }
+	location_rank_town = rgb { 255 200 48 }
+	location_rank_rural = rgb { 224 72 48 }
+	
+	# Country Ranks
+	color_rank_hegemon = rgb { 104 72 160 }
+	color_rank_empire = rgb { 40 128 200 }
+	color_rank_kingdom = rgb { 48 160 64 }
+	color_rank_duchy = rgb { 255 200 48 }
+	color_rank_county = rgb { 224 72 48 }
 
-	color_rank_empire = hsv360 { 259 86 85 }
-	color_rank_kingdom = hsv360 { 40 78 75 }
-	color_rank_duchy = hsv360 { 215 35 30 } # Mordor Silver
-	color_rank_county = hsv360 { 9 78 63 }
+	# Road Types
+	map_gravel_road = rgb { 192 40 16 }
+	map_paved_road = rgb { 224 168 16 }
+	map_modern_road = rgb { 8 96 168 }
+	map_railroad = rgb { 72 40 128 }
+
 
 
 	#eu4 colors for goods
@@ -279,11 +295,5 @@ colors = {
 	gov_republic = rgb { 190 70 70 }
 	gov_steppe_horde = hsv360 { 79 69 58 }
 	gov_tribe = hsv360 { 26	70	25 }
-
-	# road types
-	map_gravel_road = hsv360 { 9 78 63 }
-	map_paved_road = hsv360 { 218 50 90 }
-	map_modern_road = hsv360 { 40 78 75 }
-	map_railroad = hsv360 { 259 86 85 }
 }
 

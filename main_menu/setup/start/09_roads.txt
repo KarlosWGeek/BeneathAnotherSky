@@ -3,7 +3,7 @@ road_network = {
 	
 	## Solace
 	
-	# Xianluo-Se
+	# Xianluo-Se Metropolitan
 	urban_xianluo_se_1 = urban_xianluo_se_2
 	urban_xianluo_se_2 = urban_xianluo_se_3
 	urban_xianluo_se_3 = urban_xianluo_se_4
@@ -97,12 +97,92 @@ road_network = {
 	farmland_xianluo_se_23 = farmland_xianluo_se_24
 	farmland_xianluo_se_24 = farmland_xianluo_se_1
 	
-	suburban_xianluo_se_24 = urban_xianluo_se_1
-	farmland_xianluo_se_24 = suburban_xianluo_se_1
 	suburban_xianluo_se_6 = urban_xianluo_se_7
 	farmland_xianluo_se_6 = suburban_xianluo_se_7
 	suburban_xianluo_se_12 = urban_xianluo_se_13
 	farmland_xianluo_se_12 = suburban_xianluo_se_13
 	suburban_xianluo_se_18 = urban_xianluo_se_19
 	farmland_xianluo_se_18 = suburban_xianluo_se_19
+	suburban_xianluo_se_24 = urban_xianluo_se_1
+	farmland_xianluo_se_24 = suburban_xianluo_se_1
+	
+	
+	# Xianluo-Se Outer Ring
+	farmland_xianluo_se_1 = south_pole_location_6
+	farmland_xianluo_se_24 = south_pole_location_6
+	south_pole_location_6 = south_pole_location_2
+	south_pole_location_6 = south_pole_location_16
+	farmland_xianluo_se_19 = south_pole_location_16
+	farmland_xianluo_se_18 = south_pole_location_16
+	south_pole_location_16 = south_pole_location_21
+	farmland_xianluo_se_13 = south_pole_location_21
+	farmland_xianluo_se_12 = south_pole_location_21
+	farmland_xianluo_se_12 = south_pole_location_26
+	south_pole_location_21 = south_pole_location_26
+	south_pole_location_26 = south_pole_location_27
+	south_pole_location_27 = south_pole_location_12
+	south_pole_location_12 = farmland_xianluo_se_7
+	south_pole_location_12 = farmland_xianluo_se_6
+	south_pole_location_12 = south_pole_location_11
+	south_pole_location_11 = south_pole_location_1
+	south_pole_location_1 = south_pole_location_2
+	
+	
+	# Xianluo-Se North Axis
+	south_pole_location_26 = south_pole_location_28
+	south_pole_location_28 = south_pole_location_82
+	south_pole_location_82 = south_pole_location_81
+	south_pole_location_81 = south_pole_location_125
+	south_pole_location_125 = south_pole_location_131
+	south_pole_location_131 = south_pole_location_132
+	south_pole_location_132 = south_pole_location_181
+	south_pole_location_181 = south_pole_location_188
+	south_pole_location_188 = south_pole_location_185
+	south_pole_location_185 = south_pole_location_197
+	south_pole_location_197 = south_pole_location_196
+	
+	
+	# Xianluo-Se East Axis
+	south_pole_location_16 = south_pole_location_18
+	south_pole_location_18 = south_pole_location_65
+	south_pole_location_65 = south_pole_location_66
+	south_pole_location_66 = south_pole_location_67
+	south_pole_location_67 = south_pole_location_292
+	south_pole_location_292 = south_pole_location_285
+	south_pole_location_285 = south_pole_location_297
+	south_pole_location_297 = south_pole_location_283
+	south_pole_location_283 = south_pole_location_281
+	south_pole_location_281 = south_pole_location_289
+	south_pole_location_289 = south_pole_location_288
+	
+	
+	# Xianluo-Se South Axis
+	south_pole_location_6 = south_pole_location_5
+	south_pole_location_2 = south_pole_location_5
+	south_pole_location_5 = south_pole_location_48
+	south_pole_location_48 = south_pole_location_50
+	south_pole_location_50 = south_pole_location_429
+	south_pole_location_429 = south_pole_location_427
+	south_pole_location_427 = south_pole_location_421
+	south_pole_location_421 = south_pole_location_407
+	south_pole_location_407 = south_pole_location_406
+	south_pole_location_406 = south_pole_location_400
+	south_pole_location_400 = south_pole_location_399
+	south_pole_location_399 = south_pole_location_394
+	south_pole_location_394 = south_pole_location_392
+	
+	
+	# Xianluo-Se West Axis
+	south_pole_location_12 = south_pole_location_13
+	south_pole_location_11 = south_pole_location_13
+	south_pole_location_13 = south_pole_location_37
+	south_pole_location_37 = south_pole_location_36
+	south_pole_location_36 = south_pole_location_448
+	south_pole_location_448 = south_pole_location_450
+	south_pole_location_450 = south_pole_location_455
+	south_pole_location_455 = south_pole_location_505
+	south_pole_location_505 = south_pole_location_504
+	south_pole_location_504 = south_pole_location_517
+	south_pole_location_517 = south_pole_location_520
+	south_pole_location_520 = south_pole_location_526
 }
